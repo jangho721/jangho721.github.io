@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I'm currently a Machine Learning Engineer at Tmax A&C, working in the EduTech department called Tmax RG, where we provide solutions and services for the education industry. I'm focusing on research and development of knowledge tracing and recommendation systems.
+Hello, I'm a Machine Learning Engineer at Tmax A&C, working in the EduTech department called Tmax RG, where we provide solutions and services for the education industry. I'm focusing on research and development of knowledge tracing and recommendation systems.
 
 Prior to this I received the M.S. degree in 2022 from [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, Korea.
 
