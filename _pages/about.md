@@ -17,9 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I'm a Machine Learning Engineer at Tmax A&C, working in the EduTech department called Tmax RG, where we provide solutions and services for the education industry. I'm focusing on research and development of knowledge tracing and recommendation systems.
+Hello, I'm a Machine Learning Engineer at Tmax A&C, working in the EduTech department called Tmax RG, where we provide solutions and services for the education industry. I'm focusing on research and development of Knowledge tracing and Recommendation systems.
 
-Prior to this I received the M.S. degree in 2022 from [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, Korea.
+Prior to this, I completed the Master's degree in Aritifical Intelligence at [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, South Korea in 2022. In 2020, I received a Bachelor’s degree in Software Convergence Engineering and Civil Engineering from [Inha University](https://eng.inha.ac.kr/eng/index.do) in Incheon, South Korea.
 
 I have years of research experience in the fields of `civil engineering` and `bioinformatics`.
 
