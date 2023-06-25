@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello, I'm a `Machine Learning Engineer` at Tmax A&C, working in the EduTech department called Tmax RG, where we provide solutions and services for the education industry. I'm focusing on research and development of `Knowledge Tracing` and `Recommendation Systems`.
 
-Prior to this, I completed the Master's degree in `Aritifical Intelligence` at [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, South Korea in 2022. In 2020, I received a Bachelor’s degree in `Software Convergence Engineering` and `Civil Engineering` from [Inha University](https://eng.inha.ac.kr/eng/index.do) in Incheon, South Korea.
+Prior to this, I completed the Master's degree in [Aritifical Intelligence](https://nextai.hanyang.ac.kr/) at [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, South Korea in 2022. In 2020, I received a Bachelor’s degree in [Software Convergence Engineering](https://eng.inha.ac.kr/eng/3915/subview..do) and [Civil Engineering](https://eng.inha.ac.kr/eng/3590/subview..do?&enc=Zm5jdDF8QEB8JTJGZGVwYXJ0bWVudEludHJvJTJGZW5nJTJGNjMlMkYxNzMlMkZpbnRyb1ZpZXcuZG8lM0ZmbGFnJTNEJTI2) from [Inha University](https://eng.inha.ac.kr/eng/index.do) in Incheon, South Korea.
 
 Fortunately, I have had the opportunity to gain AI research experience in various fields. During my undergraduate studies, I conducted research on `Computer Vision`, specially `Object Recognition`, at [Consys Lab](https://sites.google.com/view/consyslab100/home), where I contributed to producing innovative construction systems.
 
