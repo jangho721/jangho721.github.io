@@ -7,10 +7,8 @@ related_posts: false
 ---
 
 <div>
-    <!-- 클릭 가능한 Before 헤더 -->
     <div class="expandable" onclick="toggleContent(this)">[Before]</div>
     
-    <!-- Before 내부 콘텐츠 -->
     <div class="content">
         <ul>
             <li><strong>Oct 2022</strong>: Named as a Rising Star in EECS!</li>
