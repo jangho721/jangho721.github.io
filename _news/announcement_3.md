@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple :sparkles: :smile:
+A sample :sparkles: :smile:
