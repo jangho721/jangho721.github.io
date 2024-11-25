@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Sample
-date: 2015-11-07 16:11:00-0400
+date: 2024-12-31 00:00:00+0900
 inline: false
 related_posts: false
 ---
