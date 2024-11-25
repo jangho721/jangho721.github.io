@@ -6,14 +6,14 @@ related_posts: false
 ---
 
 <div>
-    <div class="expandable" onclick="toggleContent(this)"><strong>Click</strong></div>
+    <div class="expandable" onclick="toggleContent(this)">2024 and Before</div>
     
     <div class="content" style="display: none;">
-        <ul style="padding-left: 20px;">
-            <li>[Oct 2022]:  Named as a Rising Star in EECS!</li>
-            <li>[Jul 2022]:  A paper NeuroMapper got accepted to VIS'22 Posters!</li>
-            <li>[Jun 2022]:  A paper MisVis got accepted to VIS'22!</li>
-            <li>[Apr 2022]:  A paper DetectorDetective got accepted to CVPR demo!</li>
+        <ul style="padding-left: 15px;">
+            <li>[Oct 2022]&nbsp; Named as a Rising Star in EECS!</li>
+            <li>[Jul 2022]&nbsp; A paper NeuroMapper got accepted to VIS'22 Posters!</li>
+            <li>[Jun 2022]&nbsp; A paper MisVis got accepted to VIS'22!</li>
+            <li>[Apr 2022]&nbsp; A paper DetectorDetective got accepted to CVPR demo!</li>
         </ul>
         <!--
         <p>
