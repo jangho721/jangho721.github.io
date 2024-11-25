@@ -10,10 +10,7 @@ related_posts: false
     
     <div class="content" style="display: none;">
         <ul style="padding-left: 30px;">
-            <li>&#x25CB;&nbsp;[Oct 2022]&nbsp; Named as a Rising Star in EECS!</li>
-            <li>&#x25CB;&nbsp;[Jul 2022]&nbsp; A paper NeuroMapper got accepted to VIS'22 Posters!</li>
-            <li>&#x25CB;&nbsp;[Jun 2022]&nbsp; A paper MisVis got accepted to VIS'22!</li>
-            <li>&#x25CB;&nbsp;[Apr 2022]&nbsp; A paper DetectorDetective got accepted to CVPR demo!</li>
+            <li>&nbsp;[Nov 2024]&nbsp; Start my personal page!</li>
         </ul>
         <!--
         <p>
