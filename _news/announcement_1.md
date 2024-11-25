@@ -7,7 +7,7 @@ related_posts: false
 <div>
     <div class="expandable" onclick="toggleContent(this)"><strong>Click</strong></div>
     
-    <div class="content">
+    <div class="content" style="display: none;">
         <ul>
             <li>Oct 2022: Named as a Rising Star in EECS!</li>
             <li>Jul 2022: A paper NeuroMapper got accepted to VIS'22 Posters!</li>
