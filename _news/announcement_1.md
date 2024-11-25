@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-11-07 16:11:00-0400
+date: 2024-11-25 00:00:00+0900
 inline: true
 related_posts: false
 ---
@@ -10,7 +10,7 @@ related_posts: false
     
     <div class="content" style="display: none;">
         <ul style="padding-left: 30px;">
-            <li>&nbsp;[Nov 2024]&nbsp; Start my personal page!</li>
+            <li>[Nov 2024]&nbsp; Start my personal page!</li>
         </ul>
         <!--
         <p>
