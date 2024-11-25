@@ -1,6 +1,5 @@
 ---
 layout: post
-date: Before
 inline: true
 related_posts: false
 ---
