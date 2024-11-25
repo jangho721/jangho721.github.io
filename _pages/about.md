@@ -2,7 +2,8 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.!
+# subtitle: Affiliations, Address, Contacts, Motto, Etc.
+subtitle: Hi, I'm Andrew. I'm a researcher at <a href='#'>TmaxEduAI</a>.
 
 profile:
   align: right
