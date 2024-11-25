@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: Before
 inline: true
 related_posts: false
 ---
@@ -35,29 +35,3 @@ related_posts: false
         }
     }
 </script>
-
-<style>
-    .news {
-        margin-top: 20px;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-    }
-    .news h2 {
-        font-size: 24px;
-        color: #333;
-    }
-    .news ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    .news ul li {
-        margin: 10px 0;
-    }
-    .news a {
-        color: blue;
-        text-decoration: none;
-    }
-    .news a:hover {
-        text-decoration: underline;
-    }
-</style>
