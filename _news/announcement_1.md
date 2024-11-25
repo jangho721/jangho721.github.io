@@ -1,6 +1,6 @@
 ---
 layout: post
-date: "Before"
+date: 2015-11-07 16:11:00-0400
 inline: true
 related_posts: false
 ---
@@ -9,11 +9,11 @@ related_posts: false
     <div class="expandable" onclick="toggleContent(this)"><strong>Click</strong></div>
     
     <div class="content" style="display: none;">
-        <ul>
-            <li>Oct 2022: Named as a Rising Star in EECS!</li>
-            <li>Jul 2022: A paper NeuroMapper got accepted to VIS'22 Posters!</li>
-            <li><strong>Jun 2022</strong>: A paper MisVis got accepted to VIS'22!</li>
-            <li><strong>Apr 2022</strong>: A paper DetectorDetective got accepted to CVPR demo!</li>
+        <ul style="padding-left: 20px;">
+            <li>[Oct 2022]:  Named as a Rising Star in EECS!</li>
+            <li>[Jul 2022]:  A paper NeuroMapper got accepted to VIS'22 Posters!</li>
+            <li>[Jun 2022]:  A paper MisVis got accepted to VIS'22!</li>
+            <li>[Apr 2022]:  A paper DetectorDetective got accepted to CVPR demo!</li>
         </ul>
         <!--
         <p>
