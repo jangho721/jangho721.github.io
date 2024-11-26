@@ -5,6 +5,16 @@ inline: true
 related_posts: false
 ---
 
+<style>
+    .expandable {
+        color: white;
+    }
+
+    .expandable:hover {
+        text-decoration: underline;
+    }
+</style>
+
 <div>
     <div class="expandable" onclick="toggleContent(this)">[2024 and Before]</div>
     
