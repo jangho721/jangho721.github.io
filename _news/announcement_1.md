@@ -7,7 +7,7 @@ related_posts: false
 
 <style>
     .expandable {
-        color: white;
+        color: #f29105;
     }
 
     .expandable:hover {
