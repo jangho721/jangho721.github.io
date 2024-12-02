@@ -21,6 +21,9 @@ social: true # includes social icons at the bottom of the page
 
 I work on developing a service for student assessment and personalized educational content recommendations in the education tech field.
 
-I received my M.S. in Artificial Intelligence from [Hanyang University](https://nextai.hanyang.ac.kr/), where I was advised by Dr. [Eunok Paek](https://bislab.hanyang.ac.kr/). My MS research focused on addressing the challenges in bioinformatics, particularly in proteomics, using machine learning and deep learning.
+
+I received my M.S. in Artificial Intelligence from [Hanyang University](https://nextai.hanyang.ac.kr/), where I was advised by Dr. [Eunok Paek](https://bislab.hanyang.ac.kr/index.php?mid=Professor). My MS research focused on addressing the challenges in bioinformatics, particularly in proteomics, using machine learning and deep learning.
+
 
 **Before that**, I began my research journey at Inha University's Construction Systems Laboratory, where I worked on developing an object detection model to identify small- to medium-sized objects that could pose safety risks in indoor construction sites. My efforts were focused on tackling challenges related to real-time detection, lightweight model design, and adapting to indoor environments, aiming to create a practical and efficient safety monitoring solution.
+
