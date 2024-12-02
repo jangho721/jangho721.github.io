@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I work on designing and implementing a system for student assessment and personalized educational content recommendations in the education tech field.
+I work on developing a service for student assessment and personalized educational content recommendations in the education tech field.
 
 I received my M.S. in Artificial Intelligence from [Hanyang University](https://nextai.hanyang.ac.kr/), where I was advised by Dr. [Eunok Paek](https://bislab.hanyang.ac.kr/index.php?mid=Professor). My MS research focused on addressing the challenges in bioinformatics, particularly in proteomics, using machine learning and deep learning.
 
