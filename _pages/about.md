@@ -21,3 +21,5 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I work on developing a service for student assessment and personalized educational content recommendations.
+
+I received my M.S. in Artificial Intelligence at [Hanyang University](https://nextai.hanyang.ac.kr/), where I was advised by Dr. [Eunok Paek](https://bislab.hanyang.ac.kr/index.php?mid=Professor). My MS research focused on addressing the challenges in bioinformatics, particularly in proteomics, using machine learning and deep learning.
