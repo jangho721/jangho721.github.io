@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Hi, I'm Andrew. I'm a researcher at <a href='#'>TmaxEduAI</a>.
+subtitle: Hi, I'm Andrew. I'm a researcher at <a href='#'><strong>TmaxEduAI</strong></a>.
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
