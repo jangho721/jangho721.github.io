@@ -28,4 +28,4 @@ I received my M.S. in Artificial Intelligence at **[Hanyang University](https://
   <li>How can the accuracy of peptide sequence identification based on data from mass spectrometry be improved?</li>
 </ul>
 
-Previously, I worked as a research intern at **[Construction Systems Laboratory](https://sites.google.com/view/consyslab100/home)**, where my work focused on applying object detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction environments.
+Previously, I worked as a research intern at **[The Construction Systems Laboratory](https://sites.google.com/view/consyslab100/home)**, where my work focused on applying object detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction environments.
