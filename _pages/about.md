@@ -20,12 +20,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I work on developing a service for student assessment and personalized educational content recommendations.
+I work on developing a service for student assessment and personalized educational content recommendation.
 
-I received my M.S. in Artificial Intelligence at **[Hanyang University](https://nextai.hanyang.ac.kr/)**, where I was advised by Dr. **[Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor)**. My MS research focused on leveraging machine learning and deep learning to address challenges in bioinformatics, particularly in proteomics.
-
-<ul>
-  <li>How can the accuracy of peptide sequence identification based on data from mass spectrometry be improved?</li>
-</ul>
+I received my M.S. in Artificial Intelligence at **[Hanyang University](https://nextai.hanyang.ac.kr/)**, where I was advised by Dr. **[Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor)**. My MS research bridged machine learning and bioinformatics to advance proteomics. I designed and developed novel post-processors for accurate peptide sequence identification.
 
 Previously, I worked as a research intern at **[The Construction Systems Laboratory](https://sites.google.com/view/consyslab100/home)**, where my work focused on applying object recognition and detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction environments.
+
+<ul>
+  <li><span style="color: red;">How can the accuracy of peptide sequence identification based on data from mass spectrometry be improved?</span></li>
+</ul>
