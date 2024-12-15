@@ -6,12 +6,21 @@ related_posts: false
 ---
 
 <style>
+    :root {
+        --expandable-hover-color: #f29105;
+    }
+
+    html[data-theme="dark"] {
+        --expandable-hover-color: cyan;
+    }
+
     .expandable {
         color: #f29105;
     }
 
     .expandable:hover {
         text-decoration: underline;
+        color: var(--expandable-hover-color);
     }
 </style>
 
