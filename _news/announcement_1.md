@@ -7,15 +7,17 @@ related_posts: false
 
 <style>
     :root {
+        --expandable-color: #f29105;
         --expandable-hover-color: #f29105;
     }
 
     html[data-theme="dark"] {
-        --expandable-hover-color: cyan;
+        --expandable-color: var(--global-theme-color);
+        --expandable-hover-color: var(--global-hover-color);
     }
 
     .expandable {
-        color: #f29105;
+        color: var(--expandable-color);
     }
 
     .expandable:hover {
