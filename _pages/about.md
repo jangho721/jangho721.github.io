@@ -27,7 +27,7 @@ I received M.S. in Artificial Intelligence at **[Hanyang University](https://nex
 I am interested in machine learning and software engineering.
 
 <ul>
-  <li>MLops</li>
+  <li><strong>MLops</strong></li>
 </ul>
 
 Previously, I worked as a research intern at **[The Construction Systems Laboratory](https://sites.google.com/view/consyslab100/home)**, where my work focused on developing object recognition and detection models aimed at identifying small- to medium-sized objects that could pose safety risks in indoor construction environments.
