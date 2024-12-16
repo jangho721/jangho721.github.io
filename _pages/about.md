@@ -25,10 +25,11 @@ I work on developing services for student assessment and personalized educationa
 I received M.S. in Artificial Intelligence at **[Hanyang University](https://nextai.hanyang.ac.kr/)**, where I was advised by Dr. **[Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor)**. My MS research bridged machine learning and bioinformatics to address challenges in proteomics. I designed and developed novel post-processors for accurate peptide sequence identification.
 
 I am interested in machine learning and software engineering.
+
 <ul>
   <li>MLops</li>
 </ul>
 
 Previously, I worked as a research intern at **[The Construction Systems Laboratory](https://sites.google.com/view/consyslab100/home)**, where my work focused on developing object recognition and detection models aimed at identifying small- to medium-sized objects that could pose safety risks in indoor construction environments.
 
-<span style="color: red;">I am looking for a full-time position as a <span style="font-weight: bold;">Data Scientist</span> or <span style="font-weight: bold;">Machine Learning Engineer</span> starting in 2025. Please feel free to reach out if you are interested in working with me.</span>
+<span style="color: red;">I am looking for a full-time position as a Data Scientist or Machine Learning Engineer starting in 2025. Please feel free to reach out if you are interested in working with me.</span>
