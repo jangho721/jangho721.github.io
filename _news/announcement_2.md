@@ -2,6 +2,7 @@
 layout: post
 title: A long announcement with details
 date: 2025-01-01 16:11:00-0000
+permalink: /projects/1_project/
 inline: false
 related_posts: false
 ---
