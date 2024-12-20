@@ -1,7 +1,7 @@
 ---
-layout: projects
-title: A Sample
-date: 2024-12-31 00:00:00+0000
+layout: post
+title: A long announcement with details
+date: 2025-01-01 16:11:00-0000
 inline: false
 related_posts: false
 ---
