@@ -31,7 +31,8 @@ related_posts: false
     
     <div class="content" style="display: none;">
         <ul style="padding-left: 30px;">
-            <li>[Nov 2024]&nbsp; Start my personal page!</li>
+            <li>[Mar 2022]&nbsp; A poster paper got accepted to<a href="https://www.asms.org/" target="_blank">ASMS</a>'22</li>
+            <li>[Sep 2020]&nbsp; I started as a MS student in Artificial Intelligence at Hanyang University!</li>
         </ul>
         <!--
         <p>
