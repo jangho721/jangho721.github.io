@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper NovoRank got accepted to [JPR](https://pubs.acs.org/journal/jprobs)! :smile:
+:sparkles: A paper NovoRank got accepted to [JPR](https://pubs.acs.org/journal/jprobs)!
