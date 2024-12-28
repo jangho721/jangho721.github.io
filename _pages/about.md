@@ -30,6 +30,6 @@ I am interested in machine learning and software engineering.
   <li><strong>MLops</strong></li>
 </ul>
 
-Previously, I worked as a research intern at **[The Construction Systems Laboratory](https://sites.google.com/view/consyslab100/home)**, where my work focused on developing object recognition and detection models aimed at identifying small- to medium-sized objects that could pose safety risks in indoor construction environments.
+Previously, I worked as a research intern at **[The Construction Systems Laboratory](https://sites.google.com/view/consyslab100/home)**, and my work focused on developing object recognition and detection models aimed at identifying small- to medium-sized objects that could pose safety risks in indoor construction environments.
 
 <span style="color: red;">I am looking for a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong> starting in 2025. Please feel free to reach out if you are interested in working with me.</span>
