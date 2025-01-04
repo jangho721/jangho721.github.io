@@ -8,7 +8,21 @@ category: professional
 related_publications: true
 ---
 
-## Task
+<div class="row align-items-center">
+  <!-- 텍스트 영역 -->
+  <div class="col-md-6">
+    <h2>Task</h2>
+    <p>
+      This project is to recommend credit cards on ads banner by personalization. 
+      For this, I made several clusters based on users' app usage. After that, 
+      I could define the characteristics of standardization by each group.
+    </p>
+  </div>
+  <!-- 이미지 영역 -->
+  <div class="col-md-6 text-center">
+    <img src="/assets/img/1.jpg" alt="Task illustration" class="img-fluid rounded">
+  </div>
+</div>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
