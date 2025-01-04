@@ -22,6 +22,8 @@ related_publications: False
   </div>
 </div>
 
+<br><br> <!-- 두 줄 띄우기 -->
+
 <div class="row align-items-center">
   <!-- 이미지 영역 -->
   <div class="col-md-6 text-center">
