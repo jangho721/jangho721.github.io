@@ -2,13 +2,13 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Hi, I'm Andrew. I'm a researcher at <strong><a href='#'>TmaxEduAI</a></strong>.
+subtitle: Hi, I'm Andrew. I'm a researcher at <strong><a href="#">TmaxEduAI</a></strong>.
 
 profile:
   align: right
   image: img.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: |
     <p>Seoul, Republic of Korea</p>
 
 news: true # includes a list of news items
