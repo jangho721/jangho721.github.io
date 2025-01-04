@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: WAPLMATH
+description: Deep Knowledge Tracing
 img: assets/img/12.jpg
 importance: 1
 category: professional
 related_publications: true
 ---
+
+### Task
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
