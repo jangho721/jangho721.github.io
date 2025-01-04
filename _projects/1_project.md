@@ -12,7 +12,7 @@ related_publications: true
   <!-- 텍스트 영역 -->
   <div class="col-md-6">
     <h3>Task</h3>
-    <p class="mb-4 text-justify">
+    <p class="mb-4">
       This project is to <strong>quantify students' understanding of knowledge</strong> to be used in dashboards and for recommending problems by level. For this, I developed several deep knowledge tracing models based on past learning records and identified meaningful features for learning.
     </p>
   </div>
