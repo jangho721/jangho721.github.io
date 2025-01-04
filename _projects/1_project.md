@@ -13,9 +13,7 @@ related_publications: true
   <div class="col-md-6">
     <h2>Task</h2>
     <p>
-      This project is to recommend credit cards on ads banner by personalization. 
-      For this, I made several clusters based on users' app usage. After that, 
-      I could define the characteristics of standardization by each group.
+      This project is to quantify the understanding of knowledge to be used in dashboards and for recommending problems by level. For this, I developed several deep knowledge tracing models based on individual students' past learning records and identified meaningful features for learning.
     </p>
   </div>
   <!-- 이미지 영역 -->
