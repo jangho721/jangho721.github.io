@@ -13,12 +13,12 @@ related_publications: true
   <div class="col-md-6">
     <h3>Task</h3>
     <p>
-      This project is to quantify the understanding of knowledge to be used in dashboards and for recommending problems by level. For this, I developed several deep knowledge tracing models based on individual students' past learning records and identified meaningful features for learning.
+      This project is to quantify students' understanding of knowledge to be used in dashboards and for recommending problems by level. For this, I developed several deep knowledge tracing models based on past learning records and identified meaningful features for learning.
     </p>
   </div>
   <!-- 이미지 영역 -->
   <div class="col-md-6 text-center">
-    <img src="/assets/img/1.jpg" alt="Task illustration" class="img-fluid rounded">
+    <img src="/assets/img/learning.jpg" alt="Task illustration" class="img-fluid rounded">
   </div>
 </div>
 
