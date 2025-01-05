@@ -8,7 +8,7 @@ category: professional
 related_publications: false
 ---
 
-<div class="row align-items-center">
+<div class="row align-items-center justify-content-between">
   <!-- 텍스트 영역 -->
   <div class="col-md-6">
     <h3 class="mb-4">Task</h3>
