@@ -8,11 +8,11 @@ category: professional
 related_publications: false
 ---
 
-<div class="row align-items-center justify-content-between">
+<div class="row align-items-center">
   <!-- 텍스트 영역 -->
   <div class="col-md-6">
     <h3 class="mb-4">Task</h3>
-    <p>
+    <p class="text-justify">
       This project is to <strong>quantify students' understanding of knowledge</strong>, which is used in dashboards and for providing educational content tailored to students' levels. For this, I developed several deep knowledge tracing models based on past learning histories and identified meaningful features for learning.
     </p>
   </div>
@@ -32,7 +32,7 @@ related_publications: false
   <!-- 텍스트 영역 -->
   <div class="col-md-6">
     <h3 class="mb-4">Why Deep Knowledge Tracing?</h3>
-    <p>
+    <p class="text-justify">
       "<strong>Understanding</strong>" is a subjective metric, and directly modeling it is a challenging task. Moreover, it is influenced by multiple concepts, not just a single one, making it difficult to estimate through simple calculations. Therefore, we model and indirectly estimate "understanding" by defining the probability of correctly answering the next question as an understanding of specific concepts, based on their problem-solving history (correct/incorrect answers). To achieve this, we use <strong>Deep Knowledge Tracing</strong> models based on RNN, Attention Mechanism, and Transformer, which effectively handle continuous problem-solving data to estimate "understanding".
     </p>
   </div>
