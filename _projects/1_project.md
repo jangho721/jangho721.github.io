@@ -65,7 +65,7 @@ related_publications: false
   <div class="col-md-6">
     <h3 class="mb-4">Results</h3>
     <p>
-      The usage is differnet depending on the app. For example, most people use more YouTube or massenger apps a lot then a banking app, a movie app, and so on. To make the same scale, you have to do standardization.
+      I developed a model with an AUC of 88% using the problem-solving history of 700+ students.
     </p>
   </div>
 </div>
