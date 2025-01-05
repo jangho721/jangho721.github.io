@@ -65,7 +65,7 @@ related_publications: false
   <div class="col-md-6">
     <h3 class="mb-4">Results</h3>
     <p>
-      I developed a model with an <strong>AUC</strong> of <strong>88%</strong> using the problem-solving history of 700+ middle school students.
+      I developed a model with an <strong>AUC</strong> of <strong>88%</strong> using the problem-solving histories of 700+ middle school students.
     </p>
   </div>
 </div>
