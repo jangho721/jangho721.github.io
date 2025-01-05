@@ -1,11 +1,11 @@
 ---
 layout: page
 title: WAPLMATH
-description: Deep Knowledge Tracing
-img: assets/img/12.jpg
+description: Deep Knowledge Tracing - Mathematics
+img: assets/img/math.jpg
 importance: 1
 category: professional
-related_publications: true
+related_publications: false
 ---
 
 <div class="row align-items-center">
