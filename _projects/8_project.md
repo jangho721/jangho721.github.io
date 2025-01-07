@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
+title: The Box (SNS)
+description: Private project (Ongoing)
 img: assets/img/9.jpg
 importance: 2
-category: fun
+category: personal
 giscus_comments: true
 ---
 
