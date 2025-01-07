@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Place recommendation
+title: Place recommendations
 description: (Ongoing)
 img: assets/img/4.jpg
 importance: 1
