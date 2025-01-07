@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Place recommendation
+description: (Ongoing)
 img: assets/img/4.jpg
 importance: 1
-category: work
+category: personal
 related_publications: true
 ---
 
