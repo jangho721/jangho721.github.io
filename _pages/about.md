@@ -23,6 +23,4 @@ I received M.S. in Artificial Intelligence at **[Hanyang University](https://nex
 
 My interests are broadly in machine learning and software engineering, particularly with a focus on **large-scale recommendation systems**, **data mining**, **multimodal learning**, and **machine learning operations**.
 
-I am passionate about uncovering patterns and meaningful insights from complex data and creating machine learning models that make an impact on business, science, and social good.
-
 <span style="color: red;">I am looking for a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong> starting in 2025. Please feel free to reach out if you are interested in working with me.</span>
