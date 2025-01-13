@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Hi, I'm Andrew. I'm a researcher at <strong><a href='#'>TmaxEduAI</a></strong>.
+subtitle: Move <strong>FAST</strong> and <strong>BE RESPONSIBLE</strong>
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I work on developing services for student assessment and personalized educational content recommendation.
+Hello! I'm Andrew, a researcher at <strong><a href='#'>TmaxEduAI</a></strong>, working on developing services for student assessment and personalized educational content recommendation.
 
 I received M.S. in Artificial Intelligence at **[Hanyang University](https://nextai.hanyang.ac.kr/)**, where I was advised by Dr. **[Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor)**. My MS research bridged machine learning and bioinformatics to address challenges in proteomics. The focus of my work was re-ranking and rescoring <em>de novo</em> search results, I designed and developed novel post-processors for accurate peptide sequence identification.
 
