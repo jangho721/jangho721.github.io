@@ -13,7 +13,7 @@ related_publications: false
   <div class="col-md-6">
     <h3 class="mb-4">Task</h3>
     <p>
-      This project is to <strong>quantify students' understanding of knowledge</strong>, which is used in dashboards and for providing educational content tailored to students' levels. For this, I developed several deep knowledge tracing models based on past learning histories and identified meaningful features for learning.
+      This project is to <strong>quantify students' understanding of knowledge</strong>, which is used in dashboards and for providing educational content tailored to students' levels. For this, I developed several deep knowledge tracing models based on past learning histories.
     </p>
   </div>
   <!-- 이미지 영역 -->
@@ -33,7 +33,7 @@ related_publications: false
   <div class="col-md-6">
     <h3 class="mb-4">Why Deep Knowledge Tracing?</h3>
     <p>
-      "<strong>Understanding</strong>" is a subjective metric, and directly modeling it is a challenging task. Moreover, it is influenced by multiple concepts, not just a single one, making it difficult to estimate through simple calculations. Therefore, we model and indirectly estimate "understanding" by defining the probability of correctly answering the next question as an understanding of specific concepts, based on their problem-solving history (correct/incorrect answers). To achieve this, we use <strong>Deep Knowledge Tracing</strong> models based on RNN, Attention Mechanism, and Transformer, which effectively handle continuous problem-solving data to estimate "understanding".
+      "<strong>Understanding</strong>" is a subjective metric, so directly modeling it is a challenging task. Moreover, it is influenced by multiple concepts, not just a single one, making it difficult to estimate through simple calculations. Therefore, we model and indirectly estimate "understanding" by defining the probability of correctly answering the next question as an understanding of specific concepts, based on their problem-solving history (correct/incorrect answers). To achieve this, we use <strong>Deep Knowledge Tracing</strong> models based on <em>RNN</em>, <em>Attention Mechanism</em>, and <em>Transformer</em>, which effectively handle continuous problem-solving data to estimate "understanding".
     </p>
   </div>
 </div>
@@ -65,7 +65,7 @@ related_publications: false
   <div class="col-md-6">
     <h3 class="mb-4">Results</h3>
     <p>
-      I developed a model with an <strong>AUC</strong> of <strong>88%</strong> using the problem-solving histories of 700+ middle school students.
+      I developed a model with an <strong>AUC</strong> of <strong>88%</strong> using the problem-solving histories of <em>700+ middle school students</em>.
     </p>
   </div>
 </div>
