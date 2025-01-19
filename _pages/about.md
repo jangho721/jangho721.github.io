@@ -21,6 +21,9 @@ Hello! I'm Andrew, a researcher at <strong><a href='#'>TmaxEduAI</a></strong>, w
 
 I received M.S. in Artificial Intelligence at **[Hanyang University](https://nextai.hanyang.ac.kr/)**, where I was advised by Dr. **[Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor)**. My MS research bridged machine learning and bioinformatics to address challenges in proteomics. The focus of my work was re-ranking and rescoring <em>de novo</em> search results, I designed and developed novel post-processors for accurate peptide sequence identification.
 
-My interests are broadly in machine learning and software engineering, particularly with a focus on <strong>predictive modelling</strong>, <strong>recommendation systems</strong> <strong>data mining</strong>, and <strong>machine learning operations</strong>.
+My interests are broadly in machine learning and software engineering.
+In particular, I am interested in building AI systems capable of performing tasks that were previously impossible or achieving unprecedented levels of performance, as well as creating data-driven scientific strategies.
+
+Ultimately, I aim to develop agentic AI that can better assist people and address gaps in society by improving computers' perception, understanding, and reasoning.
 
 <span style="color: red;">I am looking for a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong> starting in 2025. Please feel free to reach out if you are interested in working with me.</span>
