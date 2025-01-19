@@ -1,27 +1,28 @@
 {
-  "basics": {
+  "Contact": {
     "name": "Jangho Seo",
     "label": "",
     "image": "",
     "email": "wkdgh08721@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
+  "Introduction":["hi"],
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
