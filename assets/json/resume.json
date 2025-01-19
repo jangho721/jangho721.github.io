@@ -22,6 +22,13 @@
       }
     ]
   },
+  "contact": {
+    "email": "wkdgh08721@gmail.com",
+    "phone": "+1 234 567 890",
+    "website": "https://example.com",
+    "linkedin": "https://linkedin.com/in/janghoseo",
+    "github": "https://github.com/janghoseo"
+  },
   "education": [
     {
       "institution": "University of Zurich, Zurich, Switzerland",
