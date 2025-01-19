@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm Andrew, a researcher at <strong style="font-weight: 400;"><a href='#'>TmaxEduAI</a></strong>, working on developing services for student assessment and personalized educational content recommendation.
+Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, a researcher at <strong style="font-weight: 400;"><a href='#'>TmaxEduAI</a></strong>, working on developing services for student assessment and personalized educational content recommendation.
 
 I received M.S. in Artificial Intelligence at <strong style="font-weight: 400;">[Hanyang University](https://nextai.hanyang.ac.kr/)</strong>, where I was advised by Dr. <strong style="font-weight: 400;">[Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor)</strong>. My MS research bridged machine learning and bioinformatics to address challenges in proteomics. The focus of my work was re-ranking and rescoring <em>de novo</em> search results, I designed and developed novel post-processors for accurate peptide sequence identification.
 
