@@ -22,11 +22,9 @@
       }
     ]
   },
-  "contact": [
-    {
+  "contact": {
     "summary": "The publication of the theory of general"
-    }
-  ],
+  },
   "education": [
     {
       "institution": "University of Zurich, Zurich, Switzerland",
