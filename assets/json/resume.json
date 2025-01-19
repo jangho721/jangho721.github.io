@@ -22,7 +22,6 @@
       }
     ]
   },
-  "contact":[{}],
   "education": [
     {
       "institution": "University of Zurich, Zurich, Switzerland",
@@ -36,7 +35,7 @@
       "courses": ["Theory of Relativity"]
     }
   ],
-  "experience": [
+  "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
