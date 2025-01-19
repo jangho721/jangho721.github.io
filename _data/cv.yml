@@ -67,6 +67,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - hi guys
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
@@ -98,3 +99,22 @@
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+- title: Skills
+  type: list
+
+- title: Languages
+  type: list
+
+- title: Certificates
+  type: list
+
+- title: Publications
+  type: list
+
+- title: Volunteer
+  type: list
+
+- title: Teaching Experience
+- title: Industry Experience
+- title: Research Experience
