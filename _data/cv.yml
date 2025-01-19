@@ -1,12 +1,15 @@
-- title: General Information
+- title: Contact
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Jangho Seo
+    - name: Email
+      value: wkdgh08721@gmail.com
+
+- title: Introduction
+  type: list
+  contents:
+    - hi my name is jangho seo
 
 - title: Education
   type: time_table
