@@ -19,7 +19,8 @@
       year: 2020 - 2022
       description:
         - "Research Interests: Machine Learning, Data Mining, Bioinformatics"
-        - title: 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
+        - 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
+        - title:
           contents:
             - "Research Group: Bioinformatics and Intelligent Systems Lab"
             - 'Advisor: <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
