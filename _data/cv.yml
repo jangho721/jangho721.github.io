@@ -37,13 +37,6 @@
       institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>Journal of Proteome Research (JPR)</i>, Dec 2024"
       year: DEC 2024
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Professional Experience
   type: time_table
   contents:
@@ -137,6 +130,13 @@
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Skills
   type: list
