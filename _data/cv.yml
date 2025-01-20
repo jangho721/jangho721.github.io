@@ -9,6 +9,7 @@
 - title: Introduction
   type: list
   contents:
+    - 
 
 - title: Education
   type: time_table
@@ -17,9 +18,7 @@
       institution: Hanyang University
       year: 2020 - 2022
       description:
-        - title:
-          contents:
-            - 
+        - 
     - title: B.S in Civil Engineering and Software Convergence Engineering
       institution: Inha University
       year: 2014 - 2020
