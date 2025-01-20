@@ -18,20 +18,17 @@
       institution: Hanyang University
       year: 2020 - 2022
       description:
-        - 'Advisor: <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
         - "Research Interests: Machine Learning, Data Mining, Bioinformatics"
-        - 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
-        - title: Description 3.
+        - title: 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - "Research Group: Bioinformatics and Intelligent Systems Lab"
+            - 'Advisor: <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
     - title: B.S in Civil Engineering and Software Convergence Engineering
       institution: Inha University
       year: 2014 - 2020
       description:
-        - Description 1.
-        - Description 2.
-
+        - "Research Group: The Construction Systems Laboratory"
+    
 - title: Experience
   type: time_table
   contents:
