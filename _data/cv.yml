@@ -20,7 +20,7 @@
       description:
         - 'Advisor: <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
         - "Research Interests: Machine Learning, Data Mining, Bioinformatics"
-        - Description 2.
+        - 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
         - title: Description 3.
           contents:
             - Sub-description 1.
