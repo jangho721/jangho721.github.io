@@ -658,7 +658,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
-.#{$fa-css-prefix}.#{$fa-css-prefix}-institution:before { content: unquote("\"#{ $fa-var-building-columns }\""); }
+// .#{$fa-css-prefix}.#{$fa-css-prefix}-institution:before { content: unquote("\"#{ $fa-var-building-columns }\""); }
 .#{$fa-css-prefix}.#{$fa-css-prefix}-bank:before { content: unquote("\"#{ $fa-var-building-columns }\""); }
 .#{$fa-css-prefix}.#{$fa-css-prefix}-mortar-board:before { content: unquote("\"#{ $fa-var-graduation-cap }\""); }
 .#{$fa-css-prefix}.#{$fa-css-prefix}-yahoo {
