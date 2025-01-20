@@ -9,8 +9,7 @@
 - title: Introduction
   type: list
   contents:
-    - I'm a Research Engineer developing AI models for real-world applications, tackling unexpected challenges, and continuously improving model performance through experiments to advance services.
-    - I'm passionate about creating AI systems that make an impact on business, science, and social good, and also uncovering insights and patterns from complex data to support decision-making.
+    - "I'm a Research Engineer developing AI models for real-world applications, tackling unexpected challenges, and continuously improving model performance through experiments to advance services.<br><br>I'm passionate about creating AI systems that make an impact on business, science, and social good, and also uncovering insights and patterns from complex data to support decision-making."
 
 - title: Education
   type: time_table
@@ -19,6 +18,7 @@
       institution: Hanyang University
       year: 2020 - 2022
       description:
+        - "Thesis: <a href=\"https://repository.hanyang.ac.kr/handle/20.500.11754/174145\">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>"
         - title:
           contents:
             - 
