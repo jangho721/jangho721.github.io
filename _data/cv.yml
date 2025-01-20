@@ -14,9 +14,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S in Artificial Intelligence
+      institution: Hanyang University
+      year: 2020 - 2022
       description:
         - Description 1.
         - Description 2.
@@ -24,9 +24,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: B.S in Civil Engineering and Software Convergence Engineering
+      institution: Inha University
+      year: 2014 - 2020
       description:
         - Description 1.
         - Description 2.
