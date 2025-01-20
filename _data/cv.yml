@@ -35,7 +35,7 @@
   contents:
     - title: NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and Deep Learning
       year: DEC 2024
-      Jangho Seo, Seunghyuk Choi, and Eunok Paek Journal of Proteome Research (JPR), Dec 2024
+      - Jangho Seo, Seunghyuk Choi, and Eunok Paek Journal of Proteome Research (JPR), Dec 2024
 
 - title: Open Source Projects
   type: time_table
