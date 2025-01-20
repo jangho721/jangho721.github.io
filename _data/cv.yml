@@ -22,14 +22,14 @@
         - Description 2.
         - title: Description 3.
           contents:
-            - Sub-description 1.
+            - "Research Group: Bioinformatics and Intelligent Systems Lab"
             - 'Advisor: <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
     - title: B.S in Civil Engineering and Software Convergence Engineering
       institution: Inha University
       year: 2014 - 2020
       description:
         - "Research Group: The Construction Systems Laboratory"
-        - Description 2.
+        - "Military Service: From April 2016 to January 2018, I served as an Auxiliary Police under the Seoul Metropolitan Police Agency, working at the Government Complex Seoul."
 
 - title: Experience
   type: time_table
