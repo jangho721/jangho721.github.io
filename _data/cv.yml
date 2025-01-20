@@ -33,7 +33,7 @@
 - title: Publications
   type: time_table
   contents:
-    - title: NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and Deep Learning
+    - title: "NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and Deep Learning"
       year: DEC 2024
 
 - title: Open Source Projects
