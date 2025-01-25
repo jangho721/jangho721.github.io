@@ -9,9 +9,7 @@
 - title: Introduction
   type: list
   contents:
-    - "I'm a Research Engineer developing AI models for real-world applications, tackling unexpected challenges, and continuously improving model performance through experiments to advance services."
-    - "I'm passionate about creating AI systems that make an impact on business, science, and social good, and also uncovering insights and patterns from complex data to support decision-making."
-    - "I'm someone who enjoys discussing the societal impact of AI technologies and constantly reflects on how to develop trustworthy, safe, ethical, and responsible AI systems."
+    - "I'm a Research Engineer developing AI models for real-world applications, tackling unexpected challenges, and continuously improving model performance through experiments to advance services. <br> <br> I'm passionate about creating AI systems that make an impact on business, science, and social good, and also uncovering insights and patterns from complex data to support decision-making. <br> <br> I'm someone who enjoys discussing the societal impact of AI technologies and constantly reflects on how to develop trustworthy, safe, ethical, and responsible AI systems."
 
 - title: Education
   type: time_table
@@ -21,7 +19,7 @@
       year: Sep. 2020 - Aug. 2022
       description:
         - "Concentration: Bioinformatics"
-        - title: 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
+        - title: 'Thesis: <a href="https://hanyang.dcollection.net/public_resource/pdf/200000627268_20250126001729.pdf">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
             - "Research Group: Bioinformatics and Intelligent Systems Lab"
             - 'Advisor: <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
@@ -93,7 +91,7 @@
       institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>70th ASMS Conference on Mass Spectrometry and Allied Topics</i>"
       year: Jun. 2022
       description:
-        - "USA (Minneapolis, MN) - View session (Poster)"
+        - "Poster Presentation (Minneapolis, MN)"
 
 - title: Academic Interests
   type: nested_list
