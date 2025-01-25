@@ -21,7 +21,7 @@
         - title: 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
             - "Research Group: Bioinformatics and Intelligent Systems Lab"
-            - 'Advisor: <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
+            - 'Advisor: Prof. <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
     - title: B.S in Civil Engineering and Software Convergence Engineering
       institution: Inha University
       year: Mar. 2014 - Feb. 2020
@@ -105,16 +105,16 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Skills
-  type: list
+# - title: Skills
+#   type: list
 
-- title: Languages
-  type: list
+# - title: Languages
+#   type: list
 
-- title: Certificates
-  type: list
+# - title: Certificates
+#   type: list
 
-- title: Volunteer
-  type: list
+# - title: Volunteer
+#   type: list
 
-- title: Teaching Experience
+# - title: Teaching Experience
