@@ -17,7 +17,7 @@
     - title: M.S in Artificial Intelligence
       institution: Hanyang University
       year: Sep. 2020 - Aug. 2022
-      contents:
+      description:
         - title: 'Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/174145">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
             - "Research Group: Bioinformatics and Intelligent Systems Lab"
