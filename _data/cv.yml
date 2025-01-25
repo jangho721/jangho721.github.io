@@ -103,18 +103,6 @@
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Skills
-#   type: list
-
-# - title: Languages
-#   type: list
-
-# - title: Certificates
-#   type: list
-
-# - title: Volunteer
-#   type: list
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.Skills, Languages, Certificates, Volunteer
 
 # - title: Teaching Experience
