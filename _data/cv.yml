@@ -33,7 +33,7 @@
   type: time_table
   contents:
     - title: "NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and Deep Learning"
-      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>Journal of Proteome Research (JPR)</i>, Dec 2024"
+      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>Journal of Proteome Research (JPR)</i>"
       year: Dec. 2024
 
 - title: Professional Experience
@@ -80,6 +80,13 @@
     - year: 2029
       items:
         - Max Planck Medal
+
+- title: Talks
+  type: time_table
+  contents:
+    - title: "Post-Processing Framework Using Deep Learning to Improve Performance of De Novo Peptide Sequencing Results"
+      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>70th ASMS Conference on Mass Spectrometry and Allied Topics</i>"
+      year: Jun. 2022
 
 - title: Academic Interests
   type: nested_list
