@@ -87,17 +87,15 @@
       description:
         - "Poster Presentation"
 
-- title: Academic Interests
+- title: Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Description 1, Description 2
+    - title: Software Engineering
       items:
-        - Description 1.
-        - Description 2.
+        - Description 1, Description 2
 
 - title: Other Interests
   type: list
