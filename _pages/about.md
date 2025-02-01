@@ -24,6 +24,4 @@ I received M.S. in Artificial Intelligence at <strong style="font-weight: 400;">
 My interests are broadly in <strong style="font-weight: 400;">machine learning</strong> and <strong style="font-weight: 400;">software engineering</strong>.
 In particular, I'm interested in building AI systems that can perform previously impossible tasks or achieve unprecedented levels of performance, while also creating data-driven scientific strategies.
 
-Ultimately, I aim to develop <u>agentic AI</u> that can better assist people and address gaps in society by improving computers' perception, understanding, and reasoning.
-
 <span style="color: red;">I'm looking for a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong> starting in 2025. Please feel free to reach out if you are interested in working with me.</span>
