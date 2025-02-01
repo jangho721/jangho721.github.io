@@ -12,3 +12,5 @@ I'm a Research Engineer developing AI models for real-world applications, tackli
 I'm passionate about creating AI systems that make an impact on business, science, and social good, and also uncovering insights and patterns from complex data to support decision-making.
 
 I'm someone who enjoys discussing the societal impact of AI technologies and constantly reflects on how to develop trustworthy, safe, ethical, and responsible AI systems.
+
+Ultimately, I aim to develop <u>agentic AI</u> that can better assist people and address gaps in society by improving computers' perception, understanding, and reasoning.
