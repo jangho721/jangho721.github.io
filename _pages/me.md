@@ -7,6 +7,8 @@ nav_order: 1
 # nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I'm a Research Engineer developing AI models for real-world applications, tackling unexpected challenges, and continuously improving model performance through experiments to advance services.
 
-Organize your courses by years, topics, or universities, however you like!
+I'm passionate about creating AI systems that make an impact on business, science, and social good, and also uncovering insights and patterns from complex data to support decision-making.
+
+I'm someone who enjoys discussing the societal impact of AI technologies and constantly reflects on how to develop trustworthy, safe, ethical, and responsible AI systems.
