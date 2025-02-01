@@ -4,7 +4,7 @@ permalink: /about/
 title: About
 description: Materials for courses you taught. Replace this text with your description.
 nav_order: 1
-# nav: true
+nav: true
 ---
 
 I'm a Research Engineer developing AI models for real-world applications, tackling unexpected challenges, and continuously improving model performance through experiments to advance services.
