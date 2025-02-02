@@ -60,7 +60,7 @@
       institution: Undergraduate Researcher
       year: May. 2019 - Feb. 2020
       description:
-        - "Developed deep learning-based image classification and detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction sites."
+        - "Developed image classification and object detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction sites."
 
 - title: Honors and Awards
   type: time_table
