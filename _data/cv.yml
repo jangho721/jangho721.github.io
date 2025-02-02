@@ -55,7 +55,7 @@
       institution: Graduate Research Assistant
       year: Aug. 2020 - Dec. 2022
       description:
-        - "Developed machine learning-based postprocessing tools to enhance the accuracy of de novo peptide sequencing."
+        - "Developed a postprocessing tool for reranking using a clustering algorithm and a deep neural network model to enhance the accuracy of de novo peptide sequencing."
     - title: The Construction Systems Laboratory
       institution: Undergraduate Researcher
       year: May. 2019 - Feb. 2020
