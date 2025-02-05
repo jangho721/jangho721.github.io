@@ -71,7 +71,16 @@
   contents:
     - title: <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/368Z4KF66MYP">Deep Learning Specialization</a>
       year: Oct. 2023
-      institution: Coursera - 368Z4KF66MYP
+      institution: "Coursera <br> 368Z4KF66MYP"
+    - title: Engineer Big Data Analysis
+      year: Dec. 2021
+      institution: "Korea Data Agency <br> BAE-003001595"
+    - title: Engineer Information Processing
+      year: Nov. 2019
+      institution: "Human Resources Development Service of Korea <br> 19203070461F"
+    - title: Advanced Data Analytics Semi-Professional
+      year: Oct. 2019
+      institution: "Korea Data Agency <br> ADsP-0222831"
 
 - title: Interests
   type: nested_list
