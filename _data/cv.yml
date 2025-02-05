@@ -57,17 +57,6 @@
       description:
         - "Developed image classification and object detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction sites."
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
 - title: Talks
   type: time_table
   contents:
@@ -91,6 +80,17 @@
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
 
 - title: Open Source Projects
   type: time_table
