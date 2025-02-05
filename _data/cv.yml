@@ -92,10 +92,11 @@
       items:
         - Description 1, Description 2
 
-- title: Other Interests
+- title: Languages
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Korean (Native)
+    - English
 
 - title: Honors and Awards
   type: time_table
@@ -113,4 +114,4 @@
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.Skills, Languages, Certificates, Volunteer, Teaching Experience
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.Skills, Languages, Volunteer, Teaching Experience
