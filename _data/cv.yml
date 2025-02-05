@@ -41,7 +41,7 @@
       institution: Machine Learning Engineer
       year: Jan. 2023 - Nov. 2024
       description:
-        - "Developed ML models and rule-based algorithms, and built MLOps pipelines for student assessment and personalized educational content recommendations."
+        - "Developed DL models and rule-based algorithms, and built MLOps pipelines for student assessment and personalized educational content recommendations."
 
 - title: Research Experience
   type: time_table
@@ -50,7 +50,7 @@
       institution: Graduate Research Assistant
       year: Aug. 2020 - Dec. 2022
       description:
-        - "Designed and implemented postprocessing tools for reranking and rescoring using ML models to improve the accuracy of peptide identifications in de novo peptide sequencing."
+        - "Designed and implemented postprocessing tools for reranking and rescoring using ML/DL models to improve the accuracy of peptide identifications in de novo peptide sequencing."
     - title: The Construction Systems Laboratory
       institution: Undergraduate Researcher
       year: May. 2019 - Feb. 2020
