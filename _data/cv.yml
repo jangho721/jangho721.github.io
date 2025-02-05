@@ -70,6 +70,7 @@
   type: time_table
   contents:
     - title: <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/368Z4KF66MYP">Deep Learning Specialization</a>
+      institution: "Coursera <br> 368Z4KF66MYP"
 
 - title: Interests
   type: nested_list
