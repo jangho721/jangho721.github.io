@@ -66,9 +66,6 @@
       description:
         - "Poster Presentation"
 
-- title: Licenses and Certifications 
-  type: time_table
-
 - title: Interests
   type: nested_list
   contents:
