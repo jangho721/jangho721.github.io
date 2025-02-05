@@ -68,6 +68,8 @@
 
 - title: Licenses and Certifications
   type: time_table
+  contents:
+    - title: <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/368Z4KF66MYP">Deep Learning Specialization</a>
 
 - title: Interests
   type: nested_list
