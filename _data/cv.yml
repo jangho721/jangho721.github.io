@@ -23,7 +23,7 @@
       year: Mar. 2014 - Feb. 2020
       description:
         - "Research Group: The Construction Systems Laboratory"
-        - "Samsung Convergence Software Course"
+        - "Took a data science course designated by Samsung Electronics"
 
 - title: Publications
   type: time_table
@@ -115,13 +115,15 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "<strong>Outstanding Employee Award</strong> (Super Rookie), Tmax A&C"
+    - year: 2019
       items:
-        - Max Planck Medal
+        - "<strong>Dean’s List</strong>, Inha University"
+    - year: 2019
+      items:
+        - "<strong>Grade Improvement Scholarship</strong>, Inha University"
 
 - title: Open Source Projects
   type: time_table
