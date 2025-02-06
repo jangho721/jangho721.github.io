@@ -68,6 +68,10 @@
 
 - title: Extracurricular Activities
   type: time_table
+  contents:
+    - title: Google for Developers Machine Learning Bootcamp
+      institution: "Student, Google Developers Group"
+      year: Sep. 2023 - Dec. 2023
 
 - title: Licenses and Certifications
   type: time_table
@@ -98,7 +102,7 @@
 - title: Languages
   type: list
   contents:
-    - <strong>Korean</strong> (Native)
+    - <strong>Korean</strong>
     - <strong>English</strong>
 
 - title: Honors and Awards
