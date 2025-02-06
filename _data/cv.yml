@@ -23,7 +23,7 @@
       year: Mar. 2014 - Feb. 2020
       description:
         - "Research Group: The Construction Systems Laboratory"
-        - "Took a data science course designated by Samsung Electronics"
+        - "Took a data science course designated by <i>Samsung Electronics</i>"
 
 - title: Publications
   type: time_table
@@ -121,7 +121,7 @@
     - year: 2019
       items:
         - "<strong>Dean’s List</strong>, Inha University"
-    - year: 2019
+    - year: 2014
       items:
         - "<strong>Grade Improvement Scholarship</strong>, Inha University"
 
