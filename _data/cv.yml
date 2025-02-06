@@ -95,8 +95,8 @@
 - title: Languages
   type: list
   contents:
-    - Korean (Native)
-    - English
+    - <strong>Korean</strong> (Native)
+    - <strong>English</strong>
 
 - title: Honors and Awards
   type: time_table
