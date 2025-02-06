@@ -61,7 +61,7 @@
   type: time_table
   contents:
     - title: "Post-Processing Framework Using Deep Learning to Improve Performance of De Novo Peptide Sequencing Results"
-      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>70th ASMS Conference on Mass Spectrometry and Allied Topics (Minneapolis, MN)</i>"
+      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>70th ASMS Conference on Mass Spectrometry and Allied Topics</i> (Minneapolis, MN)"
       year: Jun. 2022
       description:
         - "Poster Presentation"
