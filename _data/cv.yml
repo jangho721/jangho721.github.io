@@ -23,7 +23,7 @@
       year: Mar. 2014 - Feb. 2020
       description:
         - "Research Group: The Construction Systems Laboratory"
-        - "Military Service: <u>From April 2016 to January 2018</u>, I served as an Auxiliary Police under the Seoul Metropolitan Police Agency, working at the Government Complex Seoul."
+        - "Samsung Convergence Software Course"
 
 - title: Publications
   type: time_table
@@ -73,7 +73,12 @@
       institution: "Student, Google Developers Group"
       year: Sep. 2023 - Dec. 2023
       description:
-        - "3-months training program supported by Google Korea 500 participants from > 2,300 applicants"
+        - "3-months training program supported by Google Korea 500 participants from > 2,300 applicants."
+    - title: Military Service
+      institution: "Auxiliary Police, Seoul Metropolitan Police Agency"
+      year: Apr. 2016 - Jan. 2018
+      description:
+        - "Worked at the Government Complex Seoul."
 
 - title: Licenses and Certifications
   type: time_table
