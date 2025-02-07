@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: A paper <a href="https://www.sciencedirect.com/org/science/article/abs/pii/S1535390724004955">NovoRank</a> got accepted to JPR!
+:sparkles: A paper NovoRank got accepted to JPR!
