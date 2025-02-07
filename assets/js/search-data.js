@@ -403,19 +403,16 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
+    },{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
-            },},{id: "news-2024-and-before-jan-2023-joined-tmaxeduai-as-a-machine-learning-engineer-mar-2022-a-poster-paper-got-accepted-to-asms-39-22-sep-2020-i-started-as-a-ms-student-in-artificial-intelligence-at-hanyang-univ",
-          title: '[2024 and Before] [Jan 2023] Joined TmaxEduAI as a Machine Learning Engineer [Mar...',
-          description: "",
-          section: "News",},{id: "news-sparkles-a-paper-novorank-got-accepted-to-jpr",
-          title: ':sparkles: A paper NovoRank got accepted to JPR!',
-          description: "",
-          section: "News",},{id: "news-starting-a-new-project",
-          title: 'Starting a New Project',
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
