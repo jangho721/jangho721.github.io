@@ -23,15 +23,16 @@ related_publications: false
             </p>
             <br>
             <h2 style="font-weight: bold;">Summary</h2>
-            <h3 style="font-weight: bold; font-size: 0.875rem;">도전 과제</h3>
+            <h3 style="font-weight: bold; font-size: 1rem;">도전 과제</h3>
             <ul>
                 <li>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</li>
             </ul>
-            <h3 style="font-weight: bold; font-size: 0.875rem;">해결 방안</h3>
+            <h3 style="font-weight: bold; font-size: 1rem;">해결 방안</h3>
             <ul>
                 <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
                 <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
             </ul>
+            <br>
             <h2 style="font-weight: bold;">Overview</h2>
             <p>
                 모든 패션 브랜드를 위한 하나의 검색 플랫폼<br>
