@@ -38,21 +38,24 @@ related_publications: false
                 멜리즈는 브랜드 패션 가격 비교 앱으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다.
             </p>
             <br>
+            <br>
+            <br>
             
             <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
             <div class="summary-container">
                 <h2 style="font-weight: bold; font-size: 1.5rem;">Summary</h2>
-                <h3 style="font-weight: bold; font-size: 0.857rem;">도전 과제</h3>
+                <h3 style="font-weight: bold; font-size: 1rem;">도전 과제</h3>
                 <ul>
                     <li>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</li>
                 </ul>
                 <br>
-                <h3 style="font-weight: bold; font-size: 0.857rem;">해결 방안</h3>
+                <h3 style="font-weight: bold; font-size: 1rem;">해결 방안</h3>
                 <ul>
                     <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
                     <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
                 </ul>
             </div>
+            <br>
             <br>
             <br>
             
@@ -63,11 +66,13 @@ related_publications: false
             </p>
             <br>
             <br>
+            <br>
             <h2 style="font-weight: bold;">Challenges</h2>
             <p>
                 유저의 프라이버시를 보호하면서 마케팅 채널별 기여도 확인하기<br>
                 런칭 초기 멜리즈는 신규 유저 획득을 위한 대대적인 투자를 진행한 뒤, 성장 모멘텀을 유지할 수 있는 다양한 전략을 취했습니다.
             </p>
+            <br>
             <br>
             <br>
             <h2 style="font-weight: bold;">Solutions</h2>
@@ -77,11 +82,13 @@ related_publications: false
             </p>
             <br>
             <br>
+            <br>
             <h2 style="font-weight: bold;">Final thoughts</h2>
             <p>
                 멜리즈는 각 채널의 진정한 기여도를 파악하고 전반적인 마케팅 효율성을 높일 수 있는 예산 분배에 대한 몇 가지 중요한 인사이트를 얻었습니다.
                 사용자 참여율이 30% 이상 증가하고, 전환율도 눈에 띄게 향상되었습니다.
             </p>
+            <br>
             <br>
         </div>
     </div>
