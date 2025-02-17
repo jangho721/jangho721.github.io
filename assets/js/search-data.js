@@ -65,7 +65,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
             },},{id: "news-2024-and-before-jan-2023-joined-tmaxeduai-as-a-machine-learning-engineer-mar-2022-a-poster-paper-got-accepted-to-asms-39-22-sep-2020-i-started-as-a-ms-student-in-artificial-intelligence-at-hanyang-univ",
-          title: '[2024 and Before] [Jan 2023] Joined TmaxEduAI as a Machine Learning Engineer! [Mar...',
+          title: '[2024 and Before] [Jan 2023] Joined TmaxEduAI as a Machine Learning Engineer! 🎉...',
           description: "",
           section: "News",},{id: "news-sparkles-a-paper-novorank-got-accepted-to-jpr",
           title: ':sparkles: A paper NovoRank got accepted to JPR!',
