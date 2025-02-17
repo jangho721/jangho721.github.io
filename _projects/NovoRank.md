@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
+title: Proteomics
+description: Bioinformatics
 img: assets/img/6.jpg
-importance: 4
-category: fun
+importance: 2
+category: professional
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.
