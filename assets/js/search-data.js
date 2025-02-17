@@ -108,6 +108,11 @@ ninja.data = [{
           description: "Computer vision",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cm/";
+            },},{id: "projects-click-through-rate",
+          title: 'Click-through rate',
+          description: "Machine learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ctrPrediction/";
             },},{id: "projects-education",
           title: 'Education',
           description: "Edutech",
