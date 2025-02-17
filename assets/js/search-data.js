@@ -73,12 +73,7 @@ ninja.data = [{
           section: "News",},{id: "news-starting-a-new-project",
           title: 'Starting a New Project',
           description: "",
-          section: "News",},{id: "projects-waplmath",
-          title: 'WAPLMATH',
-          description: "Deep Knowledge Tracing - Mathematics",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-the-box-sns",
+          section: "News",},{id: "projects-the-box-sns",
           title: 'The Box - SNS',
           description: "Private project (Ongoing)",
           section: "Projects",handler: () => {
@@ -123,6 +118,11 @@ ninja.data = [{
           description: "Machine learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ctrPrediction/";
+            },},{id: "projects-education",
+          title: 'Education',
+          description: "Edutech",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eduTech/";
             },},{
         id: 'social-email',
         title: 'email',
