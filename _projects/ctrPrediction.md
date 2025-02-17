@@ -25,7 +25,7 @@ related_publications: false
     }
     
     br {
-        line-height: 2.5;
+        line-height: 3;
     }
 </style>
 
@@ -57,6 +57,7 @@ related_publications: false
                     <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
                 </ul>
             </div>
+            
             <br>
             
             <h2 style="font-weight: bold;">Overview</h2>
