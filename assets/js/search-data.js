@@ -73,12 +73,7 @@ ninja.data = [{
           section: "News",},{id: "news-starting-a-new-project",
           title: 'Starting a New Project 🎉',
           description: "",
-          section: "News",},{id: "projects-the-box-sns",
-          title: 'The Box - SNS',
-          description: "Private project (Ongoing)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-journeymate",
+          section: "News",},{id: "projects-journeymate",
           title: 'JourneyMate',
           description: "Place recommendation project (Ongoing)",
           section: "Projects",handler: () => {
@@ -123,6 +118,11 @@ ninja.data = [{
           description: "Edutech",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eduTech/";
+            },},{id: "projects-the-box",
+          title: 'The Box',
+          description: "Private project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/theBox/";
             },},{
         id: 'social-email',
         title: 'email',
