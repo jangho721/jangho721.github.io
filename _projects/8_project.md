@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
+title: Construction Management
+description: Computer vision
 img: assets/img/9.jpg
-importance: 2
-category: work
-giscus_comments: true
+importance: 3
+category: professional
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.
