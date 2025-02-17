@@ -1,3 +1,30 @@
+---
+layout: page
+title: Click-through rate
+description: Machine learning
+img: assets/img/1.jpg
+importance: 2
+category: personal
+related_publications: false
+# redirect: https://unsplash.com
+---
+<style>
+    :root {
+        --summary-background-color: #f5f5f5; /* 기본 모드 배경색 */
+    }
+
+    html[data-theme="dark"] {
+        --summary-background-color: #1e2a47; /* 다크 모드 배경색 */
+    }
+
+    .summary-container {
+        background-color: var(--summary-background-color);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+</style>
+
 <section class="container mt-5">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
@@ -11,16 +38,22 @@
                 멜리즈는 브랜드 패션 가격 비교 앱으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다.
             </p>
             <br>
-            <h2 style="font-weight: bold; font-size: 1.5rem;">Summary</h2>
-            <h3 style="font-weight: bold; font-size: 0.857rem;">도전 과제</h3>
-            <ul>
-                <li>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</li>
-            </ul>
-            <h3 style="font-weight: bold; font-size: 0.857rem;">해결 방안</h3>
-            <ul>
-                <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
-                <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
-            </ul>
+            
+            <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
+            <div class="summary-container">
+                <h2 style="font-weight: bold;">Summary</h2>
+                <h3 style="font-weight: bold; font-size: 1rem;">도전 과제</h3>
+                <ul>
+                    <li>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</li>
+                </ul>
+                <h3 style="font-weight: bold; font-size: 1rem;">해결 방안</h3>
+                <ul>
+                    <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
+                    <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
+                </ul>
+            </div>
+            <br>
+            
             <h2 style="font-weight: bold;">Overview</h2>
             <p>
                 모든 패션 브랜드를 위한 하나의 검색 플랫폼<br>
