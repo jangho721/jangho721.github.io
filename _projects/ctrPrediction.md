@@ -42,12 +42,12 @@ related_publications: false
             
             <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
             <div class="summary-container">
-                <h2 style="font-weight: bold;">Summary</h2>
-                <h3 style="font-weight: bold; font-size: 1rem;">도전 과제</h3>
+                <h2 style="font-weight: bold; font-size: 1.5rem;">Summary</h2>
+                <h3 style="font-weight: bold; font-size: 0.857rem;">도전 과제</h3>
                 <ul>
                     <li>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</li>
                 </ul>
-                <h3 style="font-weight: bold; font-size: 1rem;">해결 방안</h3>
+                <h3 style="font-weight: bold; font-size: 0.857rem;">해결 방안</h3>
                 <ul>
                     <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
                     <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
