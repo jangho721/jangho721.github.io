@@ -23,6 +23,10 @@ related_publications: false
         padding: 1rem 1rem 0.5rem 1rem;
         border-radius: 1rem;
     }
+    
+    br {
+        line-height: 2.5;
+    }
 </style>
 
 <section class="container mt-5">
