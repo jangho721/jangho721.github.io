@@ -8,4 +8,4 @@ related_posts: false
 # permalink: /projects/1_project/
 ---
 
-Starting a <a href="">New Project</a>
+Starting a <a href="">New Project</a> 🎉
