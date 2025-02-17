@@ -20,7 +20,7 @@ related_publications: false
 
     .summary-container {
         background-color: var(--summary-background-color);
-        padding: 0.5rem 1rem 0.5rem 1rem;
+        padding: 1rem 1rem 0.5rem 1rem;
         border-radius: 1rem;
         margin-top: 1rem 0 0 0;
     }
@@ -47,6 +47,7 @@ related_publications: false
                 <ul>
                     <li>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</li>
                 </ul>
+                <br>
                 <h3 style="font-weight: bold; font-size: 0.857rem;">해결 방안</h3>
                 <ul>
                     <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
