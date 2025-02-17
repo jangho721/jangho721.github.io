@@ -108,11 +108,11 @@ ninja.data = [{
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-proteomics",
+          title: 'Proteomics',
+          description: "Bioinformatics",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/NovoRank/";
             },},{id: "projects-click-through-rate",
           title: 'Click-through rate',
           description: "Machine learning",
