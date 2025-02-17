@@ -118,9 +118,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-ctr-prediction",
-          title: 'CTR prediction',
-          description: "Machine learning (Click-through rate)",
+            },},{id: "projects-click-through-rate",
+          title: 'Click-through rate',
+          description: "Machine learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ctrPrediction/";
             },},{
