@@ -103,16 +103,16 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-construction-management",
-          title: 'Construction Management',
-          description: "Computer vision",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
             },},{id: "projects-proteomics",
           title: 'Proteomics',
           description: "Bioinformatics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NovoRank/";
+            },},{id: "projects-construction-management",
+          title: 'Construction Management',
+          description: "Computer vision",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cm/";
             },},{id: "projects-click-through-rate",
           title: 'Click-through rate',
           description: "Machine learning",
