@@ -1,7 +1,7 @@
 ---
 layout: page
-title: WAPLMATH
-description: Deep Knowledge Tracing - Mathematics
+title: Education
+description: Edutech
 img: assets/img/math.jpg
 importance: 1
 category: professional
@@ -13,7 +13,7 @@ related_publications: false
   <div class="col-md-6">
     <h3 class="mb-4">Task</h3>
     <p>
-      This project is to <strong>quantify students' understanding of knowledge</strong>, which is used in dashboards and for providing educational content tailored to students' levels. For this, I developed several deep knowledge tracing models based on past learning histories.
+      This project is to <strong>quantify students' understanding of knowledge</strong>, which is used in dashboards and for providing educational content tailored to students' levels. For this, I developed several deep knowledge tracing models based on past learning histories.WAPLMATH Mathematics Deep Knowledge Tracing
     </p>
   </div>
   <!-- 이미지 영역 -->
