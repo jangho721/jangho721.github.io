@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CTR prediction
-description: Machine learning (Click-through rate)
+title: Click-through rate
+description: Machine learning
 img: assets/img/1.jpg
 importance: 2
 category: personal
@@ -19,7 +19,7 @@ related_publications: false
                 </div>
             </div>
             <p>
-                멜리즈는 브랜드 패션 가격 비교 앱으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다.
+                CTR prediction 멜리즈는 브랜드 패션 가격 비교 앱으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다.
             </p>
             <br>
             <h2 style="font-weight: bold;">Summary</h2>
