@@ -31,7 +31,7 @@ related_posts: false
     
     <div class="content" style="display: none;">
         <ul style="padding-left: 30px;">
-            <li>[Jan 2023] Joined TmaxEduAI as a Machine Learning Engineer! 🎉</li>
+            <li>[Jan 2023] Joined TmaxEduAI as a Machine Learning Engineer!</li>
             <li>[Mar 2022] A poster paper got accepted to <a href="https://www.asms.org/" target="_blank">ASMS</a> '22.</li>
             <li>[Sep 2020] I started as a MS student in Artificial Intelligence at Hanyang Univ!</li>
         </ul>
