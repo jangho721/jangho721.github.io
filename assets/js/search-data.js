@@ -71,7 +71,7 @@ ninja.data = [{
           title: ':sparkles: A paper NovoRank got accepted to JPR!',
           description: "",
           section: "News",},{id: "news-starting-a-new-project",
-          title: 'Starting a New Project',
+          title: 'Starting a New Project 🎉',
           description: "",
           section: "News",},{id: "projects-the-box-sns",
           title: 'The Box - SNS',
