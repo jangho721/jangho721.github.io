@@ -8,6 +8,7 @@ category: personal
 related_publications: false
 # redirect: https://unsplash.com
 ---
+
 <style>
     :root {
         --summary-background-color: #f5f5f5; /* 기본 모드 배경색 */
