@@ -38,7 +38,6 @@ related_publications: false
                 멜리즈는 브랜드 패션 가격 비교 앱으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다.
             </p>
             <br>
-            <br>
             
             <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
             <div class="summary-container">
