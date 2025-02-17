@@ -20,9 +20,9 @@ related_publications: false
 
     .summary-container {
         background-color: var(--summary-background-color);
-        padding: 1rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
         border-radius: 1rem;
-        margin-top: 1rem;
+        margin-top: 1rem 0 0 0;
     }
 </style>
 
