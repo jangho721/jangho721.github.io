@@ -31,10 +31,6 @@ related_publications: false
                 <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
                 <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
             </ul>
-            <h3 class="text-secondary">해결 방안</h3>
-            <p>
-                에어브릿지의 MMM 모델을 기반으로
-            </p>
             <h2 style="font-weight: bold; font-size: 1.5rem;">Overview</h2>
             <p>
                 모든 패션 브랜드를 위한 하나의 검색 플랫폼<br>
