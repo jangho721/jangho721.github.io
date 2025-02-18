@@ -13,7 +13,7 @@ related_publications: false
   <div class="col-md-6">
     <h3 class="mb-4">Task</h3>
     <p>
-      This project is to <strong>quantify students' understanding of knowledge</strong>, which is used in dashboards and for providing educational content tailored to students' levels. For this, I developed several deep knowledge tracing models based on past learning histories.WAPLMATH Mathematics Deep Knowledge Tracing
+      This project is to <strong>quantify students' understanding of knowledge</strong>, which is used in dashboards and for providing educational content tailored to students' levels. For this, I developed several deep knowledge tracing models based on past learning histories.WAPLMATH Mathematics Deep Knowledge Tracing<br>Developing RESTful APIs for neural translation services. Experienced Software Developer / MLOps Engineer with a demonstrated history of working in the computer software industry. Skilled in Python, Java, and C++. Strong engineering professional with a Master of Science focused in Information Systems from KAIST and a Bachelor's degree in Mathematics and Economics from University of British Columbia
     </p>
   </div>
   <!-- 이미지 영역 -->
