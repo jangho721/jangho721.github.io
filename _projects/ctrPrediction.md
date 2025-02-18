@@ -11,11 +11,11 @@ related_publications: false
 
 <style>
     :root {
-        --summary-background-color: #{$orange-color}; /* 기본 모드 배경색 */
+        --summary-background-color: #f29105; /* 기본 모드 배경색 */
     }
 
     html[data-theme="dark"] {
-        --summary-background-color: #{$cyan-color}; /* 다크 모드 배경색 */
+        --summary-background-color: var(--global-hover-color); /* 다크 모드 배경색 */
     }
 
     .summary-container {
