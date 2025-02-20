@@ -9,8 +9,8 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.S in Artificial Intelligence
-      institution: Hanyang University
+    - title: Hanyang University
+      institution: M.S. in Artificial Intelligence
       year: Sep. 2020 - Aug. 2022
       description:
         - "Concentration: Bioinformatics"
@@ -18,8 +18,8 @@
           contents:
             - "Research Group: Bioinformatics and Intelligent Systems Lab"
             - 'Advisor: Prof. <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
-    - title: B.S in Civil Engineering and Software Convergence Engineering
-      institution: Inha University
+    - title: Inha University
+      institution: B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering
       year: Mar. 2014 - Feb. 2020
       description:
         - "Research Group: The Construction Systems Laboratory"
