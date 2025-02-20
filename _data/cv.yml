@@ -11,9 +11,8 @@
   contents:
     - title: Hanyang University
       institution: M.S. in Artificial Intelligence
-      year: Sep. 2020 - Aug. 2022
+      year: Sep 01. 2020 - Aug 18. 2022
       description:
-        - "Concentration: Bioinformatics"
         - title: 'Thesis: <a href="https://jangho721.github.io/assets/pdf/Thesis.pdf">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
             - "Research Group: Bioinformatics and Intelligent Systems Lab"
