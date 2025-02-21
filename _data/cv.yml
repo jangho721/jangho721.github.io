@@ -11,20 +11,18 @@
   contents:
     - title: Hanyang University
       institution: M.S. in Artificial Intelligence
-      year: Sep. 2020 - Aug. 2022
+      year: Sep 01. 2020 - Aug 18. 2022
       description:
         - title: 'Thesis: <a href="https://jangho721.github.io/assets/pdf/Thesis.pdf">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
             - "Research Group: Bioinformatics and Intelligent Systems Lab"
             - 'Advisor: Prof. <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
-            - "Coursework: Data Mining, Machine Learning Theory, Advanced Machine Learning Theory, Deep Learning, Computational Proteomics, Computer Vision, Special Topics on Autonomous Driving Technology, Optimization Theory, Creative Individual Research 1 & 2"
-            
     - title: Inha University
-      institution: 'B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering (Interdisciplinary Major)'
+      institution: B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering
       year: Mar. 2014 - Feb. 2020
       description:
-        - 'Research Group: The Construction Systems Laboratory'
-        - 'Completed Samsung Convergence S/W Course program. (INHASCSC 2019-823) <br> - <i>Samsung Electronics</i>'
+        - "Research Group: The Construction Systems Laboratory"
+        - "Took a data science course designated by <i>Samsung Electronics</i>"
 
 - title: Publications
   type: time_table
@@ -121,7 +119,7 @@
         - "<strong>Outstanding Employee Award</strong> (Super Rookie), Tmax A&C"
     - year: 2019
       items:
-        - "<strong>Honor Student</strong> (1st, 2nd Sem), Inha University"
+        - "<strong>Dean’s List</strong>, Inha University"
     - year: 2014
       items:
         - "<strong>Grade Improvement Scholarship</strong>, Inha University"
