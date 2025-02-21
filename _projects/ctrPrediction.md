@@ -31,7 +31,7 @@ related_publications: false
             <h2 style="font-weight: 400;">About</h2>
             <div class="row">
                 <div class="col-sm mt-3 mt-md-0 text-start">
-                    {% include figure.liquid loading="eager" path="/assets/img/click.png" title="Hero Image" class="img-fluid rounded z-depth-1" style="width: 300px; height: auto;" %}
+                    {% include figure.liquid loading="eager" path="/assets/img/click.png" title="Hero Image" class="img-fluid rounded z-depth-1" style="width: 100px; height: auto;" %}
                 </div>
             </div>
             <p>
