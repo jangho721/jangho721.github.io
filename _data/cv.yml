@@ -11,7 +11,7 @@
   contents:
     - title: Hanyang University
       institution: M.S. in Artificial Intelligence
-      year: Sep 01. 2020 - Aug 18. 2022
+      year: Sep. 2020 - Aug. 2022
       description:
         - title: 'Thesis: <a href="https://jangho721.github.io/assets/pdf/Thesis.pdf">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
@@ -23,7 +23,7 @@
       year: Mar. 2014 - Feb. 2020
       description:
         - "Research Group: The Construction Systems Laboratory"
-        - "Took a data science course designated by <i>Samsung Electronics</i>"
+        - "Completed Samsung Convergence S/W Course program. (INHASCSC 2019-823) <br> - <i>Samsung Electronics</i>"
 
 - title: Publications
   type: time_table
