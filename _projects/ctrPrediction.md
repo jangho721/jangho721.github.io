@@ -2,7 +2,7 @@
 layout: page
 title: Click-through rate
 description: Machine learning
-img: assets/img/1.jpg
+img: assets/img/ctr.jpg
 importance: 2
 category: personal
 related_publications: false
@@ -31,7 +31,7 @@ related_publications: false
             <h2 style="font-weight: 400;">About</h2>
             <div class="row">
                 <div class="col-sm mt-3 mt-md-0 text-start">
-                    {% include figure.liquid loading="eager" path="/assets/img/hero.jpg" title="Hero Image" class="img-fluid rounded z-depth-1" %}
+                    {% include figure.liquid loading="eager" path="/assets/img/click.png" title="Hero Image" class="img-fluid rounded z-depth-1" %}
                 </div>
             </div>
             <p>
