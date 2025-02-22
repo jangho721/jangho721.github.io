@@ -30,7 +30,7 @@ related_publications: false
         <div class="col-sm mt-3 mt-md-0">
             <h2 style="font-weight: 400;">About</h2>
             <div class="row">
-                <div class="col-sm mt-3 mt-md-0 text-start">
+                <div class="col-sm mt-3 mt-md-0 text-start" style="max-width: 50px; padding: 0;">
                     {% include figure.liquid loading="eager" path="/assets/img/click.png" class="img-fluid rounded z-depth-1" style="max-width: 50px; height: auto;" %}
                 </div>
             </div>
