@@ -29,14 +29,14 @@ related_publications: false
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
             <h2 style="font-weight: 400;">About</h2>
+            <p>
+            <em>CTR (Click-Through Rate)</em> is a marketing metric that measures the percentage of clicks relative to total impressions, indicating the effectiveness of marketing efforts.
+            </p>
             <div class="row">
                 <div class="col-sm-3 mt-3 mt-md-0 text-start">
                     {% include figure.liquid loading="eager" path="/assets/img/click.png" class="img-fluid rounded z-depth-1" %}
                 </div>
             </div>
-            <p>
-                <em>CTR (Click-Through Rate)</em> is a marketing performance metric that represents the percentage of clicks from total impressions and is used to evaluate the effectiveness of marketing.
-            </p>
             <br>
             <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
             <div class="summary-container">
