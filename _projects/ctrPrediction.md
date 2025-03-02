@@ -35,10 +35,9 @@ related_publications: false
                 </div>
             </div>
             <p>
-                멜리즈는 브랜드 패션 가격 비교 앱으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다.
+                <em>CTR (Click-Through Rate)</em> is a marketing performance metric that represents the percentage of clicks from total impressions and is used to evaluate the effectiveness of marketing.
             </p>
             <br>
-            
             <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
             <div class="summary-container">
                 <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
@@ -56,7 +55,6 @@ related_publications: false
             <br>
             <br>
             <br>
-            
             <h2 style="font-weight: 400;">Overview</h2>
             <p>
                 모든 패션 브랜드를 위한 하나의 검색 플랫폼<br>
