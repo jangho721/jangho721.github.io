@@ -42,7 +42,7 @@ related_publications: false
             <div class="summary-container">
                 <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
                 <h3 style="font-weight: 400; font-size: 1rem;">Overview</h3>
-                유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기 
+                <p>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</p>
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Challenges</h3>
                 <ul>
