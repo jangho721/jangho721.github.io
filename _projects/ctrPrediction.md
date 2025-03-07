@@ -50,14 +50,12 @@ related_publications: false
                     <li>Handling class imbalance in CTR prediction</li>
                     <li>Encoding high-cardinality categorical features effectively</li>
                 </ul>
-                <br>
-                <h3 style="font-weight: 400; font-size: 1rem;">Dataset</h3>
-                <p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
             </div>
             <br>
             <br>
             <br>
-            <h2 style="font-weight: 400;">Overview</h2>
+            <h2 style="font-weight: 400;">Dataset</h2>
+            <p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
             <p>
                 모든 패션 브랜드를 위한 하나의 검색 플랫폼<br>
                 멜리즈는 원스톱 브랜드 패션 가격 비교 플랫폼으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다. 멜리즈는 한국 내 ‘가장 먼저 떠오르는’ 온라인 쇼핑 검색 엔진이자, 더 나아가 글로벌 쇼핑 관문으로 성장하려는 목표를 가지고 있습니다.
