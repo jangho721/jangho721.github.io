@@ -42,18 +42,17 @@ related_publications: false
             <div class="summary-container">
                 <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
                 <h3 style="font-weight: 400; font-size: 1rem;">Overview</h3>
-                <p>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</p>
+                <p>To build a CTR prediction model and find a strategy that beats standard classification algorithms.</p>
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Challenges</h3>
                 <ul>
-                    <li>유저의 프라이버시를 보호하면서 마케팅 채널별 진정한 기여도 확인하기</li>
+                    <li>Efficient processing of large-scale web log data</li>
+                    <li>Handling class imbalance in CTR prediction</li>
+                    <li>Encoding high-cardinality categorical features effectively</li>
                 </ul>
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Dataset</h3>
-                <ul>
-                    <li>에어브릿지의 MMM 모델을 기반으로 성과 분석과 예측 최적화</li>
-                    <li>UA 캠페인에 대해 앱 설치 수에 대한 각 채널의 기여를 측정하고 예산의 효율성을 극대화할 수 있는 예산안을 제안</li>
-                </ul>
+                <p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
             </div>
             <br>
             <br>
