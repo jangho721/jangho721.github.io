@@ -46,9 +46,9 @@ related_publications: false
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Challenges</h3>
                 <ul>
-                    <li>Efficient processing of large-scale web log data</li>
-                    <li>Handling class imbalance in CTR prediction</li>
-                    <li>Encoding high-cardinality categorical features effectively</li>
+                    <li>Efficient processing of <strong>large-scale web log data</strong></li>
+                    <li>Handling <strong>class imbalance</strong> in CTR prediction</li>
+                    <li>Encoding <strong>high-cardinality categorical features</strong> effectively</li>
                 </ul>
             </div>
             <br>
@@ -56,9 +56,13 @@ related_publications: false
             <br>
             <h2 style="font-weight: 400;">Dataset</h2>
             <p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
-            <p>
-                모든 패션 브랜드를 위한 하나의 검색 플랫폼<br>
-                멜리즈는 원스톱 브랜드 패션 가격 비교 플랫폼으로, 글로벌 유명 브랜드의 다양한 패션 아이템에 대한 손쉬운 가격 비교가 가능합니다. 멜리즈는 한국 내 ‘가장 먼저 떠오르는’ 온라인 쇼핑 검색 엔진이자, 더 나아가 글로벌 쇼핑 관문으로 성장하려는 목표를 가지고 있습니다.
+            <p>The dataset consists of 11 days of data, divided into two parts:</p>
+            <ul>
+                <li>Train set: Contains 10 days of data</li>
+                <li>Test set: Contains 1 day of data</li>
+            </ul>
+            <p>The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.<br>
+                For more details, please refer to the link above.
             </p>
             <br>
             <br>
