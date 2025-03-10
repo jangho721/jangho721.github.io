@@ -66,7 +66,7 @@ related_publications: false
             </p>
             <br>
             <br>
-            <h2 style="font-weight: 400;">Challenges</h2>
+            <h2 style="font-weight: 400;">Baseline model</h2>
             <p>
                 유저의 프라이버시를 보호하면서 마케팅 채널별 기여도 확인하기<br>
                 런칭 초기 멜리즈는 신규 유저 획득을 위한 대대적인 투자를 진행한 뒤, 성장 모멘텀을 유지할 수 있는 다양한 전략을 취했습니다.
