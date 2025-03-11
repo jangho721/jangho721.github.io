@@ -67,10 +67,12 @@ related_publications: false
             <br>
             <br>
             <h2 style="font-weight: 400;">Baseline model</h2>
-            <p>
-                유저의 프라이버시를 보호하면서 마케팅 채널별 기여도 확인하기<br>
-                런칭 초기 멜리즈는 신규 유저 획득을 위한 대대적인 투자를 진행한 뒤, 성장 모멘텀을 유지할 수 있는 다양한 전략을 취했습니다.
-            </p>
+            <p><a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a> has been selected as the baseline model, as it ensures <strong>fast training speed and stable performance</strong>.</p>
+            <ul>
+                <li><strong>Gradient Boosting-based models</strong> are frequently used as baselines in various CTR prediction competitions and are known for their stable performance.</li>
+                <li>With its <strong>fast training speed</strong>, it is efficient for model testing, which requires repeated experiments.</li>
+                <li>In real-world applications, it is suitable for CTR prediction tasks that require periodic retraining to address the <strong>Staleness Problem</strong>, where user characteristics change over time, causing data distribution shifts and performance degradation.</li>
+            </ul>
             <br>
             <br>
             <h2 style="font-weight: 400;">Solutions</h2>
