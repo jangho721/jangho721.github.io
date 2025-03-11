@@ -87,3 +87,11 @@ related_publications: false
                 멜리즈는 각 채널의 진정한 기여도를 파악하고 전반적인 마케팅 효율성을 높일 수 있는 예산 분배에 대한 몇 가지 중요한 인사이트를 얻었습니다.
                 사용자 참여율이 30% 이상 증가하고, 전환율도 눈에 띄게 향상되었습니다.
             </p>
+            <br>
+            <br>
+<section>
+    <h3>References</h3>
+        <ol>
+            <li>"<a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf">LightGBM: A Highly Efficient Gradient Boosting Decision Tree</a>."</li>
+        </ol>
+</section>
