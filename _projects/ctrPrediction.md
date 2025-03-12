@@ -67,11 +67,15 @@ related_publications: false
             <br>
             <br>
             <h2 style="font-weight: 400;">Baseline model</h2>
-            <p><a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a> has been selected as the baseline model, as it ensures <strong style="font-weight: 400;">fast training speed and stable performance</strong>.</p>
+            <p>
+                <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a> has been selected as the baseline model, as it ensures <strong style="font-weight: 400;">fast training speed and stable performance</strong>.
+            </p>
+                In CTR prediction tasks, user characteristics change over time, leading to <strong style="font-weight: 400;">domain shift</strong> and, as a result, <strong style="font-weight: 400;">performance degradation</strong> (<strong style="font-weight: 400;">Staleness Problem</strong>). To address this, a periodic retraining strategy can be applied.
+            <p>
+            </p>
             <ul>
                 <li><u>Gradient Boosting-based models</u> are frequently used as baselines in various CTR prediction competitions and are known for their stable performance.</li>
-                <li>With its <u>fast training speed</u>, it is efficient for model testing, which requires repeated experiments.</li>
-                <li>In real-world applications, it is suitable for CTR prediction tasks that require periodic retraining to address the <u>Staleness Problem</u>, where user characteristics change over time, causing data distribution shifts and performance degradation.</li>
+                <li>With its fast training speed, it enables efficient experimentation in model development and allows for quicker retraining during periodic updates, thereby <u>saving overall time and resources</u>.</li>
             </ul>
             <br>
             <br>
