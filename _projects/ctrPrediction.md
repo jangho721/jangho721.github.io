@@ -70,7 +70,7 @@ related_publications: false
             <p>
                 <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a> has been selected as the baseline model, as it ensures <strong style="font-weight: 400;">fast training speed and stable performance</strong>.
             </p>
-                In CTR prediction tasks, user characteristics change over time, leading to <strong style="font-weight: 400;">domain shift</strong> and, as a result, <strong style="font-weight: 400;">performance degradation</strong> (<strong style="font-weight: 400;">Staleness Problem</strong>). To address this, a periodic retraining strategy can be applied.
+                In CTR prediction tasks, user characteristics change over time, leading to <strong style="font-weight: 400;">domain shift</strong> and, as a result, performance degradation (<strong style="font-weight: 400;">Staleness Problem</strong>). To address this, a periodic retraining strategy can be applied.
             <p>
             </p>
             <ul>
