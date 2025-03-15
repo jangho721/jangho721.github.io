@@ -11,7 +11,7 @@
   contents:
     - title: Hanyang University
       institution: M.S. in Artificial Intelligence
-      year: "<div align='right'>Sep 01, 2020 -<br><br>Aug 18, 2022</div>"
+      year: "<div align='left' style='color: white;'>Sep 01, 2020 -<br><br>Aug 18, 2022</div>"
       description:
         - title: 'Thesis: <a href="https://jangho721.github.io/assets/pdf/Thesis.pdf">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
@@ -20,7 +20,7 @@
             - "Coursework: Data Mining, Machine Learning Theory, Advanced Machine Learning Theory, Deep Learning, Computational Proteomics, Computer Vision, Special Topics on Autonomous Driving Technology, Optimization Theory, Creative Individual Research 1 & 2"
     - title: Inha University
       institution: B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering (Interdisciplinary Major)
-      year: "<div align='right'>Mar 03, 2014 -<br><br>Feb 21, 2020</div>"
+      year: "<div align='left' style='color: white;'>Mar 03, 2014 -<br><br>Feb 21, 2020</div>"
       description:
         - "Research Group: The Construction Systems Laboratory"
         - "Completed Samsung Convergence S/W Course program - <i>Samsung Electronics</i> <br> (INHASCSC 2019-823)"
@@ -39,7 +39,7 @@
   contents:
     - title: TmaxEduAI
       institution: Machine Learning Engineer
-      year: "<div align='right'>Jan 01, 2023 -<br><br>Nov 04, 2024</div>"
+      year: "<div align='left' style='color: white;'>Jan 01, 2023 -<br><br>Nov 04, 2024</div>"
       description:
         - "Developed DL models and rule-based algorithms, and built MLOps pipelines for student assessment and personalized educational content recommendations."
 
@@ -71,7 +71,7 @@
   contents:
     - title: Google for Developers Machine Learning Bootcamp
       institution: "Student, Google Developers Group"
-      year: "<div align='right'>Sep 01, 2023 -<br><br>Nov 24, 2023</div>"
+      year: "<div align='left' style='color: white;'>Sep 01, 2023 -<br><br>Nov 24, 2023</div>"
       description:
         - "3-months training program supported by Google Korea 500 participants from > 2,300 applicants."
     - title: Military Service
