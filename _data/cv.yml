@@ -20,7 +20,7 @@
             - "Coursework: Data Mining, Machine Learning Theory, Advanced Machine Learning Theory, Deep Learning, Computational Proteomics, Computer Vision, Special Topics on Autonomous Driving Technology, Optimization Theory, Creative Individual Research 1 & 2"
     - title: Inha University
       institution: B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering (Interdisciplinary Major)
-      year: "Mar 03, 2014 -<br><br>Feb 21, 2020&nbsp;&nbsp;&nbsp;"
+      year: "<div align="right">Mar 03, 2014 -<br><br>Feb 21, 2020</div>"
       description:
         - "Research Group: The Construction Systems Laboratory"
         - "Completed Samsung Convergence S/W Course program - <i>Samsung Electronics</i> <br> (INHASCSC 2019-823)"
@@ -39,7 +39,7 @@
   contents:
     - title: TmaxEduAI
       institution: Machine Learning Engineer
-      year: "Jan 01, 2023 -<br><br>Nov 04, 2024&nbsp;&nbsp;"
+      year: "<div align="right">Jan 01, 2023 -<br><br>Nov 04, 2024</div>"
       description:
         - "Developed DL models and rule-based algorithms, and built MLOps pipelines for student assessment and personalized educational content recommendations."
 
@@ -71,7 +71,7 @@
   contents:
     - title: Google for Developers Machine Learning Bootcamp
       institution: "Student, Google Developers Group"
-      year: "Sep 01, 2023 -<br><br>Nov 24, 2023&nbsp;&nbsp;"
+      year: "<div align="right">Sep 01, 2023 -<br><br>Nov 24, 2023</div>"
       description:
         - "3-months training program supported by Google Korea 500 participants from > 2,300 applicants."
     - title: Military Service
