@@ -11,7 +11,7 @@
   contents:
     - title: Hanyang University
       institution: M.S. in Artificial Intelligence
-      year: "Sep 01, 2020 -<br><br>Aug 18, 2022&nbsp;&nbsp;"
+      year: "<div align="right">Sep 01, 2020 -<br><br>Aug 18, 2022</div>"
       description:
         - title: 'Thesis: <a href="https://jangho721.github.io/assets/pdf/Thesis.pdf">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
