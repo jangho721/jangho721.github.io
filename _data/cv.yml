@@ -49,7 +49,7 @@
   contents:
     - title: Bioinformatics and Intelligent Systems Lab
       institution: Graduate Research Assistant
-      year: Aug. 2020 - Dec. 2022
+      year: "<div align='left' style='color: white;'>Aug 01, 2020 -<br><br>Dec 31, 2022</div>"
       description:
         - "Designed and implemented postprocessing tools for reranking and rescoring using ML/DL models to improve the accuracy of peptide identifications in de novo peptide sequencing."
     - title: The Construction Systems Laboratory
