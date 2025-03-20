@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, an AI Engineer at TmaxEduAI, developing AI-based educational solutions, focusing on Knowledge Tracking and Recommendation Systems for personalized learning.
+Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, an AI Engineer at TmaxEduAI, developing AI-based educational solutions for personalized learning, focusing on Knowledge Tracking and Recommendation Systems.
 
 I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My MS research bridged machine learning and bioinformatics to address challenges in proteomics. The focus of my work was reranking and rescoring <em>de novo</em> sequencing results, I developed novel post-processors for accurate peptide sequence identification.
 
