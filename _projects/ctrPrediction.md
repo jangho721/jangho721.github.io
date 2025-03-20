@@ -96,6 +96,6 @@ related_publications: false
 <section>
     <h3>References</h3>
         <ol>
-            <li><a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf">LightGBM: A Highly Efficient Gradient Boosting Decision Tree</a></li>
+            <li><a href="https://lightgbm.readthedocs.io/en/stable/">LightGBM: A Highly Efficient Gradient Boosting Decision Tree</a></li>
         </ol>
 </section>
