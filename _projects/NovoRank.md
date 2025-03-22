@@ -57,7 +57,7 @@ related_publications: false
             <br>
             <br>
             <br>
-            <h2 style="font-weight: 400;">Dataset</h2>
+            <h2 style="font-weight: 400;">Contribution</h2>
             <p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
             <p>The dataset consists of 11 days of data, divided into two parts:</p>
             <ul>
@@ -69,7 +69,7 @@ related_publications: false
             </p>
             <br>
             <br>
-            <h2 style="font-weight: 400;">Baseline model</h2>
+            <h2 style="font-weight: 400;">Results</h2>
             <p>
                 <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a> has been selected as the baseline model, as it ensures <strong style="font-weight: 400;">fast training speed and stable performance</strong>.
             </p>
@@ -82,20 +82,7 @@ related_publications: false
             </ul>
             <br>
             <br>
-            <h2 style="font-weight: 400;">Solutions</h2>
-            <p>
-                애자일(agile) 의사 결정을 위한 직관적인 MMM(Marketing Mix Modeling) 솔루션<br>
-                에어브릿지는 수개월에 걸쳐 멜리즈와 긴밀히 협업하며 포스트 프라이버시 시대에 맞는 채널 레벨의 마케팅 성과를 성공적으로 측정하기 위해 실행 가능한 MMM 모델을 개발하였습니다.
-            </p>
-            <br>
-            <br>
-            <h2 style="font-weight: 400;">Final thoughts</h2>
-            <p>
-                멜리즈는 각 채널의 진정한 기여도를 파악하고 전반적인 마케팅 효율성을 높일 수 있는 예산 분배에 대한 몇 가지 중요한 인사이트를 얻었습니다.
-                사용자 참여율이 30% 이상 증가하고, 전환율도 눈에 띄게 향상되었습니다.
-            </p>
-            <br>
-            <br>
+
 <section>
     <h3>References</h3>
         <ol>
