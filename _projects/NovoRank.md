@@ -27,9 +27,9 @@ related_publications: false
 <section class="container mt-5">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-            <h2 style="font-weight: 400;">About</h2>
+            <h2 style="font-weight: 400;">Overview</h2>
             <p>
-            <em>CTR (Click-Through Rate)</em> is a marketing metric that measures the percentage of clicks relative to total impressions, indicating the effectiveness of marketing efforts.
+            <em>NovoRank</em> is a machine learning-based post-processing tool developed to improve peptide sequence identification performance. In proteomics, de novo sequencing is a method for directly inferring protein sequences from experimental data, playing a crucial role in identifying unknown proteins and mutations. However, conventional de novo sequencing tools have limitations in accuracy and reliability, which can compromise the trustworthiness of peptide sequence analysis results. To address this, NovoRank provides a method to re-rank de novo sequencing results, enabling more accurate and reliable peptide sequence identification.
             </p>
             <div class="row">
                 <div class="col-sm-3 mt-3 mt-md-0 text-start">
