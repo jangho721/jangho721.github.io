@@ -51,16 +51,16 @@ related_publications: false
                     <li>Deep Learning</li>
                     <li>Data Analytics</li>
                 </ul>
-                <br>
-                <h3 style="font-weight: 400; font-size: 1rem;">Dataset</h3>
-                <p><a href="https://zenodo.org/records/14046459">Experimental Data Sets</a></p>
-                <p>The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
-                </p>
-                <p>For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
-                </p>
-                <br>
             </div>
             <br>
+            <br>
+            <br>
+            <h2 style="font-weight: 400;">Dataset</h2>
+            <p><a href="https://zenodo.org/records/14046459">Experimental Data Sets</a></p>
+            <p>The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
+            </p>
+            <p>For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
+            </p>
             <br>
             <br>
             <h2 style="font-weight: 400;">Contribution</h2>
@@ -95,6 +95,7 @@ related_publications: false
 <section>
     <h3>References</h3>
         <ol>
-            <li><a href="https://lightgbm.readthedocs.io/en/stable/">LightGBM: A Highly Efficient Gradient Boosting Decision Tree</a></li>
+            <li><a href="https://jangho721.github.io/assets/pdf/MS_NovoRank_JPR2024.pdf">NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and Deep Learning
+</a></li>
         </ol>
 </section>
