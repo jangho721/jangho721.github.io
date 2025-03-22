@@ -61,9 +61,8 @@ related_publications: false
                 <li>Train set: Contains 10 days of data</li>
                 <li>Test set: Contains 1 day of data</li>
             </ul>
-            <p>The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.<br>
-                For more details, please refer to the link above.
-            </p>
+            <p>The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.</p>
+            <p>For more details, please refer to the link above.</p>
             <br>
             <br>
             <h2 style="font-weight: 400;">Baseline model</h2>
