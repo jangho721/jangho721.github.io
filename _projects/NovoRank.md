@@ -53,13 +53,22 @@ related_publications: false
                 </ul>
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Dataset</h3>
+                <p><a href="https://zenodo.org/records/14046459">Experimental Data Sets</a></p>
+                <p>The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
+                </p>
+                <p>For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
+                </p>
+                <br>
             </div>
             <br>
             <br>
             <br>
             <h2 style="font-weight: 400;">Contribution</h2>
             <p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
-            <p>The dataset consists of 11 days of data, divided into two parts:</p>
+            <p>The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
+                <br>
+                For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
+            </p>
             <ul>
                 <li>Train set: Contains 10 days of data</li>
                 <li>Test set: Contains 1 day of data</li>
