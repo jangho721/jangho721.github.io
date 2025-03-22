@@ -45,7 +45,9 @@ related_publications: false
                     <u><em>De novo</em> sequencing</u> is a crucial technique in proteomics that identifies peptide sequences directly from experimental data, without relying on existing protein databases. This method plays a key role in discovering unknown proteins and detecting mutations. However, conventional <em>de novo</em> sequencing tools have limitations in accuracy and reliability, which can compromise the trustworthiness of peptide sequence analysis results. <strong style="font-weight: 400;">NovoRank</strong> enhances <em>de novo</em> sequencing results by re-ranking candidate sequences, improving reliability and accuracy.
                 </p>
                 <br>
-                <h3 style="font-weight: 400; font-size: 1rem;">Challenges</h3>
+                <h3 style="font-weight: 400; font-size: 1rem;">Keywords</h3>
+                <br>
+                <h3 style="font-weight: 400; font-size: 1rem;">Dataset</h3>
                 <ul>
                     <li>Efficient processing of <strong>large-scale web log data</strong></li>
                     <li>Handling <strong>class imbalance</strong> in CTR prediction</li>
