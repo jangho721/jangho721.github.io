@@ -27,9 +27,9 @@ related_publications: false
 <section class="container mt-5">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-            <h2 style="font-weight: 400;">Overview</h2>
+            <h2 style="font-weight: 400;">NovoRank</h2>
             <p>
-            <strong>NovoRank</strong> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
+                <strong style="font-weight: 400;">NovoRank</strong> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
             </p>
             <div class="row">
                 <div class="col-sm-3 mt-3 mt-md-0 text-start">
@@ -41,7 +41,9 @@ related_publications: false
             <div class="summary-container">
                 <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
                 <h3 style="font-weight: 400; font-size: 1rem;">Overview</h3>
-                <p>To build a CTR prediction model and find a strategy that beats standard classification algorithms.</p>
+                <p>
+                    <em>De novo</em> sequencing is a crucial technique in proteomics that identifies peptide sequences directly from experimental data, without relying on existing protein databases. This method plays a key role in discovering unknown proteins and detecting mutations. However, conventional de novo sequencing tools have limitations in accuracy and reliability, which can compromise the trustworthiness of peptide sequence analysis results. NovoRank enhances de novo sequencing results by re-ranking candidate sequences, improving reliability and accuracy.
+                </p>
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Challenges</h3>
                 <ul>
