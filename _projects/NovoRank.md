@@ -46,13 +46,13 @@ related_publications: false
                 </p>
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Keywords</h3>
+                <ul>
+                    <li>Clustering</li>
+                    <li>Deep Learning</li>
+                    <li>Data Analytics</li>
+                </ul>
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Dataset</h3>
-                <ul>
-                    <li>Efficient processing of <strong>large-scale web log data</strong></li>
-                    <li>Handling <strong>class imbalance</strong> in CTR prediction</li>
-                    <li>Encoding <strong>high-cardinality categorical features</strong> effectively</li>
-                </ul>
             </div>
             <br>
             <br>
