@@ -28,15 +28,20 @@ related_publications: false
 <p>
     <a href="https://github.com/jangho721/NovoRank">NovoRank</a> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
 </p>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/workflow.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Workflow of NovoRank. (A) Analysis flow of NovoRank. (B) Two-step clustering method. Colors represent a cluster in each step. (C)
+Example cluster-score (C-score) calculation in a cluster of two MS/MS spectra. (D) Deep learning model to predict a more desirable peptide
+among the top two candidate peptides in a cluster.
 </div>
 <br>
+
 <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
 <div class="summary-container">
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
@@ -55,17 +60,26 @@ related_publications: false
 <br>
 <br>
 <br>
+
 <h2 style="font-weight: 400;">Dataset</h2>
-<p><a href="https://zenodo.org/records/14046459">Experimental Data Sets</a></p>
-<p>The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
+<p>
+    <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
 </p>
-<p>For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
+<p>
+    The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
+</p>
+<p>
+    For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
 </p>
 <br>
 <br>
+
 <h2 style="font-weight: 400;">Contribution</h2>
-<p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
-<p>The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
+<p>
+    <a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a>
+</p>
+<p>
+    The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
     <br>
     For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
 </p>
@@ -73,17 +87,19 @@ related_publications: false
     <li>Train set: Contains 10 days of data</li>
     <li>Test set: Contains 1 day of data</li>
 </ul>
-<p>The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.<br>
+<p>
+    The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.<br>
     For more details, please refer to the link above.
 </p>
 <br>
 <br>
+
 <h2 style="font-weight: 400;">Results</h2>
 <p>
     <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a> has been selected as the baseline model, as it ensures <strong style="font-weight: 400;">fast training speed and stable performance</strong>.
 </p>
-    In CTR prediction tasks, user characteristics change over time, leading to <strong style="font-weight: 400;">domain shift</strong> and, as a result, performance degradation (<strong style="font-weight: 400;">Staleness Problem</strong>). To address this, a periodic retraining strategy can be applied.
 <p>
+    In CTR prediction tasks, user characteristics change over time, leading to <strong style="font-weight: 400;">domain shift</strong> and, as a result, performance degradation (<strong style="font-weight: 400;">Staleness Problem</strong>). To address this, a periodic retraining strategy can be applied.
 </p>
 <ul>
     <li><u>Gradient Boosting-based models</u> are frequently used as baselines in various CTR prediction competitions and are known for their stable performance.</li>
