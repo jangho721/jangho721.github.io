@@ -35,7 +35,7 @@ related_publications: false
     </div>
 </div>
 
-<div class="caption">
+<div class="caption text-end">
     Workflow of NovoRank. (A) Analysis flow of NovoRank. (B) Two-step clustering method. Colors represent a cluster in each step. (C)
 Example cluster-score (C-score) calculation in a cluster of two MS/MS spectra. (D) Deep learning model to predict a more desirable peptide
 among the top two candidate peptides in a cluster.
