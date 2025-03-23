@@ -46,9 +46,9 @@ related_publications: false
                 <br>
                 <h3 style="font-weight: 400; font-size: 1rem;">Challenges</h3>
                 <ul>
-                    <li>Efficient processing of <strong>large-scale web log data</strong></li>
-                    <li>Handling <strong>class imbalance</strong> in CTR prediction</li>
-                    <li>Encoding <strong>high-cardinality categorical features</strong> effectively</li>
+                    <li>Efficient processing of <strong style="font-weight: 400;">large-scale web log data</strong></li>
+                    <li>Handling <strong style="font-weight: 400;">class imbalance</strong> in CTR prediction</li>
+                    <li>Encoding <strong style="font-weight: 400;">high-cardinality categorical features</strong> effectively</li>
                 </ul>
             </div>
             <br>
