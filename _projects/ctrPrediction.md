@@ -29,17 +29,21 @@ related_publications: false
 <p>
 <em>CTR (Click-Through Rate)</em> is a marketing metric that measures the percentage of clicks relative to total impressions, indicating the effectiveness of marketing efforts.
 </p>
+
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0 text-start">
         {% include figure.liquid loading="eager" path="/assets/img/click.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <br>
+
 <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
 <div class="summary-container">
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
     <h3 style="font-weight: 400; font-size: 1rem;">Overview</h3>
-    <p>To build a CTR prediction model and find a strategy that beats standard classification algorithms.</p>
+    <p>
+        To build a CTR prediction model and find a strategy that beats standard classification algorithms.
+    </p>
     <br>
     <h3 style="font-weight: 400; font-size: 1rem;">Challenges</h3>
     <ul>
@@ -51,23 +55,33 @@ related_publications: false
 <br>
 <br>
 <br>
+
 <h2 style="font-weight: 400;">Dataset</h2>
-<p><a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a></p>
-<p>The dataset consists of 11 days of data, divided into two parts:</p>
+<p>
+    <a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a>
+</p>
+<p>
+    The dataset consists of 11 days of data, divided into two parts:
+</p>
 <ul>
     <li>Train set: Contains 10 days of data</li>
     <li>Test set: Contains 1 day of data</li>
 </ul>
-<p>The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.</p>
-<p>For more details, please refer to the link above.</p>
+<p>
+    The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.
+</p>
+<p>
+    For more details, please refer to the link above.
+</p>
 <br>
 <br>
+
 <h2 style="font-weight: 400;">Baseline model</h2>
 <p>
     <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a> has been selected as the baseline model, as it ensures <strong style="font-weight: 400;">fast training speed and stable performance</strong>.
 </p>
-    In CTR prediction tasks, user characteristics change over time, leading to <strong style="font-weight: 400;">domain shift</strong> and, as a result, performance degradation (<strong style="font-weight: 400;">Staleness Problem</strong>). To address this, a periodic retraining strategy can be applied.
 <p>
+    In CTR prediction tasks, user characteristics change over time, leading to <strong style="font-weight: 400;">domain shift</strong> and, as a result, performance degradation (<strong style="font-weight: 400;">Staleness Problem</strong>). To address this, a periodic retraining strategy can be applied.
 </p>
 <ul>
     <li><u>Gradient Boosting-based models</u> are frequently used as baselines in various CTR prediction competitions and are known for their stable performance.</li>
@@ -75,6 +89,7 @@ related_publications: false
 </ul>
 <br>
 <br>
+
 <h2 style="font-weight: 400;">Solutions</h2>
 <p>
     애자일(agile) 의사 결정을 위한 직관적인 MMM(Marketing Mix Modeling) 솔루션<br>
@@ -82,6 +97,7 @@ related_publications: false
 </p>
 <br>
 <br>
+
 <h2 style="font-weight: 400;">Final thoughts</h2>
 <p>
     멜리즈는 각 채널의 진정한 기여도를 파악하고 전반적인 마케팅 효율성을 높일 수 있는 예산 분배에 대한 몇 가지 중요한 인사이트를 얻었습니다.
