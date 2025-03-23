@@ -78,8 +78,11 @@ among the top two candidate peptides in a cluster.
 <br>
 <ol>
     <li><strong style="font-weight: 400;">Introduced Two-Step Clustering Method</strong>: To effectively classify similar spectra, Spectral Clustering was applied for initial grouping, followed by DBSCAN to perform fine-grained clustering within the first-stage clusters, ensuring that similar spectra are more precisely grouped together.</li>
+    <br>
     <li>Proposed C-Score: A novel scoring metric that evaluates the reliability of peptide sequence predictions by considering both the consensus across clusters and the quality of individual peptide-spectrum matches (PSMs), ensuring more reliable predictions.</li>
+    <br>
     <li>Applied Deep Learning Models: Integrated deep learning models to refine peptide sequence predictions, improving identification accuracy by predicting the most desirable peptide from the top two candidates, leading to an 18.8% increase in correct peptide identifications compared to existing tools.</li>
+    <br>
     <li>Introduced Two-Step Clustering Method: Utilized a two-step clustering method to improve peptide sequence ranking by first grouping candidate sequences into clusters based on their similarities and then re-ranking the top candidates within each cluster for better accuracy.
     </li>
 </ol>
