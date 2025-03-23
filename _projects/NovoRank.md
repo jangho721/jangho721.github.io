@@ -29,7 +29,7 @@ related_publications: false
         <div class="col-sm mt-3 mt-md-0">
             <h2 style="font-weight: 400;">NovoRank</h2>
             <p>
-                <strong style="font-weight: 400;">NovoRank</strong> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
+                <a href="https://github.com/jangho721/NovoRank">NovoRank</a> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
             </p>
             <div class="row">
                 <div class="col-sm-3 mt-3 mt-md-0 text-start">
