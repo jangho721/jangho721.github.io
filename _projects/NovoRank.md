@@ -29,13 +29,13 @@ related_publications: false
     <a href="https://github.com/jangho721/NovoRank">NovoRank</a> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
 </p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center text-center">
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 700px;">
         {% include figure.liquid loading="eager" path="assets/img/workflow.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="caption text-end">
+<div class="caption" style="text-align: left;">
     Workflow of NovoRank. (A) Analysis flow of NovoRank. (B) Two-step clustering method. Colors represent a cluster in each step. (C)
 Example cluster-score (C-score) calculation in a cluster of two MS/MS spectra. (D) Deep learning model to predict a more desirable peptide
 among the top two candidate peptides in a cluster.
