@@ -75,11 +75,14 @@ among the top two candidate peptides in a cluster.
 <br>
 
 <h2 style="font-weight: 400;">Contribution</h2>
+<ol>
+    <li>Developed NovoRank: A post-processing tool designed to improve peptide sequence identification by re-ranking candidate sequences through a clustering-based approach (DBSCAN), which groups similar results and enhances the accuracy of sequence identification.</li>
+    <li>Proposed C-Score: A novel scoring metric that evaluates the reliability of peptide sequence predictions by considering both the consensus across clusters and the quality of individual peptide-spectrum matches (PSMs), ensuring more reliable predictions.</li>
+    <li>Applied Deep Learning Models: Integrated deep learning models to refine peptide sequence predictions, improving identification accuracy by predicting the most desirable peptide from the top two candidates, leading to an 18.8% increase in correct peptide identifications compared to existing tools.</li>
+    <li>Introduced Two-Step Clustering Method: Utilized a two-step clustering method to improve peptide sequence ranking by first grouping candidate sequences into clusters based on their similarities and then re-ranking the top candidates within each cluster for better accuracy.
+    </li>
+</ol>
 <p>
-    1. Developed NovoRank: A post-processing tool designed to improve peptide sequence identification by re-ranking candidate sequences through a clustering-based approach (DBSCAN), which groups similar results and enhances the accuracy of sequence identification.
-    2. Proposed C-Score: A novel scoring metric that evaluates the reliability of peptide sequence predictions by considering both the consensus across clusters and the quality of individual peptide-spectrum matches (PSMs), ensuring more reliable predictions.
-    3. Applied Deep Learning Models: Integrated deep learning models to refine peptide sequence predictions, improving identification accuracy by predicting the most desirable peptide from the top two candidates, leading to an 18.8% increase in correct peptide identifications compared to existing tools.
-    4. Introduced Two-Step Clustering Method: Utilized a two-step clustering method to improve peptide sequence ranking by first grouping candidate sequences into clusters based on their similarities and then re-ranking the top candidates within each cluster for better accuracy.
 </p>
 <ul>
     <li>Train set: Contains 10 days of data</li>
