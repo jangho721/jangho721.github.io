@@ -76,21 +76,15 @@ among the top two candidate peptides in a cluster.
 
 <h2 style="font-weight: 400;">Contribution</h2>
 <p>
-    <a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Avazu dataset</a>
-</p>
-<p>
-    The main dataset used in NovoRank consists of MS/MS spectra (.mgf), obtained from mass spectrometry experiments and containing peptide fragmentation information.
-    <br>
-    For more details, please refer to the link at the top of this section and <a href="https://github.com/jangho721/NovoRank/tree/main/data">here</a>.
+    1. Developed NovoRank: A post-processing tool designed to improve peptide sequence identification by re-ranking candidate sequences through a clustering-based approach (DBSCAN), which groups similar results and enhances the accuracy of sequence identification.
+    2. Proposed C-Score: A novel scoring metric that evaluates the reliability of peptide sequence predictions by considering both the consensus across clusters and the quality of individual peptide-spectrum matches (PSMs), ensuring more reliable predictions.
+    3. Applied Deep Learning Models: Integrated deep learning models to refine peptide sequence predictions, improving identification accuracy by predicting the most desirable peptide from the top two candidates, leading to an 18.8% increase in correct peptide identifications compared to existing tools.
+    4. Introduced Two-Step Clustering Method: Utilized a two-step clustering method to improve peptide sequence ranking by first grouping candidate sequences into clusters based on their similarities and then re-ranking the top candidates within each cluster for better accuracy.
 </p>
 <ul>
     <li>Train set: Contains 10 days of data</li>
     <li>Test set: Contains 1 day of data</li>
 </ul>
-<p>
-    The dataset comprises 24 categorical features and includes a total of 40,428,967 training samples.<br>
-    For more details, please refer to the link above.
-</p>
 <br>
 <br>
 
