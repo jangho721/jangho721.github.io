@@ -19,11 +19,11 @@
             - 'Advisor: Prof. <a href="https://scholar.google.co.kr/citations?user=NlXEWLQAAAAJ&hl=ko">Eunok Paek</a>'
             - "Coursework: Data Mining, Machine Learning Theory, Advanced Machine Learning Theory, Deep Learning, Computational Proteomics, Computer Vision, Special Topics on Autonomous Driving Technology, Optimization Theory, Creative Individual Research 1 & 2"
     - title: Inha University
-      institution: B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering (Interdisciplinary Major)
+      institution: "B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering – Interdisciplinary Major"
       year: "<div align='left' style='color: white;'>Mar 03, 2014 -<br><br>Feb 21, 2020</div>"
       description:
         - "Research Group: The Construction Systems Laboratory"
-        - "Completed Samsung Convergence S/W Course program - <i>Samsung Electronics</i> <br> (INHASCSC 2019-823)"
+        - "Completed Samsung Convergence S/W Course program - <i>Samsung Electronics</i> <br> INHASCSC 2019-823"
 
 - title: Publications
   type: time_table
@@ -62,10 +62,10 @@
   type: time_table
   contents:
     - title: "Post-Processing Framework Using Deep Learning to Improve Performance of De Novo Peptide Sequencing Results"
-      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>70th ASMS Conference on Mass Spectrometry and Allied Topics</i> (Minneapolis, MN)"
+      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>70th ASMS Conference on Mass Spectrometry and Allied Topics</i> – Minneapolis, MN"
       year: Jun 06, 2022
       description:
-        - "Poster Presentation (MP 410)"
+        - "Poster Presentation – MP 410"
 
 - title: Extracurricular Activities
   type: time_table
