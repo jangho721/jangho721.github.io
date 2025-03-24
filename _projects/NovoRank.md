@@ -89,13 +89,19 @@ among the top two candidate peptides in a cluster.
 <br>
 
 <h2 style="font-weight: 400;">Results</h2>
-<br>
+<p>    
+</p>
 <div class="row justify-content-center text-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 1000px;">
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 800px;">
         {% include figure.liquid loading="eager" path="assets/img/performance.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption" style="text-align: left;">
+    Precision and recall of NovoRank across three de novo peptide sequencing tools and three data sets. Precision and recall are depicted in (A) and (B), respectively, according to various score thresholds.
+</div>
 <br>
+
 <ul>
     <li><u>Gradient Boosting-based models</u> are frequently used as baselines in various CTR prediction competitions and are known for their stable performance.</li>
     <li>With its fast training speed, it enables efficient experimentation in model development and allows for quicker retraining during periodic updates, thereby <u>saving overall time and resources</u>.</li>
