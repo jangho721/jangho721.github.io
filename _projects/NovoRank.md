@@ -111,9 +111,9 @@ among the top two candidate peptides in a cluster.
 </ul>
 <br>
 <p>
-    <em>De novo</em> sequencing tools
+    ※ <em>De novo</em> sequencing tools
 </p>
-<p style="font-size: 10px;">
+<p style="font-size: 12px;">
     1. <strong style="font-weight: 400;">PEAKS</strong>: Algorithm-based commercial tool<br>
     2. <strong style="font-weight: 400;">pNovo3</strong>: Tool combining algorithm and machine learning<br>
     3. <strong style="font-weight: 400;">Casanovo</strong>: Deep learning-based tool using transformer (SOTA)
