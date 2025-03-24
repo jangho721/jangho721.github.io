@@ -7,7 +7,7 @@ importance: 1
 category: professional
 related_publications: false
 ---
-<!--
+
 <div class="row align-items-center">
   <div class="col-md-6">
     <h3 class="mb-4">Task</h3>
@@ -61,4 +61,4 @@ related_publications: false
     </p>
   </div>
 </div>
--->
+
