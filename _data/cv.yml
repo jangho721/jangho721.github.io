@@ -29,7 +29,7 @@
   type: time_table
   contents:
     - title: "NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and Deep Learning"
-      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>Journal of Proteome Research (JPR)</i>"
+      institution: "<u>Jangho Seo</u>, Seunghyuk Choi, and Eunok Paek <br> <i>J. Proteome Res. 2025, 24, 2, 903–910</i>"
       year: Feb 07, 2025
       description:
         - "Technical Note"
