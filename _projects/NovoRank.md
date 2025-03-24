@@ -109,12 +109,13 @@ among the top two candidate peptides in a cluster.
     <li>Casanovo, pNovo3, and PEAKS achieved an increase of 0.37%−0.61%, 7.52%−18.80%, and 3.06%−4.24% in correct peptide identifications, respectively. Although some peptides were missed, the number of newly identified peptides was greater.
     </li>
 </ul>
+<br>
 <p>
     ※ <em>De novo</em> sequencing tools
 </p>
-<p style="font-size: 13px; margin-left: 20px;">1. <strong style="font-weight: 400;">PEAKS</strong>: Algorithm-based commercial tool</p>
-<p style="font-size: 13px; margin-left: 20px;">2. <strong style="font-weight: 400;">pNovo3</strong>: Tool combining algorithm and machine learning</p>
-<p style="font-size: 13px;margin-left: 20px;">3. <strong style="font-weight: 400;">Casanovo</strong>: Deep learning-based tool using transformer (SOTA)</p>
+<p style="font-size: 13px; margin-left: 20px; margin-bottom: 5px;">1. <strong style="font-weight: 400;">PEAKS</strong>: Algorithm-based commercial tool</p>
+<p style="font-size: 13px; margin-left: 20px; margin-bottom: 5px;">2. <strong style="font-weight: 400;">pNovo3</strong>: Tool combining algorithm and machine learning</p>
+<p style="font-size: 13px; margin-left: 20px; margin-bottom: 5px;">3. <strong style="font-weight: 400;">Casanovo</strong>: Deep learning-based tool using transformer (SOTA)</p>
 <br>
 <br>
 
