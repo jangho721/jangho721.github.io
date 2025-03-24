@@ -84,7 +84,7 @@ among the top two candidate peptides in a cluster.
     <br>
     <li><strong style="font-weight: 400;">Applied Deep Learning Model</strong>: Developed a multi-modal deep learning model that simultaneously takes spectrum, sequence, and tabular data as inputs to assign the best peptide. By selecting the most desirable peptide from the top two candidates, the model improved identification accuracy.</li>
     <br>
-    <li><strong style="font-weight: 400;">Applicable to Existing <em>De Novo</em> Sequencing Software</strong>: Applied to various <em>de novo</em> peptide sequencing tools, improving peptide identification performance by enhancing the precision and recall.</li>
+    <li><strong style="font-weight: 400;">Applicable to Existing <em>De Novo</em> Sequencing Tools</strong>: Applied to various <em>de novo</em> peptide sequencing tools, improving peptide identification performance by enhancing the precision and recall.</li>
 </ol>
 <br>
 <br>
@@ -109,6 +109,13 @@ among the top two candidate peptides in a cluster.
     <li>Casanovo, pNovo3, and PEAKS achieved an increase of 0.37%−0.61%, 7.52%−18.80%, and 3.06%−4.24% in correct peptide identifications, respectively. Although some peptides were missed, the number of newly identified peptides was greater.
     </li>
 </ul>
+<br>
+
+<p style="font-size: 10px;">
+    1. <strong style="font-weight: 400;">PEAKS</strong>: Algorithm-based commercial tool<br>
+    2. <strong style="font-weight: 400;">pNovo3</strong>: Tool combining algorithm and machine learning<br>
+    3. <strong style="font-weight: 400;">Casanovo</strong>: Deep learning-based tool using transformer (SOTA)
+</p>
 <br>
 <br>
 
