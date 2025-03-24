@@ -83,8 +83,7 @@ among the top two candidate peptides in a cluster.
     <br>
     <li><strong style="font-weight: 400;">Applied Deep Learning Model</strong>: Developed a multi-modal deep learning model that simultaneously takes spectrum, sequence, and tabular data as inputs to assign the best peptide. By selecting the most desirable peptide from the top two candidates, the model improved identification accuracy.</li>
     <br>
-    <li><strong style="font-weight: 400;">Integrable with Existing <em>De Novo</em> Sequencing Software</strong>: Utilized a two-step clustering method to improve peptide sequence ranking by first grouping candidate sequences into clusters based on their similarities and then re-ranking the top candidates within each cluster for better accuracy.
-    </li>
+    <li><strong style="font-weight: 400;">Applicable to Existing <em>De Novo</em> Sequencing Software</strong>: Applied to various <em>de novo</em> peptide sequencing tools, improving peptide identification performance by enhancing the precision and recall.</li>
 </ol>
 <br>
 <br>
