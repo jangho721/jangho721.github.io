@@ -76,6 +76,7 @@ among the top two candidate peptides in a cluster.
 
 <h2 style="font-weight: 400;">Contribution</h2>
 <br>
+
 <ol>
     <li><strong style="font-weight: 400;">Introduced Two-Step Clustering Method</strong>: To effectively classify similar spectra, Spectral Clustering was applied for initial grouping, followed by DBSCAN to perform fine-grained clustering within the first-stage clusters, ensuring that similar spectra are more precisely grouped together.</li>
     <br>
@@ -89,8 +90,7 @@ among the top two candidate peptides in a cluster.
 <br>
 
 <h2 style="font-weight: 400;">Results</h2>
-<p>    
-</p>
+
 <div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0" style="max-width: 800px;">
         {% include figure.liquid loading="eager" path="assets/img/performance.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -103,8 +103,11 @@ among the top two candidate peptides in a cluster.
 <br>
 
 <ul>
-    <li><u>Gradient Boosting-based models</u> are frequently used as baselines in various CTR prediction competitions and are known for their stable performance.</li>
-    <li>With its fast training speed, it enables efficient experimentation in model development and allows for quicker retraining during periodic updates, thereby <u>saving overall time and resources</u>.</li>
+    <li>Precision and recall increased by an average of 4.6% and 4.5%, with improvements of 3.8% and 3.6% specifically in Casanovo, a state-of-the-art (SOTA) model.
+    </li>
+    <br>
+    <li>Casanovo, pNovo3, and PEAKS achieved an increase of 0.37%−0.61%, 7.52%−18.80%, and 3.06%−4.24% in correct peptide identifications, respectively. Although some peptides were missed, the number of newly identified peptides was greater.
+    </li>
 </ul>
 <br>
 <br>
