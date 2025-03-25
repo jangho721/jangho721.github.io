@@ -115,7 +115,7 @@ ninja.data = [{
               window.location.href = "/projects/ctrPrediction/";
             },},{id: "projects-education",
           title: 'Education',
-          description: "Edutech",
+          description: "TmaxEduAI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eduTech/";
             },},{id: "projects-the-box",
