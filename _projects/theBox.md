@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Box
-description: Private project
+description: SNS
 img: assets/img/sns.jpg
 importance: 1
 category: personal
