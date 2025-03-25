@@ -105,7 +105,7 @@ ninja.data = [{
               window.location.href = "/projects/NovoRank/";
             },},{id: "projects-construction-management",
           title: 'Construction Management',
-          description: "Undergraduate",
+          description: "Inha Univ.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cm/";
             },},{id: "projects-click-through-rate",
