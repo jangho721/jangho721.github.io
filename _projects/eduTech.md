@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Education
-description: Edutech
+description: TmaxEduAI
 img: assets/img/math.jpg
 importance: 1
 category: professional
 related_publications: false
 ---
+
+Edutech
