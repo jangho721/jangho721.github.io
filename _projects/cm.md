@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Construction Management
-description: Undergraduate
+description: Inha Univ.
 img: assets/img/9.jpg
 importance: 3
 category: professional
