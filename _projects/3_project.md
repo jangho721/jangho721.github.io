@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JourneyMate
-description: Place recommendation project (Ongoing)
+description: Recommender system
 img: assets/img/1.jpg
 importance: 3
 category: personal
