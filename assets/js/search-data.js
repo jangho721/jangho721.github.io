@@ -105,7 +105,7 @@ ninja.data = [{
               window.location.href = "/projects/NovoRank/";
             },},{id: "projects-construction-management",
           title: 'Construction Management',
-          description: "Computer vision",
+          description: "Undergraduate",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cm/";
             },},{id: "projects-click-through-rate",
@@ -120,7 +120,7 @@ ninja.data = [{
               window.location.href = "/projects/eduTech/";
             },},{id: "projects-the-box",
           title: 'The Box',
-          description: "Private project",
+          description: "SNS",
           section: "Projects",handler: () => {
               window.location.href = "/projects/theBox/";
             },},{
