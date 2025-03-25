@@ -26,20 +26,8 @@ related_publications: false
 
 <h2 style="font-weight: 400;">Edutech</h2>
 <p>
-    <a href="https://github.com/jangho721/NovoRank">NovoRank</a> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
+    As a lead in <em>Knowledge Tracing and Recommendation</em> part, I led the development of AI solutions for personalized learning.
 </p>
-
-<div class="row justify-content-center text-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 700px;">
-        {% include figure.liquid loading="eager" path="assets/img/workflow.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption" style="text-align: left;">
-    Workflow of NovoRank. (A) Analysis flow of NovoRank. (B) Two-step clustering method. Colors represent a cluster in each step. (C)
-Example cluster-score (C-score) calculation in a cluster of two MS/MS spectra. (D) Deep learning model to predict a more desirable peptide
-among the top two candidate peptides in a cluster.
-</div>
 <br>
 
 <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
@@ -50,7 +38,7 @@ among the top two candidate peptides in a cluster.
         <u><em>De novo</em> sequencing</u> is a crucial technique in proteomics that identifies peptide sequences directly from experimental data, without relying on existing protein databases. This method plays a key role in  identifying novel peptides, such as neoantigen discovery. However, conventional <em>de novo</em> sequencing tools consider only individual spectrum and rely solely on imperfect scoring functions, often leading to erroneous peptide identifications. <strong style="font-weight: 400;">NovoRank</strong> improves the reliability and accuracy of <em>de novo</em> sequencing by re-ranking candidate sequences using the comprehensive analysis of similar spectra under the assumption that they originated from the same peptide species.
     </p>
     <br>
-    <h3 style="font-weight: 400; font-size: 1rem;">Keywords</h3>
+    <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
     <ul>
         <li>Clustering</li>
         <li>Deep Learning</li>
