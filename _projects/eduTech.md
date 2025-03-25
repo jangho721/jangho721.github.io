@@ -33,11 +33,6 @@ related_publications: false
 <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
 <div class="summary-container">
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
-    <h3 style="font-weight: 400; font-size: 1rem;">Overview</h3>
-    <p>
-        <u><em>De novo</em> sequencing</u> is a crucial technique in proteomics that identifies peptide sequences directly from experimental data, without relying on existing protein databases. This method plays a key role in  identifying novel peptides, such as neoantigen discovery. However, conventional <em>de novo</em> sequencing tools consider only individual spectrum and rely solely on imperfect scoring functions, often leading to erroneous peptide identifications. <strong style="font-weight: 400;">NovoRank</strong> improves the reliability and accuracy of <em>de novo</em> sequencing by re-ranking candidate sequences using the comprehensive analysis of similar spectra under the assumption that they originated from the same peptide species.
-    </p>
-    <br>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
     <ul>
         <li>Clustering</li>
