@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Proteomics
-description: Bioinformatics
+description: Hanyang Univ.
 img: assets/img/6.jpg
 importance: 2
 category: professional
