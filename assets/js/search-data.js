@@ -100,7 +100,7 @@ ninja.data = [{
               window.location.href = "/projects/7_project/";
             },},{id: "projects-proteomics",
           title: 'Proteomics',
-          description: "Bioinformatics",
+          description: "Hanyang Univ.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NovoRank/";
             },},{id: "projects-construction-management",
