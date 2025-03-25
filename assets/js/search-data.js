@@ -75,7 +75,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-journeymate",
           title: 'JourneyMate',
-          description: "Place recommendation project (Ongoing)",
+          description: "Recommender system",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
