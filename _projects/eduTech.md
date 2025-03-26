@@ -37,12 +37,10 @@ related_publications: false
     <p>
         As a lead in <em>Knowledge Tracing and Recommendation</em> part, I led AI-based EdTech projects.
     </p>
-    <br>
     <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
     <ul>
         <li>Clustering</li>
     </ul>
-    <br>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
     <ul>
         <li>Clustering</li>
