@@ -27,7 +27,7 @@ related_publications: false
 
 <h2 style="font-weight: 400;">About</h2>
 <p>
-<em>CTR (Click-Through Rate)</em> is a marketing metric that measures the percentage of clicks relative to total impressions, indicating the effectiveness of marketing efforts.
+<strong style="font-weight: 400;">CTR (Click-Through Rate)</strong> is a marketing metric that measures the percentage of clicks relative to total impressions, indicating the effectiveness of marketing efforts.
 </p>
 
 <div class="row">
