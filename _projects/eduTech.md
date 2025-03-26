@@ -60,12 +60,12 @@ related_publications: false
     <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features to address the cold-start problem in AI digital textbooks.</li>
 </ul>
 <br>
-<h4 style="margin-left: 20px; font-size: 1.5rem;">2. Contributions</h4>
+<h5 style="margin-left: 20px; font-size: 1.5rem;">2. Contributions</h5>
 <p style="margin-left: 20px;">
     abcdefg
 </p>
 <br>
-<h4 style="margin-left: 20px; font-size: 1.5rem;">3. Achievements</h4>
+<h5 style="margin-left: 20px; font-size: 1.5rem;">3. Achievements</h5>
 <p style="margin-left: 20px;">
     abcdefg
 </p>
