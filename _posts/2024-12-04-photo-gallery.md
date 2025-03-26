@@ -23,7 +23,7 @@ The images in this post are all zoomable, arranged into different mini-galleries
 
 ---
 
-## [PhotoSwipe](https://photoswipe.com/)
+## PhotoSwipe
 
 <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started">
   <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
