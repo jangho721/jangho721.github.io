@@ -43,11 +43,11 @@ related_publications: false
         <li>Frameworks & Tools:&nbsp;&nbsp;PyTorch, Airflow</li>
     </ul>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
-    <ol>
+    <ul>
         <li>AI Digital Textbook</li>
         <li>Samsung Multicampus</li>
         <li>WAPL Math</li>
-    </ol>
+    </ul>
 </div>
 <br>
 <br>
@@ -57,17 +57,17 @@ related_publications: false
 <h5 style="margin-left: 20px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
     <li style="margin-bottom: 10px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
-    <li><strong style="font-weight: 400;">Description</strong>: </li>
+    <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features to address the cold-start problem in AI digital textbooks.</li>
 </ul>
 <br>
-<h4 style="font-weight: 300; margin-left: 20px; font-size: 1.5rem;">AAA</h4>
-<p>
-    <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
+<h4 style="margin-left: 20px; font-size: 1.5rem;">2. Contributions</h4>
+<p style="margin-left: 20px;">
+    abcdefg
 </p>
 <br>
-<h4 style="font-weight: 400; margin-left: 20px; font-size: 1.5rem;">BBB</h4>
-<p>
-    <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
+<h4 style="margin-left: 20px; font-size: 1.5rem;">3. Achievements</h4>
+<p style="margin-left: 20px;">
+    abcdefg
 </p>
 <br>
 <br>
