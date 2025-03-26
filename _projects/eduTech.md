@@ -54,7 +54,7 @@ related_publications: false
 
 <h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
-<h4 style="margin-left: 20px; font-size: 1.5rem;">Project Overview</h4>
+<h5 style="margin-left: 20px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
     <li>Objective: Python, SQL, Java</li>
     <li>Description: PyTorch, Airflow</li>
