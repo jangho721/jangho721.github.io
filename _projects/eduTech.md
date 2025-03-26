@@ -39,21 +39,31 @@ related_publications: false
     </p>
     <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
     <ul>
-        <li>Programming Languages: Python, SQL, Java</li>
-        <li>Frameworks & Tools: PyTorch, Airflow</li>
+        <li>Programming Languages:  Python,  SQL,  Java</li>
+        <li>Frameworks & Tools:  PyTorch,  Airflow</li>
     </ul>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
-    <ul>
+    <ol>
         <li>AI Digital Textbook</li>
         <li>Samsung Multicampus</li>
         <li>WAPL Math</li>
-    </ul>
+    </ol>
 </div>
 <br>
 <br>
 <br>
 
-<h2 style="font-weight: 400;">AI Digital Textbook</h2>
+<h2 style="font-weight: 400;">AI Digital Textbook (Math)</h2>
+<h3 style="font-weight: 400;">Project Overview</h3>
+<ul>
+    <li>Objective:  Python,  SQL,  Java</li>
+    <li>Description:  PyTorch,  Airflow</li>
+</ul>
+<h3 style="font-weight: 400;">AAA</h3>
+<p>
+    <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
+</p>
+<h3 style="font-weight: 400;">BBB</h3>
 <p>
     <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
 </p>
