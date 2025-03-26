@@ -40,6 +40,7 @@ related_publications: false
     <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
     <ul>
         <li>Programming Languages:  Python,  SQL,  Java</li>
+        <p> </p>
         <li>Frameworks & Tools:  PyTorch,  Airflow</li>
     </ul>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
