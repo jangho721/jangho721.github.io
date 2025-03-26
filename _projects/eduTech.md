@@ -55,9 +55,9 @@ related_publications: false
 <h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
 <h5 style="margin-left: 20px;">1. Project Overview</h5>
-<ul style="margin-left: 20px;">
-    <li>Objective: Python, SQL, Java</li>
-    <li>Description: PyTorch, Airflow</li>
+<ul>
+    <li style="margin-bottom: 10px;">Objective: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
+    <li>Description: </li>
 </ul>
 <br>
 <h4 style="font-weight: 300; margin-left: 20px; font-size: 1.5rem;">AAA</h4>
