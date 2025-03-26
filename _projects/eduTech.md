@@ -39,8 +39,8 @@ related_publications: false
     </p>
     <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
     <ul>
-        <li>Programming Languages: Python, SQL, Java</li>
-        <li>Frameworks & Tools: PyTorch, Airflow</li>
+        <li>Programming Languages:&nbsp;&nbsp;Python, SQL, Java</li>
+        <li>Frameworks & Tools:&nbsp;&nbsp;PyTorch, Airflow</li>
     </ul>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
     <ol>
@@ -54,13 +54,13 @@ related_publications: false
 
 <h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
-<h4 style="font-weight: 400; margin-left: 20px; font-size: 1.5rem;">Project Overview</h4>
+<h4 style="margin-left: 20px; font-size: 1.5rem;">Project Overview</h4>
 <ul style="margin-left: 20px;">
     <li>Objective: Python, SQL, Java</li>
     <li>Description: PyTorch, Airflow</li>
 </ul>
 <br>
-<h4 style="font-weight: 400; margin-left: 20px; font-size: 1.5rem;">AAA</h4>
+<h4 style="font-weight: 300; margin-left: 20px; font-size: 1.5rem;">AAA</h4>
 <p>
     <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
 </p>
