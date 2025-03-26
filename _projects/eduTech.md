@@ -53,7 +53,7 @@ related_publications: false
 <br>
 <br>
 
-<h2 style="font-weight: 400;">AI Digital Textbook</h2>
+<h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
 <h4 style="font-weight: 400; margin-left: 20px;">Project Overview</h4>
 <ul style="margin-left: 20px;">
@@ -71,7 +71,7 @@ related_publications: false
 <br>
 <br>
 
-<h2 style="font-weight: 400;">Samsung Multicampus</h2>
+<h3 style="font-weight: 400;">Samsung Multicampus</h3>
 <br>
 
 <ol>
@@ -80,7 +80,7 @@ related_publications: false
 <br>
 <br>
 
-<h2 style="font-weight: 400;">WAPL Math</h2>
+<h3 style="font-weight: 400;">WAPL Math</h3>
 <p> </p>
 <div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0" style="max-width: 800px;">
