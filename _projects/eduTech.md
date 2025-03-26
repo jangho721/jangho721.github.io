@@ -39,13 +39,14 @@ related_publications: false
     </p>
     <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
     <ul>
-        <li>Clustering</li>
+        <li>Programming Languages: Python, SQL, Java</li>
+        <li>Frameworks & Tools: PyTorch, Airflow</li>
     </ul>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
     <ul>
-        <li>Clustering</li>
-        <li>Deep Learning</li>
-        <li>Data Analytics</li>
+        <li>AI Digital Textbook</li>
+        <li>Samsung Multicampus</li>
+        <li>WAPL Math</li>
     </ul>
 </div>
 <br>
