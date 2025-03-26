@@ -54,18 +54,18 @@ related_publications: false
 
 <h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
-<h5 style="margin-left: 20px;">1. Project Overview</h5>
+<h5 style="margin-left: 20px; margin-bottom: 10px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
     <li style="margin-bottom: 10px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
     <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features to address the cold-start problem in AI digital textbooks.</li>
 </ul>
 <br>
-<h5 style="margin-left: 20px; font-size: 1.5rem;">2. Contributions</h5>
+<h5 style="margin-left: 20px; margin-bottom: 10px;">2. Contributions</h5>
 <p style="margin-left: 20px;">
     abcdefg
 </p>
 <br>
-<h5 style="margin-left: 20px; font-size: 1.5rem;">3. Achievements</h5>
+<h5 style="margin-left: 20px; margin-bottom: 10px;">3. Achievements</h5>
 <p style="margin-left: 20px;">
     abcdefg
 </p>
