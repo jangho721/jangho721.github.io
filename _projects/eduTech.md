@@ -56,8 +56,8 @@ related_publications: false
 <p> </p>
 <h5 style="margin-left: 20px;">1. Project Overview</h5>
 <ul>
-    <li style="margin-bottom: 10px;">Objective: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
-    <li>Description: </li>
+    <li style="margin-bottom: 10px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
+    <li><strong style="font-weight: 400;">Description</strong>: </li>
 </ul>
 <br>
 <h4 style="font-weight: 300; margin-left: 20px; font-size: 1.5rem;">AAA</h4>
