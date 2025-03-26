@@ -51,7 +51,7 @@ related_publications: false
 </div>
 <br>
 <br>
-<br>
+
 <h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
 <h4 style="font-weight: 400; margin-left: 20px;">Project Overview</h4>
