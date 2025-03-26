@@ -26,13 +26,23 @@ related_publications: false
 
 <h2 style="font-weight: 400;">Edutech</h2>
 <p>
-    As a lead in <em>Knowledge Tracing and Recommendation</em> part, I led the development of AI solutions for personalized learning.
+    Developed AI-based solutions for personalized learning, focusing on <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong>.
 </p>
 <br>
 
 <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
 <div class="summary-container">
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
+    <h3 style="font-weight: 400; font-size: 1rem;">Role</h3>
+    <p>
+        As a lead in <em>Knowledge Tracing and Recommendation</em> part, I led AI-based EdTech projects.
+    </p>
+    <br>
+    <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
+    <ul>
+        <li>Clustering</li>
+    </ul>
+    <br>
     <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
     <ul>
         <li>Clustering</li>
