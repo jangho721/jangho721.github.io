@@ -52,7 +52,6 @@ related_publications: false
 <br>
 <br>
 <br>
-
 <h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
 <h4 style="font-weight: 400; margin-left: 20px;">Project Overview</h4>
@@ -60,10 +59,12 @@ related_publications: false
     <li>Objective:  Python,  SQL,  Java</li>
     <li>Description:  PyTorch,  Airflow</li>
 </ul>
+<br>
 <h4 style="font-weight: 400; margin-left: 20px;">AAA</h4>
 <p>
     <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
 </p>
+<br>
 <h4 style="font-weight: 400; margin-left: 20px;">BBB</h4>
 <p>
     <a href="https://zenodo.org/records/14046459">Experimental Data Sets</a>
