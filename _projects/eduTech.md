@@ -55,7 +55,7 @@ related_publications: false
 <h3 style="font-weight: 400;">AI Digital Textbook</h3>
 <p> </p>
 <h5 style="margin-left: 20px;">1. Project Overview</h5>
-<ul>
+<ul style="margin-left: 20px;">
     <li style="margin-bottom: 10px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
     <li><strong style="font-weight: 400;">Description</strong>: </li>
 </ul>
