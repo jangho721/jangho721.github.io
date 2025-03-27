@@ -65,13 +65,13 @@ related_publications: false
     <li style="margin-bottom: 15px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
     <li style="margin-bottom: 15px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
     <li style="margin-bottom: 15px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
-    <li style="margin-bottom: 15px;">Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
+    <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ol>
 <br>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Achievements</h5>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
-    <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features to address the cold-start problem in AI digital textbooks.</li>
+    <li style="margin-bottom: 15px;">Delivered mastery-based personalized problem recommendations.</li>
+    <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
 </ul>
 <br>
 <br>
