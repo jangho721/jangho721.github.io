@@ -26,7 +26,7 @@ related_publications: false
 
 <h2 style="font-weight: 400;">Edutech</h2>
 <p>
-    Developed AI-based solutions for personalized learning, focusing on <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong>.
+    Developed AI-based solutions for personalized learning, focusing on <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong>. 개인 맞춤형 학습 기회를 제공하고 궁극적으로 교육의 질을 향상시키는 것을 목표로 했습
 </p>
 <br>
 
@@ -55,8 +55,7 @@ related_publications: false
 <h3 style="font-weight: 400; margin-bottom: 30px;">AI Digital Textbook</h3>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
-    <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features to address the cold-start problem in AI digital textbooks.</li>
+    <li><strong style="font-weight: 400;">Description</strong>: Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.</li>
 </ul>
 <br>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
