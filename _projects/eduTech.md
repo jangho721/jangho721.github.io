@@ -57,7 +57,8 @@ related_publications: false
 <ul style="margin-left: 20px;">
     <li><strong style="font-weight: 400;">Description</strong>: Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.</li>
 </ul>
-<br>
+<p style="margin-bottom: 20px;"> </p>
+
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
     <li style="margin-bottom: 15px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
@@ -65,7 +66,8 @@ related_publications: false
     <li style="margin-bottom: 15px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ol>
-<br>
+<p style="margin-bottom: 20px;"> </p>
+
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Achievements</h5>
 <ul style="margin-left: 20px;">
     <li style="margin-bottom: 15px;">Delivered mastery-based personalized problem recommendations.</li>
@@ -77,8 +79,7 @@ related_publications: false
 <h3 style="font-weight: 400; margin-bottom: 30px;">Samsung Multicampus</h3>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
-    <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features to address the cold-start problem in AI digital textbooks.</li>
+    <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation system tailored to individual learner needs.</li>
 </ul>
 <br>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
