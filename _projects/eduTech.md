@@ -100,7 +100,7 @@ related_publications: false
 <br>
 <br>
 
-<h3 style="font-weight: 400;">WAPL Math</h3>
+<h3 style="font-weight: 400; margin-bottom: 30px;">WAPL Math</h3>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
     <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.</li>
