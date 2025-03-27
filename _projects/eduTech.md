@@ -87,7 +87,7 @@ related_publications: false
 <ol style="margin-left: 20px;">
     <li style="margin-bottom: 15px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
     <li style="margin-bottom: 15px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
-    <li style="margin-bottom: 15px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
+    <li style="margin-bottom: 15px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ol>
 <br>
