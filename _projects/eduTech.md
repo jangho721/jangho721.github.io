@@ -57,7 +57,7 @@ related_publications: false
 <ul style="margin-left: 20px;">
     <li><strong style="font-weight: 400;">Description</strong>: Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.</li>
 </ul>
-<p style="margin-bottom: 20px;"> </p>
+<br>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
@@ -66,7 +66,7 @@ related_publications: false
     <li style="margin-bottom: 15px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ol>
-<p style="margin-bottom: 20px;"> </p>
+<br>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Achievements</h5>
 <ul style="margin-left: 20px;">
@@ -82,14 +82,16 @@ related_publications: false
     <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation system tailored to individual learner needs.</li>
 </ul>
 <br>
+
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
-    <li style="margin-bottom: 15px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
+    <li style="margin-bottom: 15px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
+    <li style="margin-bottom: 15px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
     <li style="margin-bottom: 15px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ol>
 <br>
+
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Achievements</h5>
 <ul style="margin-left: 20px;">
     <li style="margin-bottom: 15px;">Delivered mastery-based personalized problem recommendations.</li>
