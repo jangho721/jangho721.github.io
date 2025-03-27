@@ -56,7 +56,7 @@ related_publications: false
 <h5 style="margin-left: 20px; margin-bottom: 20px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
     <li style="margin-bottom: 15px;"><strong style="font-weight: 400;">Objective</strong>: To develop a platform that helps with data-driven educational decision-making, providing personalized learning opportunities and ultimately improving the quality of education.</li>
-    <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features for mathematics to address the cold-start problem in AI digital textbooks.</li>
+    <li><strong style="font-weight: 400;">Description</strong>: Developed performance assessment and personalized content recommendation features to address the cold-start problem in AI digital textbooks.</li>
 </ul>
 <br>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
