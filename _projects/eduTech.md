@@ -79,7 +79,7 @@ related_publications: false
 <h3 style="font-weight: 400; margin-bottom: 30px;">Samsung Multicampus</h3>
 <h5 style="margin-left: 20px; margin-bottom: 20px;">1. Project Overview</h5>
 <ul style="margin-left: 20px;">
-    <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation system tailored to individual learner needs.</li>
+    <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.</li>
 </ul>
 <br>
 
@@ -88,14 +88,14 @@ related_publications: false
     <li style="margin-bottom: 15px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
     <li style="margin-bottom: 15px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
     <li style="margin-bottom: 15px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
-    <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
+    <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ol>
 <br>
 
-<h5 style="margin-left: 20px; margin-bottom: 20px;">3. Achievements</h5>
+<h5 style="margin-left: 20px; margin-bottom: 20px;">3. Outcomes</h5>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Delivered mastery-based personalized problem recommendations.</li>
-    <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
+    <li style="margin-bottom: 15px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
+    <li>Boosted content completion rate by 25%.</li>
 </ul>
 <br>
 <br>
