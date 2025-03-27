@@ -61,16 +61,16 @@ related_publications: false
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
-    <li style="margin-bottom: 15px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
-    <li style="margin-bottom: 15px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
+    <li style="margin-bottom: 10px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
+    <li style="margin-bottom: 10px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
+    <li style="margin-bottom: 10px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ol>
 <br>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Achievements</h5>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Delivered mastery-based personalized problem recommendations.</li>
+    <li style="margin-bottom: 10px;">Delivered mastery-based personalized problem recommendations.</li>
     <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
 </ul>
 <br>
@@ -85,16 +85,16 @@ related_publications: false
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
-    <li style="margin-bottom: 15px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
-    <li style="margin-bottom: 15px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
+    <li style="margin-bottom: 10px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
+    <li style="margin-bottom: 10px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
+    <li style="margin-bottom: 10px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
     <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ol>
 <br>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Outcomes</h5>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
+    <li style="margin-bottom: 10px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
     <li>Boosted content completion rate by 25%.</li>
 </ul>
 <br>
@@ -105,20 +105,20 @@ related_publications: false
 <ul style="margin-left: 20px;">
     <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.</li>
 </ul>
-<br>
+<p style="margin-bottom: 30px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
-    <li style="margin-bottom: 15px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
-    <li style="margin-bottom: 15px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
+    <li style="margin-bottom: 10px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
+    <li style="margin-bottom: 10px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
+    <li style="margin-bottom: 10px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
     <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ol>
-<br>
+<p style="margin-bottom: 30px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Outcomes</h5>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 15px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
+    <li style="margin-bottom: 10px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
     <li>Boosted content completion rate by 25%.</li>
 </ul>
 <br>
