@@ -98,9 +98,9 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-proteomics",
-          title: 'Proteomics',
-          description: "Hanyang Univ.",
+            },},{id: "projects-hanyang-univ",
+          title: 'Hanyang Univ.',
+          description: "Bioinformatics, Proteomics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NovoRank/";
             },},{id: "projects-construction-management",
