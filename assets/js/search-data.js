@@ -118,9 +118,9 @@ ninja.data = [{
           description: "TmaxEduAI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eduTech/";
-            },},{id: "projects-the-box",
-          title: 'The Box',
-          description: "SNS",
+            },},{id: "projects-social-network-service",
+          title: 'Social Network Service',
+          description: "Back-end, MLOps",
           section: "Projects",handler: () => {
               window.location.href = "/projects/theBox/";
             },},{
