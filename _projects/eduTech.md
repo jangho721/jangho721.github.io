@@ -28,9 +28,6 @@ related_publications: false
 <p>
     Developed AI-based solutions for personalized learning, focusing on <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong>.
 </p>
-<p>
-    Worked as a part leader, developing solutions for student assessment and personalized educational content recommendation. Researched and developed deep learning models for AI education app, focusing on sequential interaction data. Built ML pipelines for periodic training and batch inference using Airflow and MLflow. Designed and developed a cold-start recommendation system for digital textbooks.
-</p>
 <br>
 
 <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
@@ -38,18 +35,18 @@ related_publications: false
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
     <h3 style="font-weight: 400; font-size: 1rem;">Role</h3>
     <p>
-        As a lead in <em>Knowledge Tracing and Recommendation</em> part, I led AI-based EdTech projects.
+        Lead in <em>Knowledge Tracing and Recommendation</em>.
     </p>
+    <h3 style="font-weight: 400; font-size: 1rem;">Experience</h3>
+    <ul>
+        <li>Developed deep learning models for AI-based education solutions by leveraging sequential interaction data.</li>
+        <li>Built automated ML pipelines for periodic training and batch inference.</li>
+        <li>Addressed the cold-start problem in knowledge tracing and recommendation systems.</li>
+    </ul>
     <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
     <ul>
         <li>Programming Languages:&nbsp;&nbsp;Python, SQL, Java</li>
         <li>Frameworks & Tools:&nbsp;&nbsp;PyTorch, Airflow</li>
-    </ul>
-    <h3 style="font-weight: 400; font-size: 1rem;">Projects</h3>
-    <ul>
-        <li>AI Digital Textbook</li>
-        <li>Samsung Multicampus</li>
-        <li>WAPL Math</li>
     </ul>
 </div>
 <br>
