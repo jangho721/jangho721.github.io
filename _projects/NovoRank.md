@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hanyang Univ.
+title: Hanyang University
 description: Bioinformatics, Proteomics
 img: assets/img/6.jpg
 importance: 2
