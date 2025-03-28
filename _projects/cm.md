@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inha Univ.
-description: Computer vision
+description: Computer Vision
 img: assets/img/9.jpg
 importance: 3
 category: professional
