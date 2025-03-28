@@ -54,11 +54,21 @@ related_publications: false
 <br>
 
 <h3 style="font-weight: 400; margin-bottom: 30px;">Projects</h3>
-<h5 style="margin-left: 20px; margin-bottom: 20px;">AI Digital Textbook</h5>
-<ul style="margin-left: 20px;">
-    <li><strong style="font-weight: 400;">Description</strong>: Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.</li>
-</ul>
+<h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">AI Digital Textbook</h5>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Description</strong>
+</p>
+<p>
+    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+</p>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">What Did I Do</strong>
+</p>
 <p style="margin-bottom: 50px;"> </p>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Description</strong>
+</p>
+<br>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">Samsung Multicampus</h5>
 <ol style="margin-left: 20px;">
