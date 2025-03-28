@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The Box
-description: SNS
+title: Social Network Service
+description: Back-end, MLOps
 img: assets/img/sns.jpg
 importance: 1
 category: personal
