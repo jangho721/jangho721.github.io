@@ -103,8 +103,8 @@ ninja.data = [{
           description: "Bioinformatics, Proteomics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NovoRank/";
-            },},{id: "projects-inha-univ",
-          title: 'Inha Univ.',
+            },},{id: "projects-inha-university",
+          title: 'Inha University',
           description: "Computer Vision",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cm/";
