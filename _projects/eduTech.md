@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Education
-description: TmaxEduAI
+title: TmaxEduAI
+description: Knowledge Tracing, Recommendation Systems
 img: assets/img/math.jpg
 importance: 1
 category: professional
