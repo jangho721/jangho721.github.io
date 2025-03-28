@@ -109,7 +109,7 @@ related_publications: false
 <p style="margin-bottom: 50px;"> </p>
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Development of Project-Based Peer Learning Service for Workforce Reskilling</h5>
-<ol style="margin-left: 20px;">
+<ul style="margin-left: 20px;">
     <li style="margin-bottom: 10px;">Wrote and presented the AI technology section of the project proposal.</li>
     <li>Helped secure a 3 billion KRW project contract.</li>
-</ol>
+</ul>
