@@ -103,9 +103,9 @@ ninja.data = [{
           description: "Bioinformatics, Proteomics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NovoRank/";
-            },},{id: "projects-construction-management",
-          title: 'Construction Management',
-          description: "Inha Univ.",
+            },},{id: "projects-inha-univ",
+          title: 'Inha Univ.',
+          description: "Computer vision",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cm/";
             },},{id: "projects-click-through-rate",
