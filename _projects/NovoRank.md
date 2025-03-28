@@ -59,7 +59,6 @@ among the top two candidate peptides in a cluster.
 </div>
 <br>
 <br>
-<br>
 
 <h2 style="font-weight: 400;">Dataset</h2>
 <p>
