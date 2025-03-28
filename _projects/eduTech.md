@@ -110,8 +110,6 @@ related_publications: false
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Development of Project-Based Peer Learning Service for Workforce Reskilling</h5>
 <ol style="margin-left: 20px;">
-    <li style="margin-bottom: 10px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
-    <li style="margin-bottom: 10px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
-    <li style="margin-bottom: 10px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
-    <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
+    <li style="margin-bottom: 10px;">Wrote and presented the AI technology section of the project proposal.</li>
+    <li>Helped secure a 3 billion KRW project contract.</li>
 </ol>
