@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Construction Management
-description: Inha Univ.
+title: Inha Univ.
+description: Computer vision
 img: assets/img/9.jpg
 importance: 3
 category: professional
