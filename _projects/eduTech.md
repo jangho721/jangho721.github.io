@@ -28,6 +28,9 @@ related_publications: false
 <p>
     Developed AI-based solutions for personalized learning, focusing on <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong>.
 </p>
+<p>
+    Worked as a part leader, developing solutions for student assessment and personalized educational content recommendation. Researched and developed deep learning models for AI education app, focusing on sequential interaction data. Built ML pipelines for periodic training and batch inference using Airflow and MLflow. Designed and developed a cold-start recommendation system for digital textbooks.
+</p>
 <br>
 
 <!-- Summary 부분을 summary-container 클래스로 감쌈 -->
