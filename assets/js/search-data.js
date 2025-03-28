@@ -113,9 +113,9 @@ ninja.data = [{
           description: "Machine learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ctrPrediction/";
-            },},{id: "projects-education",
-          title: 'Education',
-          description: "TmaxEduAI",
+            },},{id: "projects-tmaxeduai",
+          title: 'TmaxEduAI',
+          description: "Knowledge Tracing, Recommendation Systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eduTech/";
             },},{id: "projects-social-network-service",
