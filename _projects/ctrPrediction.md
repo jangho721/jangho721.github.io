@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Click-through rate
-description: Machine learning
+description: Machine Learning
 img: assets/img/ctr.jpg
 importance: 2
 category: personal
