@@ -120,7 +120,7 @@ ninja.data = [{
               window.location.href = "/projects/eduTech/";
             },},{id: "projects-social-network-service",
           title: 'Social Network Service',
-          description: "Back-end, MLOps.",
+          description: "Back-end, MLOps",
           section: "Projects",handler: () => {
               window.location.href = "/projects/theBox/";
             },},{
