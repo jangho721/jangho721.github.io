@@ -98,13 +98,13 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-hanyang-university",
-          title: 'Hanyang University',
+            },},{id: "projects-hanyang-univ",
+          title: 'Hanyang Univ.',
           description: "Bioinformatics, Proteomics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NovoRank/";
-            },},{id: "projects-inha-university",
-          title: 'Inha University',
+            },},{id: "projects-inha-univ",
+          title: 'Inha Univ.',
           description: "Computer Vision",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cm/";
