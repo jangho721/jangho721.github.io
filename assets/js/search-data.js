@@ -105,12 +105,12 @@ ninja.data = [{
               window.location.href = "/projects/NovoRank/";
             },},{id: "projects-inha-univ",
           title: 'Inha Univ.',
-          description: "Computer Vision",
+          description: "Computer vision",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cm/";
             },},{id: "projects-click-through-rate",
           title: 'Click-through rate',
-          description: "Machine learning",
+          description: "Machine Learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ctrPrediction/";
             },},{id: "projects-tmaxeduai",
