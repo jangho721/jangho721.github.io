@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inha Univ.
+title: Inha University
 description: Computer Vision
 img: assets/img/9.jpg
 importance: 3
