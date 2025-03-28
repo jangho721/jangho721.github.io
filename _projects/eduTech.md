@@ -104,7 +104,9 @@ related_publications: false
 <h3 style="font-weight: 400; margin-bottom: 30px;">Selected Projects</h3>
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">WAPL Math</h5>
 <ul style="margin-left: 20px;">
-    <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.</li>
+    <li style="margin-bottom: 10px;">Conducted a PoC (Proof of Concept) for a deep learning-based knowledge tracing model using problem-solving data from 700 users.</li>
+    <li style="margin-bottom: 10px;">Achieved an AUC of 88% with the developed model.</li>
+    <li style="margin-bottom: 10px;">Performed an analysis of the model and identified areas for improving its explainability.</li>
 </ul>
 <p style="margin-bottom: 50px;"> </p>
 
