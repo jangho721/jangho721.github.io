@@ -57,7 +57,7 @@ related_publications: false
 <ul style="margin-left: 20px;">
     <li><strong style="font-weight: 400;">Description</strong>: Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.</li>
 </ul>
-<br>
+<p style="margin-bottom: 50px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
@@ -66,7 +66,7 @@ related_publications: false
     <li style="margin-bottom: 10px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ol>
-<br>
+<p style="margin-bottom: 50px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Achievements</h5>
 <ul style="margin-left: 20px;">
@@ -81,7 +81,7 @@ related_publications: false
 <ul style="margin-left: 20px;">
     <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.</li>
 </ul>
-<br>
+<p style="margin-bottom: 50px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
@@ -90,7 +90,7 @@ related_publications: false
     <li style="margin-bottom: 10px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
     <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ol>
-<br>
+<p style="margin-bottom: 50px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Outcomes</h5>
 <ul style="margin-left: 20px;">
@@ -105,7 +105,7 @@ related_publications: false
 <ul style="margin-left: 20px;">
     <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.</li>
 </ul>
-<p style="margin-bottom: 30px;"> </p>
+<p style="margin-bottom: 50px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
 <ol style="margin-left: 20px;">
@@ -114,7 +114,7 @@ related_publications: false
     <li style="margin-bottom: 10px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
     <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ol>
-<p style="margin-bottom: 30px;"> </p>
+<p style="margin-bottom: 50px;"> </p>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Outcomes</h5>
 <ul style="margin-left: 20px;">
