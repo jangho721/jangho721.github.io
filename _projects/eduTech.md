@@ -115,4 +115,3 @@ related_publications: false
     <li style="margin-bottom: 10px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
     <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ol>
-<p style="margin-bottom: 50px;"> </p>
