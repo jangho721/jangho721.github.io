@@ -58,14 +58,16 @@ related_publications: false
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400; margin-bottom: 5px;">Description</strong>
 </p>
-<p style="margin-left: 20px;">
+<p style="margin-left: 20px; margin-bottom: 30px;">
     Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
 </p>
-<p style="margin-left: 20px;">
+<p style="margin-left: 20px; margin-bottom: 5px;">
     <strong style="font-weight: 400;">What Did I Do</strong>
 </p>
-<p style="margin-bottom: 50px;"> </p>
-<p style="margin-left: 20px;">
+<p style="margin-left: 20px; margin-bottom: 30px;">
+    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+</p>
+<p style="margin-left: 20px; margin-bottom: 5px;">
     <strong style="font-weight: 400;">Description</strong>
 </p>
 <br>
