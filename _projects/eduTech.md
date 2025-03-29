@@ -73,16 +73,34 @@ related_publications: false
 <br>
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Samsung Multicampus</h5>
-<ol style="margin-left: 20px;">
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Description</strong>
+</p>
+<p style="margin-left: 20px; margin-bottom: 30px;">
+    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+</p>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Contributions</strong>
+</p>
+<ul style="margin-left: 10px;">
     <li style="margin-bottom: 10px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
     <li style="margin-bottom: 10px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
     <li style="margin-bottom: 10px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
-</ol>
-<p style="margin-bottom: 50px;"> </p>
+</ul>
+<br>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">WAPL Math</h5>
-<ul style="margin-left: 20px;">
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Description</strong>
+</p>
+<p style="margin-left: 20px; margin-bottom: 30px;">
+    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+</p>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Contributions</strong>
+</p>
+<ul style="margin-left: 10px;">
     <li style="margin-bottom: 10px;">Delivered mastery-based personalized problem recommendations.</li>
     <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
 </ul>
