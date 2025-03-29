@@ -88,13 +88,13 @@ related_publications: false
     <li style="margin-bottom: 5px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
     <li style="margin-bottom: 5px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
     <li style="margin-bottom: 5px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
-    <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
+    <li style="margin-bottom: 30px;">Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ul>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Outcomes</strong>
 </p>
 <ul style="margin-left: 10px;">
-    <li style="margin-bottom: 15px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
+    <li style="margin-bottom: 5px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
     <li>Boosted content completion rate by 25%.</li>
 </ul>
 <br>
@@ -112,23 +112,23 @@ related_publications: false
 <ul style="margin-left: 10px;">
     <li style="margin-bottom: 5px;">Conducted a PoC (Proof of Concept) for a deep learning-based knowledge tracing model using problem-solving data from 700 users.</li>
     <li style="margin-bottom: 5px;">Achieved an AUC of 88% with the developed model.</li>
-    <li style="margin-bottom: 5px;">Performed an analysis of the model and identified areas for improving its explainability.</li>
+    <li>Performed an analysis of the model and identified areas for improving its explainability.</li>
 </ul>
 <br>
-<br>
 
-<h3 style="font-weight: 400; margin-bottom: 30px;">Samsung Multicampus</h3>
-<h5 style="margin-left: 20px; margin-bottom: 20px;">3. Outcomes</h5>
-<ul style="margin-left: 20px;">
-    <li style="margin-bottom: 10px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
-    <li>Boosted content completion rate by 25%.</li>
-</ul>
-<br>
-<br>
-
-<h3 style="font-weight: 400; margin-bottom: 30px;">Selected Projects</h3>
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Development of Project-Based Peer Learning Service for Workforce Reskilling</h5>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Description</strong>
+</p>
+<p style="margin-left: 20px; margin-bottom: 30px;">
+    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+</p>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Contributions</strong>
+</p>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 10px;">Wrote and presented the AI technology section of the project proposal.</li>
+    <li style="margin-bottom: 5px;">Wrote and presented the AI technology section of the project proposal.</li>
     <li>Helped secure a 3 billion KRW project contract.</li>
 </ul>
+<br>
+<br>
