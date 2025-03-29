@@ -65,7 +65,7 @@ related_publications: false
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
 <ul style="margin-left: 10px;">
-    <li style="margin-bottom: 5px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
+    <li style="margin-bottom: 5px;">Analyzed customer requirements, set and managed sprint goals, and regularly shared progress updates to ensure alignment with project objectives and facilitate communication between stakeholders and the development team.</li>
     <li style="margin-bottom: 5px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
     <li style="margin-bottom: 5px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li style="margin-bottom: 5px;">Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
