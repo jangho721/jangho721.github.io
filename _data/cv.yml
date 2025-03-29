@@ -11,7 +11,7 @@
   contents:
     - title: Hanyang University
       institution: M.S. in Artificial Intelligence
-      year: "<div align='left' style='color: white;'>Sep 01, 2020 -<br><br>Aug 18, 2022</div>"
+      year: "<div align='left' style='color: white;'>Sep 01, 2020 -<br>Aug 18, 2022</div>"
       description:
         - title: 'Thesis: <a href="https://jangho721.github.io/assets/pdf/Thesis.pdf">NovoRank: Machine Learning Based Post-processing for Performance Improvement in De Novo Peptide Sequencing</a>'
           contents:
@@ -20,7 +20,7 @@
             - "Coursework: Data Mining, Machine Learning Theory, Advanced Machine Learning Theory, Deep Learning, Computational Proteomics, Computer Vision, Special Topics on Autonomous Driving Technology, Optimization Theory, Creative Individual Research 1 & 2"
     - title: Inha University
       institution: "B.S. in Civil Engineering <br> B.S. in Software Convergence Engineering – Interdisciplinary Major"
-      year: "<div align='left' style='color: white;'>Mar 03, 2014 -<br><br>Feb 21, 2020</div>"
+      year: "<div align='left' style='color: white;'>Mar 03, 2014 -<br>Feb 21, 2020</div>"
       description:
         - "Research Group: The Construction Systems Laboratory"
         - "Completed Samsung Convergence S/W Course program – <i>Samsung Electronics</i> <br> INHASCSC 2019-823"
@@ -49,12 +49,12 @@
   contents:
     - title: Bioinformatics and Intelligent Systems Lab
       institution: Graduate Research Assistant
-      year: "<div align='left' style='color: white;'>Aug 01, 2020 -<br><br>Dec 31, 2022</div>"
+      year: "<div align='left' style='color: white;'>Aug 01, 2020 -<br>Dec 31, 2022</div>"
       description:
         - "Designed and implemented postprocessing tools for reranking and rescoring using ML/DL models to improve the accuracy of peptide identifications in de novo peptide sequencing."
     - title: The Construction Systems Laboratory
       institution: Undergraduate Researcher
-      year: "<div align='left' style='color: white;'>Jul 01, 2019 -<br><br>Feb 29, 2020</div>"
+      year: "<div align='left' style='color: white;'>Jul 01, 2019 -<br>Feb 29, 2020</div>"
       description:
         - "Developed image classification and object detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction sites."
 
@@ -72,12 +72,12 @@
   contents:
     - title: Google for Developers Machine Learning Bootcamp
       institution: "Student, Google Developers Group"
-      year: "<div align='left' style='color: white;'>Sep 01, 2023 -<br><br>Nov 24, 2023</div>"
+      year: "<div align='left' style='color: white;'>Sep 01, 2023 -<br>Nov 24, 2023</div>"
       description:
         - "3-months training program supported by Google Korea 500 participants from > 2,300 applicants."
     - title: Military Service
       institution: "Auxiliary Police, Seoul Metropolitan Police Agency"
-      year: "<div align='left' style='color: white;'>Apr 14, 2016 -<br><br>Jan 13, 2018</div>"
+      year: "<div align='left' style='color: white;'>Apr 14, 2016 -<br>Jan 13, 2018</div>"
       description:
         - "Worked at the Government Complex Seoul."
 
