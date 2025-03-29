@@ -56,9 +56,9 @@ related_publications: false
 <h3 style="font-weight: 400; margin-bottom: 30px;">Projects</h3>
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">AI Digital Textbook</h5>
 <p style="margin-left: 20px;">
-    <strong style="font-weight: 400;">Description</strong>
+    <strong style="font-weight: 400; margin-bottom: 5px;">Description</strong>
 </p>
-<p>
+<p style="margin-left: 20px;">
     Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
 </p>
 <p style="margin-left: 20px;">
