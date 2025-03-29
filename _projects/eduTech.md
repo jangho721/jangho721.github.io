@@ -64,12 +64,12 @@ related_publications: false
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
-<ol style="margin-left: 40px;">
+<ul style="margin-left: 20px;">
     <li style="margin-bottom: 5px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
     <li style="margin-bottom: 5px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
     <li style="margin-bottom: 5px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
     <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
-</ol>
+</ul>
 <br>
 
 <h5 style="margin-left: 20px; margin-bottom: 20px;">Samsung Multicampus</h5>
