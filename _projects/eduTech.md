@@ -68,7 +68,9 @@ related_publications: false
     <li style="margin-bottom: 5px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
     <li style="margin-bottom: 5px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
     <li style="margin-bottom: 5px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
-    <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
+    <li style="margin-bottom: 5px;">Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
+    <li style="margin-bottom: 5px;">Delivered mastery-based personalized problem recommendations.</li>
+    <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
 </ul>
 <br>
 
@@ -88,6 +90,13 @@ related_publications: false
     <li style="margin-bottom: 5px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
     <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ul>
+<p style="margin-left: 20px;">
+    <strong style="font-weight: 400;">Outcomes</strong>
+</p>
+<ul style="margin-left: 10px;">
+    <li style="margin-bottom: 15px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
+    <li>Boosted content completion rate by 25%.</li>
+</ul>
 <br>
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">WAPL Math</h5>
@@ -104,8 +113,6 @@ related_publications: false
     <li style="margin-bottom: 5px;">Conducted a PoC (Proof of Concept) for a deep learning-based knowledge tracing model using problem-solving data from 700 users.</li>
     <li style="margin-bottom: 5px;">Achieved an AUC of 88% with the developed model.</li>
     <li style="margin-bottom: 5px;">Performed an analysis of the model and identified areas for improving its explainability.</li>
-    <li style="margin-bottom: 5px;">Delivered mastery-based personalized problem recommendations.</li>
-    <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
 </ul>
 <br>
 <br>
