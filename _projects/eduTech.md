@@ -59,7 +59,7 @@ related_publications: false
     <strong style="font-weight: 400;">Description</strong>
 </p>
 <p style="margin-left: 20px; margin-bottom: 30px;">
-    Designed knowledge tracing feature to calculate student mastery, a key element in data-driven educational decision-making, and developed personalized problem recommendation features based on mastery levels.
+    Developed features for the assessment and recommendation systems required for digital textbooks, including a knowledge tracing feature to calculate student mastery, a key element in data-driven educational decision-making, and personalized problem recommendation features based on mastery levels.
 </p>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
