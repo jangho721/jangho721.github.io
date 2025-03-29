@@ -77,20 +77,20 @@ related_publications: false
     <strong style="font-weight: 400;">Description</strong>
 </p>
 <p style="margin-left: 20px; margin-bottom: 30px;">
-    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+    Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.
 </p>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
 <ul style="margin-left: 10px;">
-    <li style="margin-bottom: 10px;">Collaborated with the customer to analyze requirements and led system design by deriving optimal knowledge tracing and recommendation strategies.</li>
-    <li style="margin-bottom: 10px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
-    <li style="margin-bottom: 10px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
-    <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
+    <li style="margin-bottom: 5px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
+    <li style="margin-bottom: 5px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
+    <li style="margin-bottom: 5px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
+    <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ul>
 <br>
 
-<h5 style="margin-left: 20px; margin-bottom: 20px;">WAPL Math</h5>
+<h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">WAPL Math</h5>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Description</strong>
 </p>
@@ -101,28 +101,16 @@ related_publications: false
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
 <ul style="margin-left: 10px;">
-    <li style="margin-bottom: 10px;">Delivered mastery-based personalized problem recommendations.</li>
+    <li style="margin-bottom: 5px;">Conducted a PoC (Proof of Concept) for a deep learning-based knowledge tracing model using problem-solving data from 700 users.</li>
+    <li style="margin-bottom: 5px;">Achieved an AUC of 88% with the developed model.</li>
+    <li style="margin-bottom: 5px;">Performed an analysis of the model and identified areas for improving its explainability.</li>
+    <li style="margin-bottom: 5px;">Delivered mastery-based personalized problem recommendations.</li>
     <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
 </ul>
 <br>
 <br>
 
 <h3 style="font-weight: 400; margin-bottom: 30px;">Samsung Multicampus</h3>
-<h5 style="margin-left: 20px; margin-bottom: 20px;">1. Project Overview</h5>
-<ul style="margin-left: 20px;">
-    <li><strong style="font-weight: 400;">Description</strong>: Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.</li>
-</ul>
-<p style="margin-bottom: 50px;"> </p>
-
-<h5 style="margin-left: 20px; margin-bottom: 20px;">2. Contributions</h5>
-<ol style="margin-left: 20px;">
-    <li style="margin-bottom: 10px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
-    <li style="margin-bottom: 10px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
-    <li style="margin-bottom: 10px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
-    <li>Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
-</ol>
-<p style="margin-bottom: 50px;"> </p>
-
 <h5 style="margin-left: 20px; margin-bottom: 20px;">3. Outcomes</h5>
 <ul style="margin-left: 20px;">
     <li style="margin-bottom: 10px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
@@ -132,14 +120,6 @@ related_publications: false
 <br>
 
 <h3 style="font-weight: 400; margin-bottom: 30px;">Selected Projects</h3>
-<h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">WAPL Math</h5>
-<ul style="margin-left: 20px;">
-    <li style="margin-bottom: 10px;">Conducted a PoC (Proof of Concept) for a deep learning-based knowledge tracing model using problem-solving data from 700 users.</li>
-    <li style="margin-bottom: 10px;">Achieved an AUC of 88% with the developed model.</li>
-    <li style="margin-bottom: 10px;">Performed an analysis of the model and identified areas for improving its explainability.</li>
-</ul>
-<p style="margin-bottom: 50px;"> </p>
-
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Development of Project-Based Peer Learning Service for Workforce Reskilling</h5>
 <ul style="margin-left: 20px;">
     <li style="margin-bottom: 10px;">Wrote and presented the AI technology section of the project proposal.</li>
