@@ -59,7 +59,7 @@ related_publications: false
     <strong style="font-weight: 400;">Description</strong>
 </p>
 <p style="margin-left: 20px; margin-bottom: 30px;">
-    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+    Designed knowledge tracing feature to calculate student mastery, a key element in data-driven educational decision-making, and developed personalized problem recommendation features based on mastery levels.
 </p>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
