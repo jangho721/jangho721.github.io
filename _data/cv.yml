@@ -40,7 +40,7 @@
   contents:
     - title: TmaxEduAI
       institution: Machine Learning Engineer
-      year: "<div align='left' style='color: white;'>Jan 01, 2023 -<br><br>Nov 04, 2024</div>"
+      year: "<div align='left' style='color: white;'>Jan 01, 2023 -<br>Nov 04, 2024</div>"
       description:
         - "Developed DL models and rule-based algorithms, and built MLOps pipelines for student assessment and personalized educational content recommendations."
 
