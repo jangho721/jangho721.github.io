@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <strong>Move FAST</strong> and <strong>BE RESPONSIBLE</strong>
+subtitle: <strong>MOVE FAST</strong> and <strong>BE RESPONSIBLE</strong>
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
