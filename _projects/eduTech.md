@@ -66,11 +66,9 @@ related_publications: false
 </p>
 <ul style="margin-left: 10px;">
     <li style="margin-bottom: 5px;">Analyzed customer requirements, set and managed sprint goals, and regularly shared progress updates to ensure alignment with project objectives and facilitate communication between stakeholders and the development team.</li>
-    <li style="margin-bottom: 5px;">Addressed the cold-start problem by creating a new knowledge tracing formula to calculate mastery of individual knowledge concepts based on student problem-solving history.</li>
+    <li style="margin-bottom: 5px;">Designed a mathematical formula for knowledge tracing, addressing the cold-start problem by leveraging student problem-solving history to estimate concept mastery.</li>
     <li style="margin-bottom: 5px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
-    <li style="margin-bottom: 5px;">Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
-    <li style="margin-bottom: 5px;">Delivered mastery-based personalized problem recommendations.</li>
-    <li>Enabled individual and class-level mastery analysis via a dashboard.</li>
+    <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
 </ul>
 <br>
 
