@@ -42,6 +42,7 @@ related_publications: false
         <li>Developed deep learning models for AI-based education solutions by leveraging sequential interaction data.</li>
         <li>Built automated ML pipelines for periodic training and batch inference.</li>
         <li>Addressed the cold-start problem in knowledge tracing and recommendation systems.</li>
+        <li>Designed data models and developed APIs.</li>
     </ul>
     <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
     <ul>
@@ -67,8 +68,8 @@ related_publications: false
 <ul style="margin-left: 10px;">
     <li style="margin-bottom: 5px;">Analyzed customer requirements, set and managed sprint goals, and regularly shared progress updates to ensure alignment with project objectives and facilitate communication between stakeholders and the development team.</li>
     <li style="margin-bottom: 5px;">Designed a mathematical formula for knowledge tracing, addressing the cold-start problem by leveraging student problem-solving history to estimate concept mastery.</li>
-    <li style="margin-bottom: 5px;">Ideated a personalized problem recommendation strategy based on mastery data, and implemented the features and APIs using Java and SQL.</li>
-    <li>Collaborated with the back-end team to design and develop database schemas for the assessment and recommendation systems.</li>
+    <li style="margin-bottom: 5px;">Designed a mastery-based personalized problem recommendation strategy and developed algorithms in Java and SQL to select problems based on user-specific criteria. Implemented and deployed RESTful APIs using an in-house framework for seamless production integration.</li>
+    <li>Collaborated with the back-end team to design and implement database schemas for the assessment and recommendation systems using Tibero.</li>
 </ul>
 <br>
 
