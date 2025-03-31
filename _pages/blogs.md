@@ -16,7 +16,7 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-<!-- 
+{% comment %}
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
@@ -29,4 +29,4 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div>
 {% endif %}
--->
+{% endcomment %}
