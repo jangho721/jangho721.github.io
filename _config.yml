@@ -177,7 +177,6 @@ exclude:
   - _pages/profiles.md
   - _pages/teaching.md
   - _pages/repositories.md
-  - _posts
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
