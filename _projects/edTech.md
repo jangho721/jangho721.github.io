@@ -24,9 +24,9 @@ related_publications: false
     }
 </style>
 
-<h2 style="font-weight: 400;">Edutech</h2>
+<h2 style="font-weight: 400;">EdTech</h2>
 <p>
-    Developed AI-based solutions for personalized learning, focusing on <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong>.
+    Developed AI-based <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong> to enhance personalized learning experiences.
 </p>
 <br>
 
@@ -35,16 +35,16 @@ related_publications: false
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
     <h3 style="font-weight: 400; font-size: 1rem;">Role</h3>
     <p>
-        Lead in <em>Knowledge Tracing and Recommendation</em>.
+        Led the development of Knowledge Tracing and Recommendation Systems.
     </p>
     <h3 style="font-weight: 400; font-size: 1rem;">Experience</h3>
     <ul>
-        <li>Developed deep learning models for AI-based education solutions by leveraging sequential interaction data.</li>
-        <li>Built automated ML pipelines for periodic training and batch inference.</li>
-        <li>Addressed the cold-start problem in knowledge tracing and recommendation systems.</li>
+        <li>Developed deep learning models for AI-driven education solutions using sequential interaction data.</li>
+        <li>Designed and implemented automated ML pipelines for scheduled training and batch inference.</li>
+        <li>Addressed the cold-start problem in Knowledge Tracing and Recommendation Systems.</li>
         <li>Designed data models and developed APIs.</li>
     </ul>
-    <h3 style="font-weight: 400; font-size: 1rem;">Skills</h3>
+    <h3 style="font-weight: 400; font-size: 1rem;">Tech Stack</h3>
     <ul>
         <li>Programming Languages:&nbsp;&nbsp;Python, SQL, Java</li>
         <li>Frameworks & Tools:&nbsp;&nbsp;PyTorch, Airflow</li>
