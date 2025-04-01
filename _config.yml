@@ -262,7 +262,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["Machine Learning", "Deep Learning", "Data Science", "Recommender Systems", "Computer Vision", "Natural Language Processing"] # these tags will be displayed on the front page of your blog
+display_tags: ["Machine Learning", "Deep Learning", "Data Science", "Recommender Systems", "Computer Vision", "Natural Language Processing", "a", "b"] # these tags will be displayed on the front page of your blog
 display_categories: ["Insights", "Applied AI", "AGI"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
