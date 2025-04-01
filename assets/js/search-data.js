@@ -454,7 +454,7 @@ ninja.data = [{
           title: 'TmaxEduAI',
           description: "Knowledge Tracing, Recommendation Systems",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/eduTech/";
+              window.location.href = "/projects/edTech/";
             },},{id: "projects-social-network-service",
           title: 'Social Network Service',
           description: "Back-end, MLOps",
