@@ -79,15 +79,15 @@ related_publications: false
     <strong style="font-weight: 400;">Description</strong>
 </p>
 <p style="margin-left: 20px; margin-bottom: 30px;">
-    Built AI-driven personalized course and content recommendation systems tailored to individual learner needs to provide recommendations to 2M+ users.
+    Built personalized recommendation systems using deep learning models, delivering tailored course and content recommendations to over 2 million users.
 </p>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
 <ul style="margin-left: 10px;">
-    <li style="margin-bottom: 5px;">Developed a deep learning model for personalized recommendation using user history and profile data.</li>
-    <li style="margin-bottom: 5px;">Developed extensible data preprocessing and postprocessing 'filter' modules to exclude required and remove invalid contents.</li>
-    <li style="margin-bottom: 5px;">Built an ML pipeline using Airflow to automate model training, inference, and recommendation updates with daily and monthly batch scheduling.</li>
+    <li style="margin-bottom: 5px;">Developed deep learning-based personalized recommendation models leveraging sequential user interaction history and user profile data.</li>
+    <li style="margin-bottom: 5px;">Developed extensive preprocessing and postprocessing functions to filter out invalid or irrelevant content, ensuring high-quality personalized recommendations.</li>
+    <li style="margin-bottom: 5px;">Built an ML pipeline using Airflow to automate model training and batch inference, enabling continuous recommendation updates via scheduled model refresh.</li>
     <li style="margin-bottom: 30px;">Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
 </ul>
 <p style="margin-left: 20px;">
