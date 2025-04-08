@@ -87,7 +87,7 @@ related_publications: false
 </p>
 <ul style="margin-left: 10px;">
     <li style="margin-bottom: 5px;">Developed deep learning-based personalized recommendation models leveraging sequential user interaction history and user profile data.</li>
-    <li style="margin-bottom: 5px;">Developed extensive preprocessing and postprocessing functions to filter out invalid or irrelevant content, ensuring high-quality personalized recommendations.</li>
+    <li style="margin-bottom: 5px;">Developed extensive preprocessing and postprocessing functions to filter out invalid or irrelevant content, ensuring high-quality personalized recommendations in a multi-tenant environment.</li>
     <li style="margin-bottom: 5px;">Built an ML pipeline using Airflow to automate model training and batch inference, enabling continuous recommendation updates via scheduled model refresh.</li>
     <li style="margin-bottom: 30px;">Investigated and resolved operational issues through targeted fixes, ensuring service availability and system stability.</li>
 </ul>
