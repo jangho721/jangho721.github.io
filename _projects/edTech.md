@@ -95,8 +95,7 @@ related_publications: false
     <strong style="font-weight: 400;">Outcomes</strong>
 </p>
 <ul style="margin-left: 10px;">
-    <li style="margin-bottom: 5px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
-    <li>Boosted content completion rate by 25%.</li>
+    <li style="margin-bottom: 5px;">Improved user engagement, increasing course enrollment (CVR) by 5% and content completion rate by 25% during the 3-month post-launch monitoring period.</li>
 </ul>
 <br>
 <br>
