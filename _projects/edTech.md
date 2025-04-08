@@ -73,6 +73,7 @@ related_publications: false
     <li>Developed and deployed RESTful APIs using an in-house framework to deliver recommendation features into production.</li>
 </ul>
 <br>
+<br>
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Samsung Multicampus</h5>
 <p style="margin-left: 20px;">
@@ -88,7 +89,7 @@ related_publications: false
     <li style="margin-bottom: 5px;">Developed deep learning-based personalized recommendation models leveraging sequential user interaction history and user profile data.</li>
     <li style="margin-bottom: 5px;">Developed extensive preprocessing and postprocessing functions to filter out invalid or irrelevant content, ensuring high-quality personalized recommendations.</li>
     <li style="margin-bottom: 5px;">Built an ML pipeline using Airflow to automate model training and batch inference, enabling continuous recommendation updates via scheduled model refresh.</li>
-    <li style="margin-bottom: 30px;">Analyzed issues arising during operation and applied solutions and improvements to maintain system stability.</li>
+    <li style="margin-bottom: 30px;">Investigated and resolved operational issues through targeted fixes, ensuring service availability and system stability.</li>
 </ul>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Outcomes</strong>
@@ -97,6 +98,7 @@ related_publications: false
     <li style="margin-bottom: 5px;">Increased conversion rate (CVR = course enrollment) by 5% during the 3-month post-launch monitoring period.</li>
     <li>Boosted content completion rate by 25%.</li>
 </ul>
+<br>
 <br>
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">WAPL Math</h5>
@@ -114,6 +116,7 @@ related_publications: false
     <li style="margin-bottom: 5px;">Achieved an AUC of 88% with the developed model.</li>
     <li>Performed an analysis of the model and identified areas for improving its explainability.</li>
 </ul>
+<br>
 <br>
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Development of Project-Based Peer Learning Service for Workforce Reskilling</h5>
