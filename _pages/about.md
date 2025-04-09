@@ -26,10 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, an AI Engineer at TmaxEduAI, developing AI-based educational solutions for personalized learning, focusing on Knowledge Tracking and Recommendation Systems.
+Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, an AI Engineer at TmaxEduAI, developing AI-based educational solutions for personalized learning, focusing on Knowledge Tracing and Recommendation Systems.
 
-I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My MS research bridged machine learning and bioinformatics to address challenges in proteomics. The focus of my work was reranking and rescoring <em>de novo</em> sequencing results, I developed novel post-processors for accurate peptide sequence identification.
+I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My research bridged machine learning and bioinformatics to address challenges in proteomics. Specifically, the focus of my work was reranking and rescoring <em>de novo</em> sequencing results, and I developed novel post-processing methods for accurate peptide identification.
 
 My interests are broadly in <strong>Machine Learning</strong> and <strong>Software Engineering</strong>. In particular, I'm interested in building AI systems that can perform previously impossible tasks or achieve unprecedented levels of performance, while also creating data-driven scientific strategies for decision-making.
 
-<span style="color: red;">I'm looking for a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong> starting in 2025. Please feel free to reach out if you are interested in working with me.</span>
+<span style="color: red;">I'm currently seeking a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong> starting in 2025. Please feel free to reach out if you'd like to connect or collaborate!</span>
