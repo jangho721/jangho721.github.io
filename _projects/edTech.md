@@ -35,7 +35,7 @@ related_publications: false
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
     <h3 style="font-weight: 400; font-size: 1rem;">Role</h3>
     <p>
-        Led the development of Knowledge Tracing and Recommendation Systems.
+        Led the development of AI solutions for education, focusing on Knowledge Tracing and Recommendation Systems.
     </p>
     <h3 style="font-weight: 400; font-size: 1rem;">Experience</h3>
     <ul>
