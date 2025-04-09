@@ -119,17 +119,10 @@ related_publications: false
 
 <h5 style="font-weight: 400; margin-left: 20px; margin-bottom: 20px;">Development of Project-Based Peer Learning Service for Workforce Reskilling</h5>
 <p style="margin-left: 20px;">
-    <strong style="font-weight: 400;">Description</strong>
-</p>
-<p style="margin-left: 20px; margin-bottom: 30px;">
-    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
-</p>
-<p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
 <ul style="margin-left: 20px;">
-    <li style="margin-bottom: 5px;">Wrote and presented the AI technology section of the project proposal.</li>
-    <li>Helped secure a 3 billion KRW project contract.</li>
+    <li style="margin-bottom: 5px;">Wrote the AI section of the project proposal and technical documentation, contributing to securing a 3B KRW government project.</li>
 </ul>
 <br>
 <br>
