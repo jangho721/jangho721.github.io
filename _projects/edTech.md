@@ -111,9 +111,8 @@ related_publications: false
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
 <ul style="margin-left: 10px;">
-    <li style="margin-bottom: 5px;">Conducted a PoC (Proof of Concept) for a deep learning-based knowledge tracing model using problem-solving data from 700 users.</li>
-    <li style="margin-bottom: 5px;">Achieved an AUC of 88% with the developed model.</li>
-    <li>Performed an analysis of the model and identified areas for improving its explainability.</li>
+    <li style="margin-bottom: 5px;">Achieved an AUC of 88% with a deep learning-based Knowledge Tracing model trained on problem-solving history from 700+ students.</li>
+    <li>Identified limitations in the model’s explainability and proposed directions to enhance interpretability for practical deployment.</li>
 </ul>
 <br>
 <br>
