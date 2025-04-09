@@ -105,7 +105,7 @@ related_publications: false
     <strong style="font-weight: 400;">Description</strong>
 </p>
 <p style="margin-left: 20px; margin-bottom: 30px;">
-    Developed mastery assessment and personalized content recommendation features for a data-driven educational decision-making platform.
+    Conducted a proof-of-concept (PoC) for a deep learning-based Knowledge Tracing model using problem-solving history data to estimate student mastery.
 </p>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
