@@ -26,7 +26,7 @@ related_publications: false
 
 <h2 style="font-weight: 400;">NovoRank</h2>
 <p>
-    <a href="https://github.com/jangho721/NovoRank">NovoRank</a> is a machine learning-based post-processing tool designed to improve peptide sequence identification performance.
+    <a href="https://github.com/jangho721/NovoRank">NovoRank</a> is a machine learning-based post-processing tool designed to improve peptide identification accuracy.
 </p>
 
 <div class="row justify-content-center text-center">
