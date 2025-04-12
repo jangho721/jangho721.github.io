@@ -30,6 +30,6 @@ Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, an AI Engineer at 
 
 I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My research bridged machine learning and bioinformatics to address challenges in proteomics. Specifically, the focus of my work was reranking and rescoring <em>de novo</em> sequencing results, and I developed novel post-processing methods for accurate peptide identification.
 
-I’m broadly interested in <strong>Machine Learning</strong> and <strong>Software Engineering</strong>. In particular, I'm interested in building AI systems that can perform previously impossible tasks or achieve unprecedented levels of performance, while also creating data-driven scientific strategies for decision-making.
+I’m broadly interested in <strong>Machine Learning</strong> and <strong>Software Engineering</strong>, with a particular passion for building AI systems that solve real-world problems. I’m especially interested in contributing to pushing the frontiers of artificial intelligence by enabling new capabilities, achieving performance breakthroughs, while also creating data-driven scientific strategies for decision-making.
 
 <span style="color: red;">I'm currently seeking a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong> starting in 2025. Please feel free to reach out if you'd like to connect or collaborate!</span>
