@@ -14,5 +14,3 @@ I'm passionate about creating AI systems that make an impact on business, scienc
 I'm someone who enjoys discussing the societal impact of AI technologies and constantly reflects on how to develop trustworthy, safe, ethical, and responsible AI systems.
 
 Ultimately, I aim to develop <u>agentic AI</u> that can better assist people and address gaps in society by improving computers' perception, understanding, and reasoning.
-
-In particular, I’m interested in building AI systems that can perform previously impossible tasks or achieve unprecedented levels of performance, while also creating data-driven scientific strategies.
