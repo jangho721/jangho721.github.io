@@ -42,7 +42,7 @@
       institution: AI Engineer
       year: "<div align='left' style='color: white;'>Jan 01, 2023 -<br>Nov 04, 2024</div>"
       description:
-        - "Developed DL models and rule-based algorithms, and built MLOps pipelines for student assessment and personalized educational content recommendations."
+        - "Built DL models, rule-based algorithms, and MLOps pipelines for learning mastery assessment and personalized content recommendation."
 
 - title: Research Experience
   type: time_table
@@ -51,7 +51,7 @@
       institution: Graduate Research Assistant
       year: "<div align='left' style='color: white;'>Aug 01, 2020 -<br>Dec 31, 2022</div>"
       description:
-        - "Designed and implemented postprocessing tools for reranking and rescoring using ML/DL models to improve the accuracy of peptide identifications in de novo peptide sequencing."
+        - "Designed and implemented post-processing tools for reranking and rescoring using ML/DL models to improve the accuracy of peptide identifications in de novo peptide sequencing."
     - title: The Construction Systems Laboratory
       institution: Undergraduate Researcher
       year: "<div align='left' style='color: white;'>Jul 01, 2019 -<br>Feb 29, 2020</div>"
