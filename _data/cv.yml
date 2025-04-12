@@ -56,7 +56,7 @@
       institution: Undergraduate Researcher
       year: "<div align='left' style='color: white;'>Jul 01, 2019 -<br>Feb 29, 2020</div>"
       description:
-        - "Developed image classification and object detection models to identify small- to medium-sized objects that could pose safety risks in indoor construction sites."
+        - "Developed image classification and object detection models to detect potentially hazardous objects in indoor construction environments."
 
 - title: Talks
   type: time_table
