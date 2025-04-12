@@ -60,14 +60,14 @@ related_publications: false
     <strong style="font-weight: 400;">Description</strong>
 </p>
 <p style="margin-left: 20px; margin-bottom: 30px;">
-    Developed core features for the assessment and recommendation systems in a digital textbook. Designed a knowledge tracing formula to estimate student mastery, enabling data-driven educational decisions, and developed rule-based problem recommendation algorithms based on mastery levels.
+    Developed core features for the assessment and recommendation systems in a digital textbook. Designed a knowledge tracing formula to estimate learning mastery, enabling data-driven educational decisions, and developed rule-based problem recommendation algorithms based on mastery levels.
 </p>
 <p style="margin-left: 20px;">
     <strong style="font-weight: 400;">Contributions</strong>
 </p>
 <ul style="margin-left: 10px;">
     <li style="margin-bottom: 5px;">Analyzed customer requirements, set sprint goals, and managed development progress to ensure alignment between stakeholders and the engineering team.</li>
-    <li style="margin-bottom: 5px;">Designed a mathematical formula for knowledge tracing, estimating student mastery from problem-solving history to address the cold-start problem.</li>
+    <li style="margin-bottom: 5px;">Designed a mathematical formula for knowledge tracing, estimating learning mastery from problem-solving history to address the cold-start problem.</li>
     <li style="margin-bottom: 5px;">Developed rule-based problem recommendation algorithms based on mastery levels to deliver problems that meet predefined criteria, using Java and SQL.</li>
     <li>Designed and implemented database schemas for assessment and recommendation systems in collaboration with the back-end team using Tibero, ensuring essential fields and adding a history-tracking table to prevent duplicate problem recommendations.</li>
     <li>Developed and deployed RESTful APIs using an in-house framework to deliver recommendation features into production.</li>
