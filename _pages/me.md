@@ -29,3 +29,5 @@ Applied transfer learning in a fraud dispute prediction model and optimized perf
 Streamlined the training data generation processes on Stripe's ML pipeline, accelerating experimentation across Stripe's ML ecosystem.
 
 Designed and implemented a deep neural network for detecting fraud transactions, highlighted in this blog. The model's advanced design reduced the time to train our model by over 85% (to less than two hours), significantly increasing the volume of fraud transcations detected.
+
+We introduced Zorak, an AI-driven community tool designed to significantly reduce traders’ manual workloads and contribute to traders community building. Our AI agent, Zorara, analyzes real-time market data and provides actionable trade insights, empowering traders to make informed decisions quickly and efficiently.
