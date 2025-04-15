@@ -26,7 +26,7 @@ related_publications: false
 
 <h2 style="font-weight: 400;">EdTech</h2>
 <p>
-    Developed AI-based <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong> to enhance personalized learning experiences.
+    Developed AI-based educational services and solutions to enhance personalized learning experiences.
 </p>
 <br>
 
@@ -35,7 +35,7 @@ related_publications: false
     <h2 style="font-weight: 400; font-size: 1.5rem;">Summary</h2>
     <h3 style="font-weight: 400; font-size: 1rem;">Role</h3>
     <p>
-        Led the development of AI solutions for education, focusing on Knowledge Tracing and Recommendation Systems.
+        Led the development of AI-based projects for education, focusing on <strong style="font-weight: 400;">Knowledge Tracing</strong> and <strong style="font-weight: 400;">Recommendation Systems</strong>.
     </p>
     <h3 style="font-weight: 400; font-size: 1rem;">Experience</h3>
     <ul>
