@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Data Scientist with a passion for solving real-world problems through AI, focusing on human-centered AI development.
+I'm a Data Scientist with a passion for solving real-world problems through AI, focusing on Human-Centered AI development.
 
 I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My research bridged machine learning and bioinformatics to address challenges in proteomics. Specifically, the focus of my work was reranking and rescoring <em>de novo</em> sequencing results, and I developed novel post-processing methods for accurate peptide identification.
 
