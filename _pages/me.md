@@ -31,3 +31,5 @@ Streamlined the training data generation processes on Stripe's ML pipeline, acce
 Designed and implemented a deep neural network for detecting fraud transactions, highlighted in this blog. The model's advanced design reduced the time to train our model by over 85% (to less than two hours), significantly increasing the volume of fraud transcations detected.
 
 We introduced Zorak, an AI-driven community tool designed to significantly reduce traders’ manual workloads and contribute to traders community building. Our AI agent, Zorara, analyzes real-time market data and provides actionable trade insights, empowering traders to make informed decisions quickly and efficiently.
+
+Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, an AI Engineer at TmaxEduAI, developing AI-based educational solutions for personalized learning, focusing on Knowledge Tracing and Recommendation Systems.
