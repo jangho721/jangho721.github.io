@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-01-01 00:00:00-0000
+date: 2025-04-24 00:00:00-0000
 inline: true
 related_posts: false
 # inline: false
@@ -8,4 +8,4 @@ related_posts: false
 # permalink: /projects/1_project/
 ---
 
-Starting a <a href="">New Project</a> 🎉
+Joined Ailys (DEIN) as a Data Scientist! 🎉
