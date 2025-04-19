@@ -32,6 +32,4 @@ Designed and implemented a deep neural network for detecting fraud transactions,
 
 We introduced Zorak, an AI-driven community tool designed to significantly reduce traders’ manual workloads and contribute to traders community building. Our AI agent, Zorara, analyzes real-time market data and provides actionable trade insights, empowering traders to make informed decisions quickly and efficiently.
 
-Hello! I'm <strong style="font-weight: 400;">Andrew</strong>, an AI Engineer at TmaxEduAI, developing AI-based educational solutions for personalized learning, focusing on Knowledge Tracing and Recommendation Systems.
-
 My research bridged machine learning and bioinformatics to address challenges in proteomics. Specifically, the focus of my work was reranking and rescoring de novo sequencing results, and I developed novel post-processing methods for accurate peptide identification.
