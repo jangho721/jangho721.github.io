@@ -26,9 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a Data Scientist with a passion for building AI systems to solve real-world problems, focusing on human-centered AI development.
+I’m a Data Scientist with a passion for building AI systems that solve real-world problems, focusing on human-centered AI development.
 
-I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My research bridged machine learning and bioinformatics to address challenges in proteomics. Specifically, the focus of my work was reranking and rescoring <em>de novo</em> sequencing results, and I developed novel post-processing methods for accurate peptide identification.
+I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My research applied ML to bioinformatics to address challenges in proteomics. Specifically, I focused on reranking and rescoring <em>de novo</em> sequencing results, and developed novel post-processing methods for accurate peptide identification.
+
+Currently, I’m working as a Data Scientist at Ailys, building a Decision Intelligence Platform. Before joining Ailys, I worked at TmaxEduAI as an AI Engineer, where I developed AI-based systems for personalized learning.
 
 I’m broadly interested in <strong>Machine Learning</strong> and <strong>Software Engineering</strong>, with a particular passion for building AI systems that solve real-world problems. I’m especially interested in contributing to pushing the frontiers of AI by enabling new capabilities, achieving performance breakthroughs, and creating data-driven strategies for decision-making.
 
