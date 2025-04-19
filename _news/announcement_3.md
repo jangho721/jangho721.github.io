@@ -8,4 +8,4 @@ related_posts: false
 # permalink: /projects/1_project/
 ---
 
-Joined Ailys (DEIN) as a Data Scientist 🎉
+Joined Ailys ([DEIN](https://www.dein.inc/) as a Data Scientist 🎉
