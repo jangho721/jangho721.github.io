@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hanyang University
-description: Proteomics, Bioinformatics
+description: Bioinformatics, Proteomics
 img: assets/img/6.jpg
 importance: 2
 category: professional
