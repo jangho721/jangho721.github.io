@@ -408,7 +408,7 @@ ninja.data = [{
           title: ':sparkles: A paper NovoRank got accepted to JPR!',
           description: "",
           section: "News",},{id: "news-joined-ailys-dein-as-a-data-scientist",
-          title: 'Joined Ailys (DEIN) as a Data Scientist 🎉',
+          title: 'Joined Ailys (DEIN as a Data Scientist 🎉',
           description: "",
           section: "News",},{id: "projects-journeymate",
           title: 'JourneyMate',
@@ -452,12 +452,12 @@ ninja.data = [{
               window.location.href = "/projects/ctrPrediction/";
             },},{id: "projects-tmaxeduai",
           title: 'TmaxEduAI',
-          description: "Knowledge Tracing, Recommendation Systems",
+          description: "Recommendation Systems, Knowledge Tracing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/edTech/";
             },},{id: "projects-social-network-service",
           title: 'Social Network Service',
-          description: "Back-end, MLOps",
+          description: "Back-end",
           section: "Projects",handler: () => {
               window.location.href = "/projects/theBox/";
             },},{
