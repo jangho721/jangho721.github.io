@@ -457,7 +457,7 @@ ninja.data = [{
               window.location.href = "/projects/edTech/";
             },},{id: "projects-social-network-service",
           title: 'Social Network Service',
-          description: "Back-end",
+          description: "BackEnd",
           section: "Projects",handler: () => {
               window.location.href = "/projects/theBox/";
             },},{
