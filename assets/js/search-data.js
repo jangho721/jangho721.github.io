@@ -452,7 +452,7 @@ ninja.data = [{
               window.location.href = "/projects/ctrPrediction/";
             },},{id: "projects-tmaxeduai",
           title: 'TmaxEduAI',
-          description: "Recommendation Systems, Knowledge Tracing",
+          description: "Knowledge Tracing, Recommendation Systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/edTech/";
             },},{id: "projects-social-network-service",
