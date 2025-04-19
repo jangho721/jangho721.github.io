@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Social Network Service
-description: BackEnd
+description: Backend
 img: assets/img/sns.jpg
 importance: 1
 category: personal
