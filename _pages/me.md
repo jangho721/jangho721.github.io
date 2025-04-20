@@ -33,3 +33,6 @@ Designed and implemented a deep neural network for detecting fraud transactions,
 We introduced Zorak, an AI-driven community tool designed to significantly reduce traders’ manual workloads and contribute to traders community building. Our AI agent, Zorara, analyzes real-time market data and provides actionable trade insights, empowering traders to make informed decisions quickly and efficiently.
 
 My research bridged machine learning and bioinformatics to address challenges in proteomics. Specifically, the focus of my work was reranking and rescoring de novo sequencing results, and I developed novel post-processing methods for accurate peptide identification.
+
+My research focuses on making ML models more interpretable and explainable through interactive visualizations that amplify human’s ability to understand and interact with AI systems.
+
