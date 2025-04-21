@@ -15,8 +15,6 @@ I'm someone who enjoys discussing the societal impact of AI technologies and con
 
 Ultimately, I aim to develop <u>agentic AI</u> that can better assist people and address gaps in society by improving computers' perception, understanding, and reasoning.
 
-I'm a Machine Learning Researcher/Engineer, focusing on ML interpretability and human-centered AI development.
-
 After completing my PhD, I worked as a Machine Learning Engineer at Stripe, where I extended my interests in building AI models for safety and security. At Stripe, I developed advanced ML models to detect potential fraud in high-stakes financial environments, gaining valuable experience in handling adversarial transaction patterns.
 
 I have been fortunate to work with amazing researchers, engineers, and scientists at Stripe, Microsoft, NVIDIA, and Intel.
@@ -30,9 +28,5 @@ Streamlined the training data generation processes on Stripe's ML pipeline, acce
 
 Designed and implemented a deep neural network for detecting fraud transactions, highlighted in this blog. The model's advanced design reduced the time to train our model by over 85% (to less than two hours), significantly increasing the volume of fraud transcations detected.
 
-We introduced Zorak, an AI-driven community tool designed to significantly reduce traders’ manual workloads and contribute to traders community building. Our AI agent, Zorara, analyzes real-time market data and provides actionable trade insights, empowering traders to make informed decisions quickly and efficiently.
-
-My research bridged machine learning and bioinformatics to address challenges in proteomics. Specifically, the focus of my work was reranking and rescoring de novo sequencing results, and I developed novel post-processing methods for accurate peptide identification.
-
-My research focuses on making ML models more interpretable and explainable through interactive visualizations that amplify human’s ability to understand and interact with AI systems.
+We introduced Zorak, an  community tool designed to significantly reduce traders’ manual workloads and contribute to traders community building. Our AI agent, Zorara, 
 
