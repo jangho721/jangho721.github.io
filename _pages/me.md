@@ -12,3 +12,9 @@ nav: true
 🌍 I'm especially interested in how AI can create real-world impact in various domains such as business, science, and social good. I find joy in tackling complex problems, simplifying them, and discovering insights from data.
 
 🧠 I'm also passionate about enhancing AI's understanding and reasoning abilities, so that AI can interact and collaborate with human intuition to create greater synergy. I believe AI should continuously amplify human capabilities and evolve in a direction that benefits people, and I hope to contribute to that journey.
+
+🧑‍🔬 I’ve been fortunate to collaborate with brilliant researchers, engineers, and scientists, learning so much from them. Working across diverse domains has broadened my perspective, and I enjoy discussing how AI impacts society. I constantly think about how to build safer, more responsible, and human-centered AI systems.
+
+✨ Outside of work, I love traveling, sharing great food with good people, and recharging through sports and music. Listening to other people’s stories brings me energy and inspiration.
+
+🌸 And one day, I hope my life can be a small source of hope to someone. Even though I work with technology, I want to remain warm, human, and be a spring-like presence in someone’s life.
