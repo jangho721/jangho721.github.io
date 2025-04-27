@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Professional projects do not include code due to a confidential issue.",
+          description: "Change Lives, Change Organizations, Change the WorldProfessional projects do not include code due to a confidential issue.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
