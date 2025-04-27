@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Professional projects do not include code due to a confidential issue.
+description: <strong>Change Lives, Change Organizations, Change the World</strong><br>Professional projects do not include code due to a confidential issue.
 nav: true
 nav_order: 3
 display_categories: [professional, personal]
