@@ -10,3 +10,5 @@ nav: true
 🌉 I'm someone who loves bridging the gap between people and AI. I believe that AI has the potential to make people’s lives better in meaningful ways. Beyond just improving performance, I think it’s crucial to create AI systems that are trustworthy, ethical, and responsible, while ensuring that AI evolves in this direction. I want to contribute to creating AI systems that understand and support people.
 
 🌍 I'm especially interested in how AI can create real-world impact in various domains such as business, science, and social good. I find joy in tackling complex problems, simplifying them, and discovering insights from data.
+
+🧠 I'm also passionate about enhancing AI's understanding and reasoning abilities, so that AI can interact and collaborate with human intuition to create greater synergy. I believe AI should continuously amplify human capabilities and evolve in a direction that benefits people, and I hope to contribute to that journey.
