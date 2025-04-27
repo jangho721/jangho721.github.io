@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-about",
           title: "About",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Driving Innovation through Collaboration, Sharing, and Documentation",
           section: "Navigation",
           handler: () => {
             window.location.href = "/about/";
