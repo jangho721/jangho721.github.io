@@ -32,6 +32,6 @@ I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr.
 
 Currently, I’m working as a Data Scientist at Ailys, building a Decision Intelligence Platform. Before joining Ailys, I worked at TmaxEduAI as an AI Engineer, where I developed AI-based systems for personalized learning.
 
-I’m broadly interested in <strong>Machine Learning</strong> and <strong>Software Engineering</strong>, especially applying ML across diverse domains. I focus on building AI systems that assist humans by understanding their needs and context, delivering value. I aim to push the frontiers of AI by enabling new capabilities, achieving performance breakthroughs, and creating data-driven insights.
+I’m broadly interested in <strong>Machine Learning</strong> and <strong>Software Engineering</strong>, especially applying ML across diverse fields to explore solutions to real-world challenges. I focus on building AI systems that assist humans by understanding their needs and context, delivering value. I aim to push the frontiers of AI by enabling new capabilities, achieving performance breakthroughs, and creating data-driven insights.
 
 <span style="color: red;">I'm currently seeking a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong>. Please feel free to reach out if you'd like to connect or collaborate!</span>
