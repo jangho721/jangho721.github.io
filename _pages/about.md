@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm <strong style="font-weight: 400;">Andrew</strong>, a Data Scientist with a passion for building AI systems to solve real-world problems, focusing on human-centered AI development.
+Hi, I’m <strong style="font-weight: 400;">Andrew</strong>, a Data Scientist with a passion for building AI systems to support data-driven decision-making, focusing on human-centered AI development.
 
 I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](http://bislab.hanyang.ac.kr/index.php?mid=Professor). My research applied ML to bioinformatics to address challenges in proteomics. Specifically, I focused on reranking and rescoring <em>de novo</em> sequencing results, and developed novel post-processing methods for accurate peptide identification.
 
