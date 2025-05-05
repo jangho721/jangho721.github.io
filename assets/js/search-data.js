@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-about",
           title: "About",
-          description: "Change Lives, Change Organizations, Change the WorldDriving Innovation through Collaboration, Sharing, and Documentation",
+          description: "Change Lives, Change Organizations, Change the World",
           section: "Navigation",
           handler: () => {
             window.location.href = "/about/";
