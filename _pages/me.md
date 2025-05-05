@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-description: <strong>Change Lives</strong>, <strong>Change Organizations</strong>, <strong>Change the World</strong><br>Driving Innovation through Collaboration, Sharing, and Documentation
+description: <strong>Change Lives</strong>, <strong>Change Organizations</strong>, <strong>Change the World</strong>
 nav_order: 1
 nav: true
 ---
