@@ -15,6 +15,6 @@ nav: true
 
 🧑‍🔬 I’ve been fortunate to collaborate with brilliant engineers, researchers, and scientists, sharing knowledge and experiences, growing together, and enjoying conversations about how AI impacts society. Working across diverse domains has broadened my perspective, and I’ve learned so much throughout this journey.
 
-🌱 Outside of work, I love traveling, sharing good food with great people, and recharging through sports and music. I enjoy listening to other people’s stories and also find joy in experiencing new things, which bring me a lot of inspiration and lessons. I draw energy from the small moments of luck and kindness in my daily life.
+🌱 Outside of work, I love traveling, sharing good food with great people, and recharging through sports and music. I enjoy listening to other people’s stories and also find joy in experiencing new things, which bring me a lot of inspiration and lessons. I draw energy from the small moments of serendipity and kindness in my daily life.
 
 🌸 And one day, I hope my life can be a small source of hope to someone. Even though I work with technology, I want to remain warm, human, and be a spring-like presence in someone’s life.
