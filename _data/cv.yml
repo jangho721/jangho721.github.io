@@ -42,7 +42,7 @@
       institution: AI Engineer
       year: "<div align='left' style='color: white;'>Jan 01, 2023 -<br>Nov 04, 2024</div>"
       description:
-        - "Built DL models, rule-based algorithms, and MLOps pipelines for learning mastery assessment and personalized content recommendation."
+        - "Built DL models, rule-based algorithms, and MLOps pipelines for tracking knowledge states and personalized content recommendation."
 
 - title: Research Experience
   type: time_table
