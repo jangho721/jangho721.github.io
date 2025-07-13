@@ -39,7 +39,7 @@ related_publications: false
     </p>
     <h3 style="font-weight: 400; font-size: 1rem;">Experience</h3>
     <ul>
-        <li>Developed deep learning models for AI-driven education solutions using sequential interaction data.</li>
+        <li>Developed deep learning models for AI-driven education services using sequential interaction data.</li>
         <li>Designed and implemented automated ML pipelines for scheduled training and batch inference.</li>
         <li>Addressed the cold-start problem in Knowledge Tracing and Recommendation Systems.</li>
         <li>Designed data models and developed APIs.</li>
