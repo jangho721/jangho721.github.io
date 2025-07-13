@@ -170,10 +170,10 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
+# - _pages/blog.md
 include: ["_pages", "_scripts"]
 exclude:
   - _pages/dropdown.md
-  - _pages/blog.md
   - _pages/news.md
   - _pages/profiles.md
   - _pages/teaching.md
