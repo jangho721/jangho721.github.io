@@ -265,11 +265,11 @@ jekyll-archives:
 # Artificial Intelligence: 머신러닝, 딥러닝 등 인공지능 전반
 # Mathematics: 수학, 통계, 알고리즘 등 기초 이론
 # Programming: Python 및 코딩 관련 내용
-display_tags: ["Artificial Intelligence", "Mathematics", "Programming"] # these tags will be displayed on the front page of your blog
+display_tags: ["Artificial_Intelligence", "Mathematics", "Programming"] # these tags will be displayed on the front page of your blog
 # Insights: 개인적인 경험, 관찰, 생각 정리
 # Applied AI: 실제 적용 사례, 프로젝트, 실전 문제 해결
 # Tech Notes: 정리해둔 기술 메모, 실험 결과, 공부 기록
-display_categories: ["Insights", "Applied AI", "Tech Notes"] # these categories will be displayed on the front page of your blog
+display_categories: ["Insights", "Applied_AI", "Tech_Notes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
