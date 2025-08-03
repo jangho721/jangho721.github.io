@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-encoding-categorical-variables",
+      
+        title: "Encoding Categorical Variables",
+      
+      description: "Converting Categorical Variables into Numerical Values",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Categorical-Variables/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
