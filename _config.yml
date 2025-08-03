@@ -262,8 +262,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["Machine Learning", "Deep Learning", "Data Science"] # these tags will be displayed on the front page of your blog
-display_categories: ["Insights", "Applied AI", "AGI"] # these categories will be displayed on the front page of your blog
+display_tags: ["AI", "Math", "Programming"] # these tags will be displayed on the front page of your blog
+display_categories: ["Insights", "Applied AI", "Tech Notes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
