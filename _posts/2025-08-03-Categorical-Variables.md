@@ -3,8 +3,8 @@ layout: post
 title: Encoding Categorical Variables
 date: 2024-08-03 21:41:00
 description: Converting Categorical Variables into Numerical Values
-tags: "Artificial Intelligence"
-categories: "Tech Notes"
+tags: Artificial_Intelligence
+categories: Tech_Notes
 thumbnail: assets/img/9.jpg
 images:
   lightbox2: true
