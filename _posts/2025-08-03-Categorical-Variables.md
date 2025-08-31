@@ -25,8 +25,8 @@ Most machine learning algorithms accept only **numerical input**, so categorical
   - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance.
 - **Target Encoding**: Converts categories into target statistics (focus of this note)
 
----
 <br>
+<hr>
 
 ### Target Encoding (Mean Encoding)
 
