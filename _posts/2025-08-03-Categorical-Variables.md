@@ -41,7 +41,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <div style="margin-left: 40px;">
 
-<h5>Smoothing</h4>
+<h5>Smoothing</h5>
 <p>Mitigates extreme values for categories with few samples</p>
 
 <ul>
