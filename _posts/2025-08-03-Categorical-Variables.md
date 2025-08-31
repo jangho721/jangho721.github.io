@@ -15,6 +15,8 @@ images:
 
 Most machine learning algorithms accept only **numerical input**, so categorical variables need to be converted to numeric values.
 
+<br>
+
 ## Main encoding methods
 
 - **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…)
@@ -22,6 +24,8 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 - **One-Hot Encoding**: Creates a 0/1 variable for each category
   - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance.
 - **Target Encoding**: Converts categories into target statistics (focus of this note)
+
+<br>
 
 ## Target Encoding (Mean Encoding)
 
@@ -31,7 +35,9 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 - **Advantages:** No increase in dimensionality, avoids artificial ordinal relationships
 - **Extensions:** Higher moments such as variance, skewness, or kurtosis can also be used
 
-### Smoothing
+<br>
+
+<h3 style="margin-left:20px;">Smoothing</h3>
 
 Mitigates extreme values for categories with few samples
 
