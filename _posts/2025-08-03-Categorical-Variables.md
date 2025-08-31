@@ -37,8 +37,6 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
-<div style="margin-left: 20px;">
-
 ### Smoothing
 Mitigates extreme values for categories with few samples
 
@@ -53,5 +51,3 @@ $$
 $$
 \alpha = \frac{1}{1 + e^{-(n-k)/f}}
 $$
-
-</div>
