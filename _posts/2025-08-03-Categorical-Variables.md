@@ -18,39 +18,22 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <br>
 
 ## 1. Main encoding methods
- 
-<ul>
-  <li><u><i>Ordinal Encoding</i></u>: Converts categories into ordered values (0,1,2,…)
-    <ul>
-      <li><u><i>Drawback:</i></u> Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
-    </ul>
-  </li>
 
-  <li><u><i>One-Hot Encoding</i></u>: Creates a 0/1 variable for each category
-    <ul>
-      <li><u><i>Drawback:</i></u> Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
-    </ul>
-  </li>
-
-  <li><u><i>Target Encoding</i></u>: Converts categories into target statistics (focus of this note)</li>
-</ul>
+- **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…)
+  - **Drawback:** Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.
+- **One-Hot Encoding**: Creates a 0/1 variable for each category
+  - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance.
+- **Target Encoding**: Converts categories into target statistics (focus of this note)
 
 <br>
 
 ## 2. Target Encoding (Mean Encoding)
 
-<ul>
-  <li><u><i>Target Encoding</i></u>: Converts categories into <b>target statistics</b>
-    <ul>
-      <li>Binary classification: probability of 1 within each category.</li>
-      <li>Regression: target mean within each category.</li>
-    </ul>
-  </li>
-
-  <li><u><i>Advantages</i></u>: No increase in dimensionality, avoids artificial ordinal relationships.</li>
-
-  <li><u><i>Extensions</i></u>: Higher moments such as variance, skewness, or kurtosis can also be used.</li>
-</ul>
+- Converts categories into **target statistics**
+  - Binary classification: probability of 1 within each category
+  - Regression: target mean within each category
+- **Advantages:** No increase in dimensionality, avoids artificial ordinal relationships
+- **Extensions:** Higher moments such as variance, skewness, or kurtosis can also be used
 
 <br>
 
