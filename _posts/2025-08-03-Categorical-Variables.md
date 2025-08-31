@@ -37,5 +37,4 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
-<h3 style="margin-left:20px;">Smoothing</h3>
-
+### Smoothing
