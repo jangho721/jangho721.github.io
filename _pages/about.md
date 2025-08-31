@@ -35,3 +35,4 @@ Currently, I’m working as a Data Scientist at Ailys, building a Decision Intel
 I’m broadly interested in <strong>Machine Learning</strong> and <strong>Software Engineering</strong>, especially applying ML across diverse fields to explore solutions to real-world challenges. I focus on pushing the frontiers of AI by enabling new capabilities and achieving performance breakthroughs. I aim to build AI systems that act as intelligent assistants, understanding human needs and context to create actionable insights and deliver real value.
 
 <span style="color: red;">I'm currently seeking a full-time position as a <strong style="color: red;">Data Scientist</strong> or <strong style="color: red;">Machine Learning Engineer</strong>. Please feel free to reach out if you'd like to connect or collaborate!</span>
+
