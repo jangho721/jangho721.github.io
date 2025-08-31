@@ -17,7 +17,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
-#### Main encoding methods
+#### 1. Main encoding methods
 
 <br> 
 - **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…)
@@ -28,7 +28,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
-#### Target Encoding (Mean Encoding)
+#### 2. Target Encoding (Mean Encoding)
 
 <br> 
 - Converts categories into **target statistics**
@@ -41,7 +41,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <div style="margin-left: 40px;">
 
-<h5>Smoothing</h5>
+<h5>2-1. Smoothing</h5>
 <p>Mitigates extreme values for categories with few samples</p>
 
 <ul>
