@@ -15,37 +15,49 @@ images:
 
 Most machine learning algorithms accept only **numerical input**, so categorical variables need to be converted to numeric values.
 
-<br />
+<br>
 
 ## 1. Main encoding methods
+ 
+<ul>
+  <li><u><i>Ordinal Encoding</i></u>: Converts categories into ordered values (0,1,2,…)
+    <ul>
+      <li><u><i>Drawback:</i></u> Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
+    </ul>
+  </li>
 
-- **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…).  
-  - **Drawback:** Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.
+  <li><u><i>One-Hot Encoding</i></u>: Creates a 0/1 variable for each category
+    <ul>
+      <li><u><i>Drawback:</i></u> Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
+    </ul>
+  </li>
 
-- **One-Hot Encoding**: Creates a 0/1 variable for each category.  
-  - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance.
+  <li><u><i>Target Encoding</i></u>: Converts categories into target statistics (focus of this note)</li>
+</ul>
 
-- **Target Encoding**: Converts categories into target statistics (focus of this note).
-
-<br />
+<br>
 
 ## 2. Target Encoding (Mean Encoding)
 
-- Converts categories into **target statistics**.  
-  - Binary classification: probability of 1 within each category.  
-  - Regression: target mean within each category.
-  
-- **Advantages:** No increase in dimensionality, avoids artificial ordinal relationships.  
-  
-- **Extensions:** Higher moments such as variance, skewness, or kurtosis can also be used.
+<ul>
+  <li><u><i>Target Encoding</i></u>: Converts categories into <b>target statistics</b>
+    <ul>
+      <li>Binary classification: probability of 1 within each category.</li>
+      <li>Regression: target mean within each category.</li>
+    </ul>
+  </li>
 
-<br />
+  <li><u><i>Advantages</i></u>: No increase in dimensionality, avoids artificial ordinal relationships.</li>
+
+  <li><u><i>Extensions</i></u>: Higher moments such as variance, skewness, or kurtosis can also be used.</li>
+</ul>
+
+<br>
 
 <div style="margin-left: 40px;">
 
 <h4>2-1. Smoothing</h4>
-
-<p>Mitigates extreme values for categories with few samples.</p>
+<p>Mitigates extreme values for categories with few samples</p>
 
 <ul>
 <li>Formula:</li>
@@ -62,11 +74,5 @@ $$
 $$
 \alpha = \frac{1}{1 + e^{-(n-k)/f}}
 $$
-
-<p>Where:</p>
-<ul>
-<li><b>f</b>: smoothing factor.</li>
-<li><b>k</b>: minimum number of samples per category.</li>
-</ul>
 
 </div>
