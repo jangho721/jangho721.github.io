@@ -38,3 +38,15 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <br>
 
 ### Smoothing
+
+- Formula:
+
+$$
+encoding = \alpha \cdot p(t=1 \mid x=c_i) + (1-\alpha) \cdot p(t=1)
+$$
+
+- α calculation:
+
+$$
+\alpha = \frac{1}{1 + e^{-(n-k)/f}}
+$$
