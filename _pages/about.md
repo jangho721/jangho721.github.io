@@ -4,7 +4,6 @@ title: Home
 permalink: /
 subtitle: <strong>MOVE FAST</strong> and <strong>BE RESPONSIBLE</strong>
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-# professor link: http://bislab.hanyang.ac.kr/index.php?mid=Professor
 
 profile:
   align: right
