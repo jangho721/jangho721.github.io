@@ -34,19 +34,23 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
-## Target Encoding (Mean Encoding)
-
-- Converts categories into **target statistics**
-  - Binary classification: probability of 1 within each category
-  - Regression: target mean within each category
-- **Advantages:** No increase in dimensionality, avoids artificial ordinal relationships
-- **Extensions:** Higher moments such as variance, skewness, or kurtosis can also be used
+<h3 style="font-weight: 400; margin-bottom: 30px;">Target Encoding (Mean Encoding)</h3>
+<ul>
+  <li style="margin-bottom: 5px;">Converts categories into <b>target statistics</b>.
+    <ul>
+      <li>Binary classification: probability of 1 within each category.</li>
+      <li>Regression: target mean within each category.</li>
+    </ul>
+  </li>
+  <li style="margin-bottom: 5px;"><b>Advantages:</b> No increase in dimensionality, avoids artificial ordinal relationships.</li>
+  <li style="margin-bottom: 5px;"><b>Extensions:</b> Higher moments such as variance, skewness, or kurtosis can also be used.</li>
+</ul>
 
 <br>
 
 <div style="margin-left: 40px;">
 
-<h4>2-1. Smoothing</h4>
+<h5 style="font-weight: 400; margin-bottom: 20px;">Smoothing</h5>
 <p>Mitigates extreme values for categories with few samples</p>
 
 <ul>
