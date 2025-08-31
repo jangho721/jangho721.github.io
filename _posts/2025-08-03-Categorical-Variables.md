@@ -16,10 +16,10 @@ images:
 Most machine learning algorithms accept only **numerical input**, so categorical variables need to be converted to numeric values.
 
 <br>
-<hr>
 
-### Main encoding methods
+#### Main encoding methods
 
+<br> 
 - **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…)
   - **Drawback:** Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.
 - **One-Hot Encoding**: Creates a 0/1 variable for each category
@@ -27,10 +27,10 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 - **Target Encoding**: Converts categories into target statistics (focus of this note)
 
 <br>
-<hr>
 
-### Target Encoding (Mean Encoding)
+#### Target Encoding (Mean Encoding)
 
+<br> 
 - Converts categories into **target statistics**
   - Binary classification: probability of 1 within each category
   - Regression: target mean within each category
@@ -41,17 +41,20 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <div style="margin-left: 40px;">
 
-#### Smoothing
+<h5>Smoothing</h4>
+<p>Mitigates extreme values for categories with few samples</p>
 
-Mitigates extreme values for categories with few samples
-
-- Formula:
+<ul>
+<li>Formula:</li>
+</ul>
 
 $$
 encoding = \alpha \cdot p(t=1 \mid x=c_i) + (1-\alpha) \cdot p(t=1)
 $$
 
-- α calculation:
+<ul>
+<li>α calculation:</li>
+</ul>
 
 $$
 \alpha = \frac{1}{1 + e^{-(n-k)/f}}
