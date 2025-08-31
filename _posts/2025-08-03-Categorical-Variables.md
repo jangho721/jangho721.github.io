@@ -38,6 +38,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <br>
 
 ### Smoothing
+
 Mitigates extreme values for categories with few samples
 
 - Formula:
