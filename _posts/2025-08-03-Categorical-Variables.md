@@ -19,11 +19,21 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 ## 1. Main encoding methods
 
-- **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…)
-  - **Drawback:** Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.
-- **One-Hot Encoding**: Creates a 0/1 variable for each category
-  - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance.
-- **Target Encoding**: Converts categories into target statistics (focus of this note)
+<ul>
+  <li><u><i>Ordinal Encoding</i></u>: Converts categories into ordered values (0,1,2,…).
+    <ul>
+      <li><u><i>Drawback:</i></u> Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
+    </ul>
+  </li>
+
+  <li><u><i>One-Hot Encoding</i></u>: Creates a 0/1 variable for each category.
+    <ul>
+      <li><u><i>Drawback:</i></u> Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
+    </ul>
+  </li>
+
+  <li><u><i>Target Encoding</i></u>: Converts categories into target statistics (focus of this note).</li>
+</ul>
 
 <br>
 
