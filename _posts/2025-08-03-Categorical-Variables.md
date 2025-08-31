@@ -16,6 +16,7 @@ images:
 Most machine learning algorithms accept only **numerical input**, so categorical variables need to be converted to numeric values.
 
 <br>
+<hr>
 
 ### Main encoding methods
 
