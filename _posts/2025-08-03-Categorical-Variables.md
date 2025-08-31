@@ -17,7 +17,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
-## Main encoding methods
+### Main encoding methods
 
 - **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…)
   - **Drawback:** Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.
@@ -25,9 +25,10 @@ Most machine learning algorithms accept only **numerical input**, so categorical
   - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance.
 - **Target Encoding**: Converts categories into target statistics (focus of this note)
 
+---
 <br>
 
-## Target Encoding (Mean Encoding)
+### Target Encoding (Mean Encoding)
 
 - Converts categories into **target statistics**
   - Binary classification: probability of 1 within each category
@@ -39,7 +40,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <div style="margin-left: 40px;">
 
-### Smoothing
+#### Smoothing
 
 Mitigates extreme values for categories with few samples
 
