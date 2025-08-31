@@ -17,39 +17,39 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
-## Main encoding methods
-
+<h3 style="font-weight: 400; margin-bottom: 30px;">Main encoding methods</h3>
 <ul>
-  <li><u><i>Ordinal Encoding</i></u>: Converts categories into ordered values (0,1,2,…).
+  <li style="margin-bottom: 5px;"><b><i>Ordinal Encoding</i></b>: Converts categories into ordered values (0,1,2,…).
     <ul>
-      <li><u><i>Drawback:</i></u> Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
+      <li><i>Drawback:</i> Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
     </ul>
   </li>
-
-  <li><u><i>One-Hot Encoding</i></u>: Creates a 0/1 variable for each category.
+  <li style="margin-bottom: 5px;"><b><i>One-Hot Encoding</i></b>: Creates a 0/1 variable for each category.
     <ul>
-      <li><u><i>Drawback:</i></u> Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
+      <li><i>Drawback:</i> Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
     </ul>
   </li>
-
-  <li><u><i>Target Encoding</i></u>: Converts categories into target statistics (focus of this note).</li>
+  <li style="margin-bottom: 5px;"><b><i>Target Encoding</i></b>: Converts categories into target statistics (focus of this note).</li>
 </ul>
 
 <br>
 
-## Target Encoding (Mean Encoding)
-
-- Converts categories into **target statistics**
-  - Binary classification: probability of 1 within each category
-  - Regression: target mean within each category
-- **Advantages:** No increase in dimensionality, avoids artificial ordinal relationships
-- **Extensions:** Higher moments such as variance, skewness, or kurtosis can also be used
+<h3 style="font-weight: 400; margin-bottom: 30px;">Target Encoding (Mean Encoding)</h3>
+<ul>
+  <li style="margin-bottom: 5px;">Converts categories into <b>target statistics</b>.
+    <ul>
+      <li>Binary classification: probability of 1 within each category.</li>
+      <li>Regression: target mean within each category.</li>
+    </ul>
+  </li>
+  <li style="margin-bottom: 5px;"><b>Advantages:</b> No increase in dimensionality, avoids artificial ordinal relationships.</li>
+  <li style="margin-bottom: 5px;"><b>Extensions:</b> Higher moments such as variance, skewness, or kurtosis can also be used.</li>
+</ul>
 
 <br>
 
 <div style="margin-left: 40px;">
-
-<h4>2-1. Smoothing</h4>
+<h5 style="font-weight: 400; margin-bottom: 20px;">Smoothing</h4>
 <p>Mitigates extreme values for categories with few samples</p>
 
 <ul>
@@ -67,5 +67,4 @@ $$
 $$
 \alpha = \frac{1}{1 + e^{-(n-k)/f}}
 $$
-
 </div>
