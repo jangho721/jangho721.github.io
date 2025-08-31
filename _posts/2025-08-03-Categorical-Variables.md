@@ -37,6 +37,8 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <br>
 
+<div style="margin-left: 20px;">
+
 ### Smoothing
 
 - Formula:
@@ -50,3 +52,5 @@ $$
 $$
 \alpha = \frac{1}{1 + e^{-(n-k)/f}}
 $$
+
+</div>
