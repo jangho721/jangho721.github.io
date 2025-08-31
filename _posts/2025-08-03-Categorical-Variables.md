@@ -13,35 +13,37 @@ images:
   venobox: true
 ---
 
-Most machine learning algorithms accept only **numerical input**, so categorical variables need to be converted to numeric values.
+Most machine learning algorithms accept only **numerical input**, so categorical variables need to be converted to numeric values
 
 <br>
 
-#### 1. Main encoding methods
+## 1. Main encoding methods
 
-<br> 
 - **Ordinal Encoding**: Converts categories into ordered values (0,1,2,…)
-  - **Drawback:** Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.
+  - **Drawback:** Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues
+  
 - **One-Hot Encoding**: Creates a 0/1 variable for each category
-  - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance.
+  - **Drawback:** Increases dimensionality as the number of categories grows, potentially degrading training performance
+
 - **Target Encoding**: Converts categories into target statistics (focus of this note)
 
 <br>
 
-#### 2. Target Encoding (Mean Encoding)
+## 2. Target Encoding (Mean Encoding)
 
-<br> 
 - Converts categories into **target statistics**
   - Binary classification: probability of 1 within each category
   - Regression: target mean within each category
+  
 - **Advantages:** No increase in dimensionality, avoids artificial ordinal relationships
+  
 - **Extensions:** Higher moments such as variance, skewness, or kurtosis can also be used
 
 <br>
 
 <div style="margin-left: 40px;">
 
-<h5>2-1. Smoothing</h5>
+<h4>2-1. Smoothing</h4>
 <p>Mitigates extreme values for categories with few samples</p>
 
 <ul>
