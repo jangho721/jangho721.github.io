@@ -101,6 +101,11 @@ Most machine learning algorithms accept only **numerical input**, so categorical
   <p>1. Categorical Target Encoding Formula</p>
   <ul>
     <li style="margin-bottom: 10px;">The encoding value for category <b>i</b> is calculated as:
+      <p>
+        $$
+        S_i = \lambda_i \frac{n_i^Y}{n_i} + (1-\lambda_i) \frac{n^Y}{n}
+        $$
+      </p>
       <ul>
         <li style="margin-top: 10px; margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
         <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
