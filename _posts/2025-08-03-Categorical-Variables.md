@@ -69,4 +69,11 @@ $$
 \alpha = \frac{1}{1 + e^{-(n-k)/f}}
 $$
 
+<div style="margin-left: 25px;">
+  <p><i>where:</i><br> 
+    f = Smoothing factor<br> 
+    k = Minimum samples per leaf
+  </p>
+</div>
+
 </div>
