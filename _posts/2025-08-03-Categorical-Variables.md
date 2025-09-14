@@ -68,7 +68,7 @@ $$
 \alpha = \frac{1}{1 + e^{-(n-k)/f}}
 $$
 
-<div style="margin-left: 45px;">
+<div style="margin-left: 40px;">
   <p><i>where:</i></p>
   <div style="margin-left: 25px;">
     f = Smoothing factor<br> 
@@ -82,4 +82,15 @@ $$
 <div style="margin-left: 20px;">
 <h5 style="font-weight: 400;">b. Target Leakage</h5>
 <p style="margin-left: 25px;">Using the target variable in encoding can lead to <b>overfitting</b></p>
+
+<ul>
+  <li style="margin-bottom: 10px;">Mitigation methods:
+    <ul>
+      <li style="margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
+      <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
+      <li style="margin-bottom: 10px;"><b>Smoothing</b>: acts as regularization.</li>
+    </ul>
+  </li>
+</ul>
+
 </div>
