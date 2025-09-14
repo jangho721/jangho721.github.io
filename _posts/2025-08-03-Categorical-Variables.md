@@ -122,7 +122,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
       </p>
       <ul>
         <li><b>m</b>: smoothing parameter (default = "auto")</li>
-        <<li>If using the default "auto", $m = \sigma_i^2 / \tau^2$, <br>
+        <li>If using the default "auto", $m = \sigma_i^2 / \tau^2$, <br>
           where $\sigma_i^2$ is the variance of the target in category i, <br>
           and $\tau^2$ is the variance of the target across all samples
         </li>
