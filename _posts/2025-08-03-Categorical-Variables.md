@@ -50,7 +50,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <div style="margin-left: 20px;">
   <h5 style="font-weight: 400;">a. Smoothing</h5>
-  <p style="margin-left: 25px;">Mitigates extreme values for categories with few samples</p>
+  <p style="margin-left: 25px;">Mitigates extreme values for categories with few samples.</p>
   
   <ul>
     <li>Formula:</li>
@@ -81,9 +81,26 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <div style="margin-left: 20px;">
   <h5 style="font-weight: 400;">b. Target Leakage</h5>
-  <p style="margin-left: 25px;">Using the target variable in encoding can lead to <b>overfitting</b></p>
+  <p style="margin-left: 25px;">Using the target variable in encoding can lead to <b>overfitting</b>.</p>
   <ul>
     <li style="margin-bottom: 10px;">Mitigation methods:
+      <ul>
+        <li style="margin-top: 10px; margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
+        <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
+        <li style="margin-bottom: 10px;"><b>Smoothing</b>: acts as regularization.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<br>
+
+<div style="margin-left: 20px;">
+  <h5 style="font-weight: 400;">c. scikit-learn TargetEncoder</h5>
+  <p style="margin-left: 25px;"><b>TargetEncoder</b> uses the <b>Leave-One-Fold-Out</b> method by default to reduce target leakage. The number of folds can be adjusted using the <code>cv</code> parameter (default=5).</p>
+  <p>1. Categorical Target Encoding Formula</p>
+  <ul>
+    <li style="margin-bottom: 10px;">The encoding value for category <b>i</b> is calculated as:
       <ul>
         <li style="margin-top: 10px; margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
         <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
