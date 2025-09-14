@@ -49,46 +49,46 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <br>
 
 <div style="margin-left: 20px;">
-<h5 style="font-weight: 400;">a. Smoothing</h5>
-<p style="margin-left: 25px;">Mitigates extreme values for categories with few samples</p>
+  <h5 style="font-weight: 400;">a. Smoothing</h5>
+  <p style="margin-left: 25px;">Mitigates extreme values for categories with few samples</p>
+  
+  <ul>
+    <li>Formula:</li>
+  </ul>
+  
+  $$
+  encoding = \alpha \cdot p(t=1 \mid x=c_i) + (1-\alpha) \cdot p(t=1)
+  $$
+  
+  <ul>
+    <li>α calculation:</li>
+  </ul>
+  
+  $$
+  \alpha = \frac{1}{1 + e^{-(n-k)/f}}
+  $$
 
-<ul>
-<li>Formula:</li>
-</ul>
-
-$$
-encoding = \alpha \cdot p(t=1 \mid x=c_i) + (1-\alpha) \cdot p(t=1)
-$$
-
-<ul>
-<li>α calculation:</li>
-</ul>
-
-$$
-\alpha = \frac{1}{1 + e^{-(n-k)/f}}
-$$
-
-<div style="margin-left: 40px;">
-  <p><i>where:</i></p>
-  <div style="margin-left: 25px;">
-    f = Smoothing factor<br> 
-    k = Minimum samples per leaf
+  <div style="margin-left: 40px;">
+    <p><i>where:</i></p>
+    <div style="margin-left: 25px;">
+      f = Smoothing factor<br> 
+      k = Minimum samples per leaf
+    </div>
   </div>
-</div>
 </div>
 
 <br>
 
 <div style="margin-left: 20px;">
-<h5 style="font-weight: 400;">b. Target Leakage</h5>
-<p style="margin-left: 25px;">Using the target variable in encoding can lead to <b>overfitting</b></p>
-<ul>
-  <li style="margin-bottom: 10px;">Mitigation methods:
-    <ul>
-      <li style="margin-top: 10px; margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
-      <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
-      <li style="margin-bottom: 10px;"><b>Smoothing</b>: acts as regularization.</li>
-    </ul>
-  </li>
-</ul>
+  <h5 style="font-weight: 400;">b. Target Leakage</h5>
+  <p style="margin-left: 25px;">Using the target variable in encoding can lead to <b>overfitting</b></p>
+  <ul>
+    <li style="margin-bottom: 10px;">Mitigation methods:
+      <ul>
+        <li style="margin-top: 10px; margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
+        <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
+        <li style="margin-bottom: 10px;"><b>Smoothing</b>: acts as regularization.</li>
+      </ul>
+    </li>
+  </ul>
 </div>
