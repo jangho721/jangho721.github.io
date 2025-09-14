@@ -69,10 +69,11 @@ $$
 $$
 
 <div style="margin-left: 45px;">
-  <p><i>where:</i><br> 
+  <p><i>where:</i></p>
+  <div style="margin-left: 25px;">
     f = Smoothing factor<br> 
     k = Minimum samples per leaf
-  </p>
+  </div>
 </div>
 </div>
 
