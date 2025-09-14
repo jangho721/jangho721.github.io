@@ -38,7 +38,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <ul>
   <li style="margin-bottom: 10px;">Converts categories into <b>target statistics</b>.
     <ul>
-      <li>Binary classification: probability of 1 within each category.</li>
+      <li style="margin-top: 10px;">Binary classification: probability of 1 within each category.</li>
       <li>Regression: target mean within each category.</li>
     </ul>
   </li>
@@ -86,7 +86,7 @@ $$
 <ul>
   <li style="margin-bottom: 10px;">Mitigation methods:
     <ul>
-      <li style="margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
+      <li style="margin-top: 10px; margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
       <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
       <li style="margin-bottom: 10px;"><b>Smoothing</b>: acts as regularization.</li>
     </ul>
