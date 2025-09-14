@@ -19,17 +19,17 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <h3 style="font-weight: 400; margin-bottom: 30px;">Main encoding methods</h3>
 <ul>
-  <li style="margin-bottom: 10px;"><b>Ordinal Encoding</b>: Converts categories into ordered values (0,1,2,…).
+  <li style="margin-bottom: 10px;"><b>Ordinal Encoding</b>: converts categories into ordered values (0,1,2,…).
     <ul>
-      <li style="margin-top: 10px;"><i>Drawback</i>: Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
+      <li style="margin-top: 10px;"><i>Drawback</i>: creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
     </ul>
   </li>
-  <li style="margin-bottom: 10px;"><b>One-Hot Encoding</b>: Creates a 0/1 variable for each category.
+  <li style="margin-bottom: 10px;"><b>One-Hot Encoding</b>: creates a 0/1 variable for each category.
     <ul>
-      <li style="margin-top: 10px;"><i>Drawback</i>: Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
+      <li style="margin-top: 10px;"><i>Drawback</i>: increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
     </ul>
   </li>
-  <li style="margin-bottom: 10px;"><b>Target Encoding</b>: Converts categories into target statistics (focus of this note).</li>
+  <li style="margin-bottom: 10px;"><b>Target Encoding</b>: converts categories into target statistics (focus of this note).</li>
 </ul>
 
 <br>
@@ -42,8 +42,8 @@ Most machine learning algorithms accept only **numerical input**, so categorical
       <li>Regression: target mean within each category.</li>
     </ul>
   </li>
-  <li style="margin-bottom: 10px;"><b>Advantages:</b> No increase in dimensionality, avoids artificial ordinal relationships.</li>
-  <li style="margin-bottom: 10px;"><b>Extensions:</b> Higher moments such as variance, skewness, or kurtosis can also be used.</li>
+  <li style="margin-bottom: 10px;"><b>Advantages:</b> no increase in dimensionality, avoids artificial ordinal relationships.</li>
+  <li style="margin-bottom: 10px;"><b>Extensions:</b> higher moments such as variance, skewness, or kurtosis can also be used.</li>
 </ul>
 
 <br>
