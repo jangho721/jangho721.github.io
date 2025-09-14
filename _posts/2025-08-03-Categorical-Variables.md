@@ -21,12 +21,12 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <ul>
   <li style="margin-bottom: 10px;"><b>Ordinal Encoding</b>: Converts categories into ordered values (0,1,2,…).
     <ul>
-      <li><i>Drawback</i>: Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
+      <li style="margin-top: 10px;"><i>Drawback</i>: Creates ordinal relationships between categories that are actually unrelated, potentially lowering model performance or causing unexpected issues.</li>
     </ul>
   </li>
   <li style="margin-bottom: 10px;"><b>One-Hot Encoding</b>: Creates a 0/1 variable for each category.
     <ul>
-      <li><i>Drawback</i>: Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
+      <li style="margin-top: 10px;"><i>Drawback</i>: Increases dimensionality as the number of categories grows, potentially degrading training performance.</li>
     </ul>
   </li>
   <li style="margin-bottom: 10px;"><b>Target Encoding</b>: Converts categories into target statistics (focus of this note).</li>
@@ -82,7 +82,6 @@ $$
 <div style="margin-left: 20px;">
 <h5 style="font-weight: 400;">b. Target Leakage</h5>
 <p style="margin-left: 25px;">Using the target variable in encoding can lead to <b>overfitting</b></p>
-
 <ul>
   <li style="margin-bottom: 10px;">Mitigation methods:
     <ul>
@@ -92,5 +91,4 @@ $$
     </ul>
   </li>
 </ul>
-
 </div>
