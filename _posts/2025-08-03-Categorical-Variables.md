@@ -107,9 +107,11 @@ Most machine learning algorithms accept only **numerical input**, so categorical
         $$
       </p>
       <ul>
-        <li style="margin-top: 10px; margin-bottom: 10px;"><b>Leave-One-Out Target Encoding</b>: exclude the target value of the current sample.</li>
-        <li style="margin-bottom: 10px;"><b>Leave-One-Fold-Out</b>: exclude the fold that the current sample belongs to.</li>
-        <li style="margin-bottom: 10px;"><b>Smoothing</b>: acts as regularization.</li>
+        <li><b>S<sub>i</sub></b>: encoded value for category i</li>
+        <li><b>n<sub>i</sub><sup>Y</sup></b>: number of samples with Y=1 in category i</li>
+        <li><b>n<sup>Y</sup></b>: total number of samples with Y=1</li>
+        <li><b>n<sub>i</sub></b>: total samples in category i</li>
+        <li><b>n</b>: total number of samples</li>
       </ul>
     </li>
   </ul>
