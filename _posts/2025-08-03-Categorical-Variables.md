@@ -113,13 +113,20 @@ Most machine learning algorithms accept only **numerical input**, so categorical
         <li><b>n<sup>Y</sup></b>: total number of samples with Y=1</li>
         <li><b>n<sub>i</sub></b>: total samples in category i</li>
         <li><b>n</b>: total number of samples</li>
-        <li style="margin-top: 10px;"><b>&lambda;<sub>i</sub></b>: shrinkage factor
+        <li style="margin-top: 10px;"><b>&lambda;<sub>i</sub></b>: shrinkage factor</li>
       </ul>
       <p>
         $$
         \lambda_i = \frac{n_i}{n_i + m}
         $$
       </p>
+      <ul>
+        <li><b>m</b>: smoothing parameter (default = "auto")</li>
+        <<li>If using the default "auto", $m = \sigma_i^2 / \tau^2$, <br>
+          where $\sigma_i^2$ is the variance of the target in category i, <br>
+          and $\tau^2$ is the variance of the target across all samples
+        </li>
+      </ul>
     </li>
   </ul>
 </div>
