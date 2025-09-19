@@ -100,7 +100,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
   <p style="margin-left: 25px;"><b>TargetEncoder</b> uses the <b>Leave-One-Fold-Out</b> method by default to reduce target leakage.</p>
   <p style="margin-left: 25px;">The number of folds can be adjusted using the <code>cv</code> parameter (default=5).</p>
   <div style="margin-left: 20px;">
-    <p>1. Categorical Target Encoding Formula</p>
+    <p>1. Categorical Target Encoding Formula (Binary Classification)</p>
     <ul>
       <li style="margin-bottom: 10px;">The encoding value for category <b>i</b> is calculated as:
         <p>
@@ -127,6 +127,26 @@ Most machine learning algorithms accept only **numerical input**, so categorical
             where $\sigma_i^2$ is the variance of the target in category i, <br>
             and $\tau^2$ is the variance of the target across all samples
           </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <br>
+
+  <div style="margin-left: 20px;">
+    <p>2. Numerical Target Encoding Formula (Regression)</p>
+    <ul>
+      <li style="margin-bottom: 10px;">The encoding value for category <b>i</b> is calculated as:
+        <p>
+          $$
+          S_i = \lambda_i \frac{\sum_{k \in L_i} Y_k}{n_i} + (1-\lambda_i) \frac{\sum_{k=1}^{n} Y_k}{n}
+          $$
+        </p>
+        <ul>
+          <li>L<sub>i</sub>: set of samples belonging to category i</li>
+          <li>Y<sub>k</sub>: target value of sample k</li>
+          <li>Other symbols are the same as in binary classification</li>
         </ul>
       </li>
     </ul>
