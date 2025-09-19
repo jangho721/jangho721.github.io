@@ -99,34 +99,36 @@ Most machine learning algorithms accept only **numerical input**, so categorical
   <h5 style="font-weight: 400;">c. scikit-learn TargetEncoder</h5>
   <p style="margin-left: 25px;"><b>TargetEncoder</b> uses the <b>Leave-One-Fold-Out</b> method by default to reduce target leakage.</p>
   <p style="margin-left: 25px;">The number of folds can be adjusted using the <code>cv</code> parameter (default=5).</p>
-  <p>1. Categorical Target Encoding Formula</p>
-  <ul>
-    <li style="margin-bottom: 10px;">The encoding value for category <b>i</b> is calculated as:
-      <p>
-        $$
-        S_i = \lambda_i \frac{n_i^Y}{n_i} + (1-\lambda_i) \frac{n^Y}{n}
-        $$
-      </p>
-      <ul>
-        <li><b>S<sub>i</sub></b>: encoded value for category i</li>
-        <li><b>n<sub>i</sub><sup>Y</sup></b>: number of samples with Y=1 in category i</li>
-        <li><b>n<sup>Y</sup></b>: total number of samples with Y=1</li>
-        <li><b>n<sub>i</sub></b>: total samples in category i</li>
-        <li><b>n</b>: total number of samples</li>
-        <li style="margin-top: 10px;"><b>&lambda;<sub>i</sub></b>: shrinkage factor</li>
-      </ul>
-      <p>
-        $$
-        \lambda_i = \frac{n_i}{n_i + m}
-        $$
-      </p>
-      <ul>
-        <li><b>m</b>: smoothing parameter (default = "auto")</li>
-        <li style="margin-top: 10px;">If using the default "auto", $m = \sigma_i^2 / \tau^2$, <br>
-          where $\sigma_i^2$ is the variance of the target in category i, <br>
-          and $\tau^2$ is the variance of the target across all samples
-        </li>
-      </ul>
-    </li>
-  </ul>
+  <div style="margin-left: 20px;">
+    <p>1. Categorical Target Encoding Formula</p>
+    <ul>
+      <li style="margin-bottom: 10px;">The encoding value for category <b>i</b> is calculated as:
+        <p>
+          $$
+          S_i = \lambda_i \frac{n_i^Y}{n_i} + (1-\lambda_i) \frac{n^Y}{n}
+          $$
+        </p>
+        <ul>
+          <li><b>S<sub>i</sub></b>: encoded value for category i</li>
+          <li><b>n<sub>i</sub><sup>Y</sup></b>: number of samples with Y=1 in category i</li>
+          <li><b>n<sup>Y</sup></b>: total number of samples with Y=1</li>
+          <li><b>n<sub>i</sub></b>: total samples in category i</li>
+          <li><b>n</b>: total number of samples</li>
+          <li style="margin-top: 10px;"><b>&lambda;<sub>i</sub></b>: shrinkage factor</li>
+        </ul>
+        <p>
+          $$
+          \lambda_i = \frac{n_i}{n_i + m}
+          $$
+        </p>
+        <ul>
+          <li><b>m</b>: smoothing parameter (default = "auto")</li>
+          <li style="margin-top: 10px;">If using the default "auto", $m = \sigma_i^2 / \tau^2$, <br>
+            where $\sigma_i^2$ is the variance of the target in category i, <br>
+            and $\tau^2$ is the variance of the target across all samples
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 </div>
