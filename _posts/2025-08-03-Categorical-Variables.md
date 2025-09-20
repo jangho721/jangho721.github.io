@@ -152,3 +152,12 @@ Most machine learning algorithms accept only **numerical input**, so categorical
     </ul>
   </div>
 </div>
+
+<h3 style="font-weight: 400; margin-bottom: 30px;">Summary</h3>
+<ul>
+  <li style="margin-top: 10px;">Leave-One-Fold-OutLOFO (cv=5) reduces the risk of target leakage</li>
+  <li style="margin-top: 10px;">Binary classification: uses the proportion of 1s per category; Regression: uses the mean per category</li>
+  <li><b>Smoothing (&lambda;)</b> helps stabilize encoding for categories with few samples</li>
+</ul>
+
+<br>
