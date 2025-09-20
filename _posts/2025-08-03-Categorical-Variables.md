@@ -96,7 +96,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <br>
 
 <div style="margin-left: 20px;">
-  <h5 style="font-weight: 400;">c. scikit-learn TargetEncoder</h5>
+  <h5 style="font-weight: 400;">c. [scikit-learn TargetEncoder](https://scikit-learn.org/stable/modules/preprocessing.html#target-encoder)</h5>
   <p style="margin-left: 25px;"><b>TargetEncoder</b> uses the <b>Leave-One-Fold-Out</b> method by default to reduce target leakage.</p>
   <p style="margin-left: 25px;">The number of folds can be adjusted using the <code>cv</code> parameter (default=5).</p>
   <div style="margin-left: 20px;">
@@ -146,7 +146,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
         <ul>
           <li><b>L<sub>i</sub></b>: set of samples belonging to category i</li>
           <li><b>Y<sub>k</sub></b>: target value of sample k</li>
-          <li style="margin-top: 10px;">Other symbols are the same as in binary classification</li>
+          <li style="margin-top: 10px;">Other symbols are the same as in binary classification.</li>
         </ul>
       </li>
     </ul>
@@ -157,9 +157,9 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 
 <h3 style="font-weight: 400; margin-bottom: 30px;">Summary</h3>
 <ul>
-  <li style="margin-top: 10px;">Leave-One-Fold-OutLOFO (cv=5) reduces the risk of target leakage</li>
-  <li style="margin-top: 10px;">Binary classification: uses the proportion of 1s per category; Regression: uses the mean per category</li>
-  <li><b>Smoothing (&lambda;)</b> helps stabilize encoding for categories with few samples</li>
+  <li style="margin-top: 10px;">Leave-One-Fold-OutLOFO (cv=5) reduces the risk of target leakage.</li>
+  <li style="margin-top: 10px;">Binary classification: uses the proportion of 1s per category; Regression: uses the mean per category.</li>
+  <li style="margin-top: 10px;"><b>Smoothing (&lambda;)</b> helps stabilize encoding for categories with few samples.</li>
 </ul>
 
 <br>
