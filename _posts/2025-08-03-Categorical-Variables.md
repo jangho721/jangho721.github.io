@@ -96,7 +96,7 @@ Most machine learning algorithms accept only **numerical input**, so categorical
 <br>
 
 <div style="margin-left: 20px;">
-  <h5 style="font-weight: 400;">c. [scikit-learn TargetEncoder](https://scikit-learn.org/stable/modules/preprocessing.html#target-encoder)</h5>
+  <h5 style="font-weight: 400;">c. <a href="https://scikit-learn.org/stable/modules/preprocessing.html#target-encoder" target="_blank">scikit-learn TargetEncoder</a></h5>
   <p style="margin-left: 25px;"><b>TargetEncoder</b> uses the <b>Leave-One-Fold-Out</b> method by default to reduce target leakage.</p>
   <p style="margin-left: 25px;">The number of folds can be adjusted using the <code>cv</code> parameter (default=5).</p>
   <div style="margin-left: 20px;">
