@@ -137,18 +137,28 @@ Most machine learning algorithms accept only **numerical input**, so categorical
   <div style="margin-left: 20px;">
     <p>2. Numerical Target Encoding Formula (Regression)</p>
     <ul>
-      <li style="margin-bottom: 10px;">The encoding value for category <b>i</b> is calculated as:
+      <li style="margin-bottom: 10px;">For numeric targets, the encoded value for category <b>i</b> is:
         <p>
           $$
           S_i = \lambda_i \frac{\sum_{k \in L_i} Y_k}{n_i} + (1-\lambda_i) \frac{\sum_{k=1}^{n} Y_k}{n}
           $$
         </p>
         <ul>
-          <li>L<sub>i</sub>: set of samples belonging to category i</li>
-          <li>Y<sub>k</sub>: target value of sample k</li>
-          <li>Other symbols are the same as in binary classification</li>
+          <li><b>L<sub>i</sub></b>: set of samples belonging to category i</li>
+          <li><b>Y<sub>k</sub></b>: target value of sample k</li>
+          <li style="margin-top: 10px;">Other symbols are the same as in binary classification</li>
         </ul>
       </li>
     </ul>
   </div>
 </div>
+
+<h3 style="font-weight: 400; margin-bottom: 30px;">Summary</h3>
+<ul>
+  <li style="margin-top: 10px;">LOFO (cv=5) reduces the risk of target leakage</li>
+  <li style="margin-top: 10px;">Binary classification: uses the proportion of 1s per category; Regression: uses the mean per category</li>
+  <li><b>Smoothing (&lambda;)</b> helps stabilize encoding for categories with few samples</li>
+</ul>
+
+<br>
+
