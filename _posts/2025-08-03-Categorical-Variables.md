@@ -153,6 +153,8 @@ Most machine learning algorithms accept only **numerical input**, so categorical
   </div>
 </div>
 
+<br>
+
 <h3 style="font-weight: 400; margin-bottom: 30px;">Summary</h3>
 <ul>
   <li style="margin-top: 10px;">Leave-One-Fold-OutLOFO (cv=5) reduces the risk of target leakage</li>
