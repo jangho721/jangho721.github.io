@@ -29,7 +29,7 @@ latest_posts:
 
 Hi, I’m <strong style="font-weight: 400;">Andrew</strong>, a Data Scientist with a passion for building AI systems to support data-driven decision-making, focusing on human-centered AI development.
 
-I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](/). My research applied ML to bioinformatics to address challenges in proteomics. Specifically, I focused on reranking and rescoring <em>de novo</em> sequencing results, and developed novel post-processing methods for accurate peptide identification.
+I received M.S. in Artificial Intelligence at Hanyang University, advised by Dr. [Eunok Paek](https://bislab.hanyang.ac.kr/index.php?mid=Professor/). My research applied ML to bioinformatics to address challenges in proteomics. Specifically, I focused on reranking and rescoring <em>de novo</em> sequencing results, and developed novel post-processing methods for accurate peptide identification.
 
 Currently, I’m working as a Data Scientist at Ailys, building a Decision Intelligence Platform. Before joining Ailys, I worked at TmaxEduAI as an AI Engineer, where I developed AI-based systems for personalized learning.
 
