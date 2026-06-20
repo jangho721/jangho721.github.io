@@ -29,6 +29,15 @@ npm run build
 
 Compiles `src/input.css` into `assets/css/style.css`.
 
+## Local checks
+
+`npm install` sets `core.hooksPath` to `.githooks/`, so a `pre-push` hook
+runs automatically before every push: it rebuilds the CSS and runs the
+same [lychee](https://github.com/lycheeverse/lychee-action) broken-link
+check used in CI (`.github/workflows/broken-links.yml`), so failures are
+caught locally first. Install lychee with `brew install lychee` for the
+link check to run (it's skipped with a warning if missing).
+
 ## Deploy
 
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which installs

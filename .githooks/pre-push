@@ -1,0 +1,16 @@
+#!/bin/sh
+# Runs before `git push`. Mirrors the CI checks locally so failures
+# (build errors, broken links) are caught before they reach GitHub Actions.
+set -e
+
+echo "[pre-push] building CSS..."
+npm run build
+
+echo "[pre-push] checking links..."
+if ! command -v lychee >/dev/null 2>&1; then
+  echo "[pre-push] lychee not found, skipping link check (brew install lychee to enable)"
+else
+  lychee --no-progress --exclude 'linkedin\.com' index.html
+fi
+
+echo "[pre-push] OK"

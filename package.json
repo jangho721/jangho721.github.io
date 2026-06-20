@@ -2,6 +2,7 @@
   "name": "jangho721.github.io",
   "private": true,
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks",
     "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
     "watch": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
   },
