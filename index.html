@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jangho Seo — ML Engineer &amp; Data Scientist</title>
+    <meta
+      name="description"
+      content="Jangho Seo — Machine Learning Engineer &amp; Data Scientist building AI systems across research and industry."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-paper text-ink antialiased">
+    <!-- Nav -->
+    <header class="sticky top-0 z-50 border-b border-black/5 bg-paper/90 backdrop-blur">
+      <div class="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
+        <a href="#" class="font-semibold tracking-tight">Jangho Seo</a>
+        <nav class="hidden gap-8 text-sm text-ink/70 sm:flex">
+          <a href="#about" class="hover:text-ink">About</a>
+          <a href="#publications" class="hover:text-ink">Publications</a>
+          <a href="#projects" class="hover:text-ink">Projects</a>
+          <a href="#skills" class="hover:text-ink">Skills</a>
+          <a href="#contact" class="hover:text-ink">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-4xl px-6">
+      <!-- Hero -->
+      <section class="flex flex-col items-start gap-6 py-24 sm:py-32">
+        <img
+          src="assets/img/profile.jpg"
+          alt="Jangho Seo"
+          class="h-24 w-24 rounded-full object-cover"
+        />
+        <div>
+          <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl">Jangho Seo</h1>
+          <p class="mt-2 text-lg text-ink/70">ML Engineer &amp; Data Scientist</p>
+        </div>
+        <p class="max-w-xl text-base leading-relaxed text-ink/80">
+          I build AI systems that turn data into real-world impact — currently a Decision
+          Intelligence Platform that helps people and businesses make better decisions.
+        </p>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="border-t border-black/5 py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">About</h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          I'm a Machine Learning Engineer and Data Scientist who solves real-world problems with
+          data. I'm currently building a Decision Intelligence Platform at Ailys, helping people
+          and businesses make better decisions and capture more value from them. Before that, I
+          built AI-driven recommendation and knowledge-tracing systems at TmaxEduAI, used by
+          millions of learners, and developed NovoRank, a machine learning system that improves
+          peptide identification accuracy, published in the <em>Journal of Proteome Research</em>,
+          during my M.S. in AI at Hanyang University.
+        </p>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications" class="border-t border-black/5 py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">Publications</h2>
+        <div class="mt-6 max-w-2xl">
+          <p class="text-base font-medium leading-snug">
+            NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and
+            Deep Learning
+          </p>
+          <p class="mt-1 text-sm text-ink/60">
+            Jangho Seo, Seunghyuk Choi, Eunok Paek — <em>J. Proteome Res.</em> 2025, 24, 2,
+            903–910
+          </p>
+          <a
+            href="assets/pdf/MS_NovoRank_JPR2024.pdf"
+            class="mt-2 inline-block text-sm font-medium text-accent hover:underline"
+            >Read paper →</a
+          >
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="border-t border-black/5 py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">Projects</h2>
+
+        <p class="mt-8 text-xs font-semibold uppercase tracking-wider text-ink/40">Professional</p>
+        <div class="mt-4 grid gap-6 sm:grid-cols-2">
+          <!-- Project card -->
+          <article class="overflow-hidden rounded-2xl border border-black/5">
+            <img src="assets/img/workflow.png" alt="NovoRank workflow" class="h-40 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="font-semibold">NovoRank</h3>
+              <p class="mt-1 text-sm text-ink/60">Bioinformatics · Deep Learning · Clustering</p>
+              <p class="mt-3 text-sm leading-relaxed text-ink/80">
+                Conventional <em>de novo</em> peptide sequencing tools score spectra in isolation
+                and frequently misidentify peptides. I built a two-step clustering and deep
+                learning re-ranking pipeline that cross-checks candidates against similar spectra,
+                improving precision and recall by an average of 4.6% and 4.5% across three
+                state-of-the-art tools.
+              </p>
+              <div class="mt-4 flex gap-4 text-sm font-medium">
+                <a href="https://github.com/jangho721/NovoRank" class="text-accent hover:underline">GitHub →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card -->
+          <article class="overflow-hidden rounded-2xl border border-black/5">
+            <div class="p-5">
+              <h3 class="font-semibold">Personalized Learning at Scale</h3>
+              <p class="mt-1 text-sm text-ink/60">Recommendation Systems · Knowledge Tracing</p>
+              <p class="mt-3 text-sm leading-relaxed text-ink/80">
+                Course recommendations for a 2M+ user platform were generic and didn't reflect
+                learner progress. I built a deep learning recommendation model on sequential
+                interaction data and shipped it through an Airflow pipeline, lifting course
+                enrollment (CVR) by 5% and content completion by 25%.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project card -->
+          <article class="overflow-hidden rounded-2xl border border-black/5">
+            <div class="p-5">
+              <h3 class="font-semibold">Construction Site Hazard Detection</h3>
+              <p class="mt-1 text-sm text-ink/60">Computer Vision · Object Detection</p>
+              <p class="mt-3 text-sm leading-relaxed text-ink/80">
+                Indoor construction sites have small- and medium-sized hazards that are easy for
+                inspectors to miss. As part of an automated safety-rule-checking project, I trained
+                image classification and object detection models to flag these hazards from site
+                imagery.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <p class="mt-12 text-xs font-semibold uppercase tracking-wider text-ink/40">Personal</p>
+        <div class="mt-4 grid gap-6 sm:grid-cols-2">
+          <!-- Project card -->
+          <article class="overflow-hidden rounded-2xl border border-black/5">
+            <div class="p-5">
+              <h3 class="font-semibold">Click-Through Rate Prediction</h3>
+              <p class="mt-1 text-sm text-ink/60">Machine Learning · LightGBM</p>
+              <p class="mt-3 text-sm leading-relaxed text-ink/80">
+                Wanted to understand how far a tuned gradient-boosting baseline could go against a
+                40M-row, heavily imbalanced ad-click dataset before reaching for deep learning. I
+                built a LightGBM pipeline addressing class imbalance and high-cardinality
+                categorical encoding on the Avazu CTR dataset.
+              </p>
+              <div class="mt-4 flex gap-4 text-sm font-medium">
+                <a href="#" class="text-accent hover:underline">GitHub →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="border-t border-black/5 py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">Skills</h2>
+        <div class="mt-6 grid gap-6 sm:grid-cols-3">
+          <div>
+            <h3 class="text-sm font-medium text-ink/60">Programming Languages</h3>
+            <p class="mt-2 text-sm text-ink/80">Python, SQL, Java</p>
+          </div>
+          <div>
+            <h3 class="text-sm font-medium text-ink/60">Frameworks &amp; Tools</h3>
+            <p class="mt-2 text-sm text-ink/80">PyTorch, LightGBM, Airflow</p>
+          </div>
+          <div>
+            <h3 class="text-sm font-medium text-ink/60">Domains</h3>
+            <p class="mt-2 text-sm text-ink/80">
+              Recommendation Systems, Knowledge Tracing, Bioinformatics, Computer Vision
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="border-t border-black/5 py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">Contact</h2>
+        <div class="mt-6 flex gap-6 text-base font-medium">
+          <a href="mailto:wkdgh08721@gmail.com" class="text-accent hover:underline">Email</a>
+          <a href="https://github.com/jangho721" class="text-accent hover:underline">GitHub</a>
+          <a href="https://www.linkedin.com/in/jangho-seo/" class="text-accent hover:underline">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mx-auto max-w-4xl px-6 py-10 text-sm text-ink/40">
+      © 2026 Jangho Seo
+    </footer>
+  </body>
+</html>
