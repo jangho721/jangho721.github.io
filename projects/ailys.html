@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decision Intelligence for Insurance Underwriting — Jangho Seo</title>
+    <meta
+      name="description"
+      content="Decision Intelligence for insurance underwriting at Ailys (DEIN) — ML measured by business KPIs, disease-risk prediction, and reject inference for no-data segments."
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body class="bg-paper text-ink antialiased">
+    <!-- Nav -->
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-paper/90 backdrop-blur">
+      <div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
+        <a href="../index.html" class="font-semibold tracking-tight">Jangho Seo</a>
+        <a
+          href="../index.html#projects"
+          class="font-mono text-sm text-ink/70 transition-colors hover:text-ink"
+          >← Projects</a
+        >
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-6">
+      <!-- Header -->
+      <section id="intro" class="py-16 sm:py-20">
+        <p class="font-mono text-sm text-accent">Case study · Decision Intelligence</p>
+        <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
+          Underwriting Intelligence for Insurance
+        </h1>
+        <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
+          Helping insurers make better underwriting decisions on Ailys's DEIN platform — building
+          ML that's judged by business outcomes (loss ratio, risk) rather than accuracy alone. This
+          is the challenge I'm working on now.
+        </p>
+
+        <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Role</dt>
+            <dd class="mt-1 text-sm text-ink/80">Data Scientist · Ailys</dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Timeline</dt>
+            <dd class="mt-1 text-sm text-ink/80">2025 – Present</dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Stack</dt>
+            <dd class="mt-1 text-sm text-ink/80">Python · Polars · PyTorch · AWS SageMaker · SQL</dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Focus</dt>
+            <dd class="mt-1 text-sm text-ink/80">
+              Underwriting ML · Reject inference · Business-KPI alignment
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- The idea -->
+      <section id="idea" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">01.</span> The idea
+        </h2>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
+          <p>
+            Most underwriting AI draws a single line on a risk score: accept or reject. DEIN, the
+            platform I work on, treats it as a richer decision — standard, decline, surcharge,
+            exclusion, or coverage limit — and explains an applicant in business terms (which
+            loss-ratio or incidence driver makes them risky), not just with SHAP values on a score.
+          </p>
+          <p>
+            It also reasons about applicants the data never saw: estimating outcomes for cases that
+            were historically rejected, and the effect of adjusting limits or exclusions. The
+            throughline of my work here is one conviction — a more accurate model isn't
+            automatically more valuable; it has to move a business KPI.
+          </p>
+        </div>
+      </section>
+
+      <!-- Disease prediction -->
+      <section id="disease" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">02.</span> Predicting disease risk for underwriting
+        </h2>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
+          <p>
+            To lower the loss ratio on new policies for a major insurer, we wanted to anticipate an
+            applicant's disease risk from their past insurance-claim history — a signal feeding
+            underwriting decisions and what-if simulations.
+          </p>
+          <p>
+            The hard part wasn't the model; it was defining the prediction target. Grouping diseases
+            naively is meaningless — a cold is common but tells you nothing, and a cold and a cancer
+            aren't related. So I used <strong class="font-medium text-ink">pointwise mutual
+            information (PMI)</strong> to measure how strongly diseases actually co-occur, kept only
+            associations within a confidence band I trusted, and used the hierarchical structure of
+            diagnosis codes to group similar diseases into sensible inputs and outputs.
+          </p>
+          <p>
+            On top of that target I built a two-step design — candidate generation then ranking — so
+            the prediction could also be reused as a single feature elsewhere; the predictor itself
+            is an MLP. Data was prepared as a mart over existing internal tables (SQL + Polars) with
+            a batch program, and the training pipeline ran on AWS SageMaker.
+          </p>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">&gt;93%</p>
+            <p class="mt-1 text-sm text-ink/70">recall (tuned for, by design)</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">↓ loss ratio</p>
+            <p class="mt-1 text-sm text-ink/70">contributed to reducing it via simulation</p>
+          </div>
+        </div>
+
+        <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            Tuned for high recall (&gt;93%) at the client's request: in risk screening, missing a
+            high-risk applicant costs far more than a false flag a human can review, so I accepted
+            lower precision deliberately — a trade made on business cost, not model vanity.
+          </li>
+          <li>
+            The model fed approve / reject / limit simulations aimed at the loss ratio, and surfaced
+            where disease relationships are genuinely ambiguous — the kind of insight underwriters
+            can actually act on.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Reject inference -->
+      <section id="reject-inference" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">03.</span> Reject inference
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          Standard underwriting models only learn from applicants who were approved — the ones with
+          known outcomes — which blinds them to whole segments that were historically rejected. I'm
+          researching reject inference to estimate outcomes for those no-data segments, so approvals
+          can be expanded safely into places the model has never seen ground truth. It's the part of
+          DEIN that reasons about assumptions the data doesn't contain.
+        </p>
+      </section>
+
+      <!-- Beyond models -->
+      <section id="beyond" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">04.</span> Beyond the models
+        </h2>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
+          <p>
+            Two other threads round out the work. First, translating each customer's
+            business KPIs into the decision logic that actually drives the platform — the bridge
+            between "what the business cares about" and "what the system does."
+          </p>
+          <p>
+            Second, building AI agents that make the solution easier to use: answering questions
+            from GA reports and insurance news, doing market research, generating analysis reports,
+            setting up alerts, and fielding questions like "is there fraud-like activity in our
+            book?" — so the platform meets users in plain language.
+          </p>
+        </div>
+      </section>
+
+      <!-- Back -->
+      <section class="border-t border-white/10 py-12">
+        <a
+          href="../index.html#projects"
+          class="font-mono text-sm text-accent transition-colors hover:underline"
+          >← Back to all projects</a
+        >
+      </section>
+    </main>
+
+    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/40">© 2026 Jangho Seo</footer>
+
+    <script defer src="../assets/js/main.js"></script>
+  </body>
+</html>
