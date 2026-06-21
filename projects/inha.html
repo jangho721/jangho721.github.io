@@ -31,9 +31,10 @@
           Construction Site Hazard Detection
         </h1>
         <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
-          A study on using image augmentation to recognize small hazard objects in indoor
-          construction sites — measuring which augmentation strategies actually improve a CNN's
-          accuracy when real images are scarce. Published as a co-authored paper.
+          Recognizing the small tools that cause accidents on construction sites — defining the
+          object classes, collecting real-site data under messy camera conditions, training
+          detection models, and testing whether augmentation actually helps. My first machine
+          learning research, as a civil-engineering undergrad.
         </p>
 
         <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
@@ -49,12 +50,12 @@
           </div>
           <div>
             <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Stack</dt>
-            <dd class="mt-1 text-sm text-ink/80">Python · CNN · Computer Vision</dd>
+            <dd class="mt-1 text-sm text-ink/80">Python · YOLO · CNN · Computer Vision</dd>
           </div>
           <div>
             <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Focus</dt>
             <dd class="mt-1 text-sm text-ink/80">
-              Image recognition · Data augmentation · Data-centric ML
+              Problem definition · Real-world data · Data-centric ML
             </dd>
           </div>
         </dl>
@@ -73,9 +74,10 @@
             objects from site imagery.
           </p>
           <p>
-            Recognition is data-hungry, but labeled images of these small objects are scarce, so a
-            model trained on them doesn't generalize well. The question I focused on: can image
-            augmentation close that data gap — and which augmentations actually help?
+            That recognition is harder than it sounds. It's data-hungry, real site footage is messy
+            (varied distance, angle, occlusion, lighting), and labeled images of these small objects
+            are scarce. So the work split into two real questions: collect data that reflects actual
+            site conditions, and figure out whether augmentation actually closes the data gap.
           </p>
         </div>
       </section>
@@ -87,27 +89,35 @@
         </h2>
         <ol class="mt-6 max-w-2xl space-y-5">
           <li>
-            <p class="font-medium">A 4-class recognition CNN</p>
+            <p class="font-medium">Grounded the problem</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Built a convolutional network (224×224 input → stacked convolution / batch-norm /
-              max-pool blocks → fully-connected layers → softmax) to recognize the four hazard
-              objects from a base set of 4,000 images, 1,000 per class.
+              Chose which hazard objects to recognize based on construction standards (standard
+              specifications and quantity-per-unit references), so the task reflected the tools
+              actually found on site rather than an arbitrary list.
             </p>
           </li>
           <li>
-            <p class="font-medium">Augmentation to beat data scarcity</p>
+            <p class="font-medium">Collected real-site data</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Generated more training data with four augmentations — shift (≤20%), rotation (≤30°),
-              zoom (0.5–1.5×), and brightness (0.5–1.5×) — combined two at a time into six training
-              sets (A–F).
+              Spent much of the project shooting images across real environments — soil, sidewalk
+              block, asphalt, indoor sites — deliberately spanning the conditions that break
+              recognition: distance, angle, occlusion, and lighting. This was the slow, unglamorous
+              part, and the part that mattered most.
             </p>
           </li>
           <li>
-            <p class="font-medium">Measured what actually helps</p>
+            <p class="font-medium">Trained detection &amp; recognition models</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Trained the same CNN on each augmented set and compared recognition accuracy against
-              the un-augmented baseline, to see which augmentations are worth using for small
-              construction-site objects.
+              Trained YOLO-based object detection on the collected data and validated it on real
+              site footage, alongside a CNN classifier for the individual objects.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">Tested whether augmentation actually helps</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              Rather than assume augmentation is free accuracy, I ran a controlled study (published):
+              four augmentations combined two at a time into six training sets (A–F) on a 4,000-image,
+              four-class benchmark, each compared against the un-augmented baseline.
             </p>
           </li>
         </ol>
@@ -206,10 +216,16 @@
           <span class="font-mono text-accent">04.</span> Context
         </h2>
         <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
-          This was my first hands-on machine-learning research, during an undergraduate internship
-          at the Construction Systems Laboratory. The methods are simple, but it's where I learned
-          to set up a clean experiment, read what the numbers were really saying, and see a model
-          aimed at a real, physical problem — and it's what got me to pursue ML seriously.
+          This recognition work fed a larger lab effort toward a digital-twin system for automated
+          safety-rule checking; the point-cloud, BIM, and digital-twin pieces were other
+          researchers' work, not mine.
+        </p>
+        <p class="mt-4 max-w-2xl text-base leading-relaxed text-ink/80">
+          It was my first hands-on machine-learning research, as a civil-engineering undergrad. The
+          methods are standard, but this is where I learned the parts that actually matter — framing
+          a problem worth solving, collecting data that survives the real world, and asking whether
+          a result is meaningful instead of just reporting it. It's what got me to pursue ML
+          seriously.
         </p>
         <p class="mt-6 max-w-2xl text-sm leading-relaxed text-ink/60">
           C. W. Jeon, <strong class="font-medium text-ink/80">J. Seo</strong>, E. D. Lee, M. Chung,
