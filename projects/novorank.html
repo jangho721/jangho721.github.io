@@ -47,7 +47,7 @@
           </div>
           <div>
             <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Stack</dt>
-            <dd class="mt-1 text-sm text-ink/80">Python · PyTorch · scikit-learn</dd>
+            <dd class="mt-1 text-sm text-ink/80">Python · TensorFlow · scikit-learn</dd>
           </div>
           <div>
             <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Links</dt>
@@ -100,9 +100,10 @@
           </p>
           <p>
             But conventional <em>de novo</em> tools score each spectrum in isolation and lean on
-            imperfect scoring functions, so they frequently rank the wrong peptide first. The
-            information sitting in <em>other, similar</em> spectra — which likely come from the same
-            peptide — goes unused.
+            imperfect scoring functions, so they frequently rank the wrong peptide first —
+            especially near the peptide ends, where key fragment ions are often missing and the
+            amino-acid order turns ambiguous. The information sitting in <em>other, similar</em>
+            spectra — which likely come from the same peptide — goes unused.
           </p>
         </div>
       </section>
@@ -133,10 +134,12 @@
             </p>
           </li>
           <li>
-            <p class="font-medium">Multi-modal deep learning model</p>
+            <p class="font-medium">A deep learning re-ranker</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              A model that takes spectrum, sequence, and tabular features together and chooses the
-              more desirable peptide between the top two candidates in a cluster.
+              A siamese model with shared weights compares the top two candidates and picks the
+              better one (learning-to-rank). It fuses three views of each candidate: the spectrum
+              through a sub-network, the peptide sequence through a ConvNet + BiLSTM, and six tabular
+              features (C-score, XCorr, fragment-ion match, ΔRT, …) through dense layers.
             </p>
           </li>
           <li>
@@ -147,6 +150,14 @@
             </p>
           </li>
         </ol>
+
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          The quiet hard part was the clustering and the C-score. They look simple, but landing on
+          features that powerful took real proteomics understanding and a long stretch of trial and
+          error — I'd chased several new spectrum-to-peptide matching scores that went nowhere before
+          these worked. As first author I performed the proteomic data analysis and developed and
+          implemented the full tool.
+        </p>
       </section>
 
       <!-- Results -->
@@ -184,10 +195,28 @@
         </ul>
       </section>
 
+      <!-- Limitations -->
+      <section id="limitations" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">04.</span> Limitations &amp; what's next
+        </h2>
+        <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            The gains are real but modest, and for the strongest tool (Casanovo) the improvement is
+            smaller at the peptide level than at the PSM level.
+          </li>
+          <li>
+            NovoRank re-ranks at the PSM level, but the real evidence lives at the cluster level —
+            multiple spectra from the same peptide. A cluster-level identification score, rather
+            than per-PSM, is the natural next step.
+          </li>
+        </ul>
+      </section>
+
       <!-- Reference -->
       <section id="reference" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">04.</span> Reference
+          <span class="font-mono text-accent">05.</span> Reference
         </h2>
         <p class="mt-6 max-w-2xl text-sm leading-relaxed text-ink/60">
           Jangho Seo, Seunghyuk Choi, Eunok Paek. NovoRank: Refinement for De Novo Peptide
