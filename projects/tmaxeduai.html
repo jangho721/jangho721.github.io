@@ -31,8 +31,10 @@
           Personalized Learning at Scale
         </h1>
         <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
-          AI systems that estimate what a learner already knows and recommend what they should do
-          next — spanning an AI digital textbook and a learning platform serving millions of users.
+          AI for more equal learning: estimate what each learner knows so they get the right
+          difficulty — not problems so hard they give up — and recommend the courses they'd
+          actually care about. Across an AI digital textbook and a learning platform serving
+          millions.
         </p>
 
         <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
@@ -64,14 +66,16 @@
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
-            One-size-fits-all learning content ignores where each student actually is. To
-            personalize it, you need to answer two hard questions well: <em>what does this learner
-            currently know?</em> and <em>what should they do next?</em>
+            One-size-fits-all content fails learners in two opposite ways. Give a struggling
+            student problems that are too hard and they lose motivation — the fun drains out. Drop a
+            motivated learner into a sea of courses with no guidance and they can't find what's
+            actually relevant to them.
           </p>
           <p>
-            Both are hard in practice. Estimating a knowledge state breaks down for new learners
-            with little history (the cold-start problem), and turning that estimate into the right
-            recommendation has to hold up at scale, in a live multi-tenant service.
+            Closing both gaps means answering two questions well — <em>what does this learner
+            currently know?</em> (so you can serve the right difficulty) and <em>what would they
+            actually want next?</em> (so the path stays relevant) — for new learners with little
+            history (cold-start), live, at scale.
           </p>
         </div>
       </section>
@@ -83,28 +87,30 @@
         </h2>
         <ol class="mt-6 max-w-2xl space-y-5">
           <li>
-            <p class="font-medium">Knowledge tracing</p>
+            <p class="font-medium">Knowledge tracing — the right difficulty</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Designed a method to estimate students' knowledge states from their problem-solving
-              history, explicitly handling cold-start for new learners. In a separate proof of
-              concept, trained a deep-learning knowledge-tracing model on history from 700+
-              students.
+              Estimated what each learner knows from their problem-solving history so the system
+              could serve appropriate difficulty instead of discouraging them. Designed a
+              knowledge-tracing method for the digital textbook that handles cold-start for new
+              learners, and prototyped a deep-learning knowledge-tracing model in a separate PoC.
             </p>
           </li>
           <li>
-            <p class="font-medium">Recommendation</p>
+            <p class="font-medium">Recommendation — what they'd actually want</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Built rule-based problem recommendation driven by knowledge-state levels for the
-              digital textbook, and a deep-learning personalized recommender on sequential
-              interaction history and user profiles for the large-scale learning platform.
+              Built a two-layer recommender for the large platform: an LSTM over each learner's
+              course and content history plus profile to predict what they'll engage with, and a
+              BERT model matching their interests and role to course titles. Added cold-start
+              handling (skipping learners and tenants with too little history) and filtering to drop
+              mandatory and duplicate courses.
             </p>
           </li>
           <li>
             <p class="font-medium">Production &amp; MLOps</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Shipped these into production through Airflow pipelines for scheduled training and
-              batch inference, with pre/post-processing to keep recommendations valid in a
-              multi-tenant setting, served via RESTful APIs.
+              Shipped it through Airflow — re-inferring daily on fresh activity and retraining
+              weekly on the full history — with pre/post-processing to keep recommendations valid
+              across a multi-tenant platform, served via RESTful APIs.
             </p>
           </li>
         </ol>
@@ -128,7 +134,7 @@
           <div class="flex-1 rounded-xl border border-white/10 bg-white/[0.02] p-4">
             <p class="font-mono text-xs uppercase tracking-wider text-accent">Model</p>
             <p class="mt-1 text-sm font-medium leading-snug">
-              DL recommender + knowledge-tracing
+              LSTM history + BERT profile · knowledge tracing
             </p>
           </div>
           <div class="flex items-center justify-center font-mono text-accent">
@@ -137,7 +143,7 @@
           <div class="flex-1 rounded-xl border border-white/10 bg-white/[0.02] p-4">
             <p class="font-mono text-xs uppercase tracking-wider text-accent">Pipeline</p>
             <p class="mt-1 text-sm font-medium leading-snug">
-              Airflow: scheduled training + batch inference
+              Airflow: weekly retrain + daily inference
             </p>
           </div>
           <div class="flex items-center justify-center font-mono text-accent">
@@ -185,6 +191,19 @@
             proposed directions to make it interpretable enough for real deployment.
           </li>
         </ul>
+      </section>
+
+      <!-- Beyond -->
+      <section id="beyond" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">04.</span> Beyond the platform
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          I shaped the AI approach for a national workforce-reskilling initiative — applying the
+          same ideas (knowledge tracing, recommendation, and personalized coaching) to help people
+          retrain for software roles as digital skills shift. Same conviction underneath: learning
+          should meet people where they are.
+        </p>
       </section>
 
       <!-- Back -->
