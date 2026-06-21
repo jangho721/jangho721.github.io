@@ -110,6 +110,52 @@
         </ol>
       </section>
 
+      <!-- Architecture -->
+      <figure id="architecture" class="border-t border-white/10 py-12">
+        <figcaption class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">Architecture</span>
+        </figcaption>
+        <div class="mt-6 flex flex-col items-stretch gap-3 sm:flex-row">
+          <div class="flex-1 rounded-xl border border-white/10 bg-white/[0.02] p-4">
+            <p class="font-mono text-xs uppercase tracking-wider text-accent">Data</p>
+            <p class="mt-1 text-sm font-medium leading-snug">
+              Sequential interaction history + user profiles
+            </p>
+          </div>
+          <div class="flex items-center justify-center font-mono text-accent">
+            <span class="rotate-90 sm:rotate-0">&rarr;</span>
+          </div>
+          <div class="flex-1 rounded-xl border border-white/10 bg-white/[0.02] p-4">
+            <p class="font-mono text-xs uppercase tracking-wider text-accent">Model</p>
+            <p class="mt-1 text-sm font-medium leading-snug">
+              DL recommender + knowledge-tracing
+            </p>
+          </div>
+          <div class="flex items-center justify-center font-mono text-accent">
+            <span class="rotate-90 sm:rotate-0">&rarr;</span>
+          </div>
+          <div class="flex-1 rounded-xl border border-white/10 bg-white/[0.02] p-4">
+            <p class="font-mono text-xs uppercase tracking-wider text-accent">Pipeline</p>
+            <p class="mt-1 text-sm font-medium leading-snug">
+              Airflow: scheduled training + batch inference
+            </p>
+          </div>
+          <div class="flex items-center justify-center font-mono text-accent">
+            <span class="rotate-90 sm:rotate-0">&rarr;</span>
+          </div>
+          <div class="flex-1 rounded-xl border border-white/10 bg-white/[0.02] p-4">
+            <p class="font-mono text-xs uppercase tracking-wider text-accent">Serving</p>
+            <p class="mt-1 text-sm font-medium leading-snug">
+              REST API to millions of learners
+            </p>
+          </div>
+        </div>
+        <figcaption class="mt-3 text-sm leading-relaxed text-ink/50">
+          The recommendation flow: interaction data feeds the models, which are retrained and run
+          on a schedule through Airflow, then served to learners via APIs.
+        </figcaption>
+      </figure>
+
       <!-- Results -->
       <section id="results" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
