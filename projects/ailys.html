@@ -28,12 +28,12 @@
       <section id="intro" class="py-16 sm:py-20">
         <p class="font-mono text-sm text-accent">Case study · Decision Intelligence</p>
         <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
-          Underwriting Intelligence for Insurance
+          Decision Intelligence for Underwriting
         </h1>
         <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
-          Helping insurers make better underwriting decisions on Ailys's DEIN platform — building
-          ML that's judged by business outcomes (loss ratio, risk) rather than accuracy alone. This
-          is the challenge I'm working on now.
+          Helping insurers and lenders make better underwriting decisions on Ailys's DEIN platform —
+          building ML and decision logic judged by business outcomes (loss ratio, risk) rather than
+          accuracy alone. This is the challenge I'm working on now.
         </p>
 
         <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
@@ -82,7 +82,7 @@
       <!-- Disease prediction -->
       <section id="disease" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">02.</span> Predicting disease risk for underwriting
+          <span class="font-mono text-accent">02.</span> Insurance — predicting disease risk
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
@@ -131,38 +131,39 @@
         </ul>
       </section>
 
-      <!-- Reject inference -->
-      <section id="reject-inference" class="border-t border-white/10 py-12">
+      <!-- Lending -->
+      <section id="lending" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">03.</span> Reject inference
-        </h2>
-        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
-          Standard underwriting models only learn from applicants who were approved — the ones with
-          known outcomes — which blinds them to whole segments that were historically rejected. I'm
-          researching reject inference to estimate outcomes for those no-data segments, so approvals
-          can be expanded safely into places the model has never seen ground truth. It's the part of
-          DEIN that reasons about assumptions the data doesn't contain.
-        </p>
-      </section>
-
-      <!-- Beyond models -->
-      <section id="beyond" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">04.</span> Beyond the models
+          <span class="font-mono text-accent">03.</span> Lending — reject inference &amp; KPI logic
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
-            Two other threads round out the work. First, translating each customer's
-            business KPIs into the decision logic that actually drives the platform — the bridge
-            between "what the business cares about" and "what the system does."
+            On the lending side, credit models only learn from borrowers who were approved — the
+            ones whose repayment you actually observe — which blinds them to whole segments that
+            were historically rejected. I research reject inference to estimate outcomes for those
+            no-data segments, so approvals can expand safely into places the model has never seen
+            ground truth. It's the part of DEIN that reasons about assumptions the data doesn't
+            contain.
           </p>
           <p>
-            Second, building AI agents that make the solution easier to use: answering questions
-            from GA reports and insurance news, doing market research, generating analysis reports,
-            setting up alerts, and fielding questions like "is there fraud-like activity in our
-            book?" — so the platform meets users in plain language.
+            I also build the business-rule logic that turns a lender's own KPIs into the decisions
+            the platform makes — the bridge between "what the business cares about" and "what the
+            system actually does."
           </p>
         </div>
+      </section>
+
+      <!-- Agents -->
+      <section id="agents" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">04.</span> AI agents
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          Back on the insurance side, I build AI agents that make the platform easier to use —
+          answering questions from GA reports and insurance news, doing market research, generating
+          analysis reports, setting up alerts, and fielding questions like "is there fraud-like
+          activity in our book?" — so the platform meets users in plain language.
+        </p>
       </section>
 
       <!-- Back -->
