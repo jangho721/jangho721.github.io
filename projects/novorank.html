@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovoRank — Jangho Seo</title>
+    <meta
+      name="description"
+      content="NovoRank — a machine learning post-processing tool that re-ranks de novo peptide sequencing results using spectral clustering and deep learning. Published in the Journal of Proteome Research."
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body class="bg-paper text-ink antialiased">
+    <!-- Nav -->
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-paper/90 backdrop-blur">
+      <div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
+        <a href="../index.html" class="font-semibold tracking-tight">Jangho Seo</a>
+        <a
+          href="../index.html#projects"
+          class="font-mono text-sm text-ink/70 transition-colors hover:text-ink"
+          >← Projects</a
+        >
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-6">
+      <!-- Header -->
+      <section id="intro" class="py-16 sm:py-20">
+        <p class="font-mono text-sm text-accent">Case study · Bioinformatics</p>
+        <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">NovoRank</h1>
+        <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
+          A machine learning post-processing tool that re-ranks <em>de novo</em> peptide sequencing
+          results by analysing similar spectra together — improving identification accuracy across
+          existing tools, with no change to the tools themselves.
+        </p>
+
+        <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Role</dt>
+            <dd class="mt-1 text-sm text-ink/80">
+              Graduate Research Assistant · M.S. thesis, Hanyang University
+            </dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Timeline</dt>
+            <dd class="mt-1 text-sm text-ink/80">2020 – 2022 · Published in JPR, 2025</dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Stack</dt>
+            <dd class="mt-1 text-sm text-ink/80">Python · PyTorch · scikit-learn</dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Links</dt>
+            <dd class="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm font-medium">
+              <a
+                href="https://github.com/jangho721/NovoRank"
+                class="text-accent transition-colors hover:underline"
+                >GitHub</a
+              >
+              <a
+                href="../assets/pdf/MS_NovoRank_JPR2024.pdf"
+                class="text-accent transition-colors hover:underline"
+                >Paper (PDF)</a
+              >
+              <a
+                href="https://zenodo.org/records/14046459"
+                class="text-accent transition-colors hover:underline"
+                >Dataset</a
+              >
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- Figure -->
+      <figure id="figure" class="border-t border-white/10 py-12">
+        <img
+          src="../assets/img/workflow.png"
+          alt="NovoRank workflow diagram"
+          class="w-full rounded-2xl border border-white/10 bg-white/[0.02]"
+        />
+        <figcaption class="mt-3 text-sm leading-relaxed text-ink/50">
+          Workflow of NovoRank. (A) Overall analysis flow. (B) Two-step clustering; colours mark a
+          cluster at each step. (C) Cluster-score (C-score) calculation within a cluster of two
+          MS/MS spectra. (D) Deep learning model that picks the more desirable peptide among the
+          top two candidates in a cluster.
+        </figcaption>
+      </figure>
+
+      <!-- Problem -->
+      <section id="problem" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">01.</span> Problem
+        </h2>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
+          <p>
+            <em>De novo</em> sequencing identifies peptide sequences directly from mass-spectrometry
+            data, without relying on a protein database. That makes it essential for finding novel
+            peptides — for example, neoantigen discovery in immunotherapy.
+          </p>
+          <p>
+            But conventional <em>de novo</em> tools score each spectrum in isolation and lean on
+            imperfect scoring functions, so they frequently rank the wrong peptide first. The
+            information sitting in <em>other, similar</em> spectra — which likely come from the same
+            peptide — goes unused.
+          </p>
+        </div>
+      </section>
+
+      <!-- Approach -->
+      <section id="approach" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">02.</span> Approach
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          NovoRank re-ranks candidate peptides by analysing similar spectra together, assuming they
+          originate from the same peptide species. Four pieces make that work:
+        </p>
+        <ol class="mt-6 max-w-2xl space-y-5">
+          <li>
+            <p class="font-medium">Two-step clustering</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              Spectral Clustering groups similar spectra first, then DBSCAN refines each group, so
+              spectra from the same peptide land together more precisely.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">C-score</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              A cluster-aware score that normalises the summed <em>de novo</em> scores of a peptide
+              by cluster size. Peptides that score well <em>and</em> recur across a cluster rank
+              higher, while clusters of different sizes stay comparable.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">Multi-modal deep learning model</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              A model that takes spectrum, sequence, and tabular features together and chooses the
+              more desirable peptide between the top two candidates in a cluster.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">Tool-agnostic by design</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              NovoRank sits downstream of existing <em>de novo</em> tools, so it improves their
+              precision and recall without modifying the tools themselves.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Results -->
+      <section id="results" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">03.</span> Results
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          Evaluated across three <em>de novo</em> sequencing tools and three datasets:
+        </p>
+        <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">+4.6%</p>
+            <p class="mt-1 text-sm text-ink/70">average precision</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">+4.5%</p>
+            <p class="mt-1 text-sm text-ink/70">average recall</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">+3.8% / +3.6%</p>
+            <p class="mt-1 text-sm text-ink/70">precision / recall on Casanovo (SOTA)</p>
+          </div>
+        </div>
+        <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            Correct peptide identifications rose by 0.37–0.61% (Casanovo), 7.52–18.80% (pNovo3),
+            and 3.06–4.24% (PEAKS). Some peptides were lost, but more new ones were gained.
+          </li>
+          <li>
+            Tools evaluated: <strong>PEAKS</strong> (commercial, algorithmic),
+            <strong>pNovo3</strong> (algorithm + ML), and <strong>Casanovo</strong>
+            (transformer-based, state of the art).
+          </li>
+        </ul>
+      </section>
+
+      <!-- Reference -->
+      <section id="reference" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">04.</span> Reference
+        </h2>
+        <p class="mt-6 max-w-2xl text-sm leading-relaxed text-ink/60">
+          Jangho Seo, Seunghyuk Choi, Eunok Paek. NovoRank: Refinement for De Novo Peptide
+          Sequencing Based on Spectral Clustering and Deep Learning.
+          <em>J. Proteome Res.</em> 2025, 24, 2, 903–910.
+        </p>
+        <a
+          href="../assets/pdf/MS_NovoRank_JPR2024.pdf"
+          class="mt-2 inline-block text-sm font-medium text-accent transition-colors hover:underline"
+          >Read paper →</a
+        >
+      </section>
+
+      <!-- Back -->
+      <section class="border-t border-white/10 py-12">
+        <a
+          href="../index.html#projects"
+          class="font-mono text-sm text-accent transition-colors hover:underline"
+          >← Back to all projects</a
+        >
+      </section>
+    </main>
+
+    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/40">© 2026 Jangho Seo</footer>
+
+    <script defer src="../assets/js/main.js"></script>
+  </body>
+</html>
