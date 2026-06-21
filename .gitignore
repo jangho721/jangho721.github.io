@@ -2,3 +2,6 @@
 node_modules/
 .idea
 assets/css/style.css
+
+# Private source material (internal company docs, drafts) — never publish
+temp/
