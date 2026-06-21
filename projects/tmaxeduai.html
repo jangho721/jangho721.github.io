@@ -80,29 +80,84 @@
         </div>
       </section>
 
-      <!-- Approach -->
-      <section id="approach" class="border-t border-white/10 py-12">
+      <!-- Digital textbook -->
+      <section id="textbook" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">02.</span> What I built
+          <span class="font-mono text-accent">02.</span> The AI digital textbook (math)
         </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          For a new math digital textbook, the goal was adaptive practice — the right problems for
+          each student. The obvious tool, our team's deep knowledge-tracing model, needs a lot of
+          per-student solving history that a brand-new product simply doesn't have yet. So I
+          designed a rule-based system that works from day one <em>and</em> quietly accumulates the
+          data to make ML possible later.
+        </p>
         <ol class="mt-6 max-w-2xl space-y-5">
           <li>
-            <p class="font-medium">Knowledge tracing — the right difficulty</p>
+            <p class="font-medium">A knowledge state with no cold start</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Estimated what each learner knows from their problem-solving history so the system
-              could serve appropriate difficulty instead of discouraging them. Designed a
-              knowledge-tracing method for the digital textbook that handles cold-start for new
-              learners, and prototyped a deep-learning knowledge-tracing model in a separate PoC.
+              Every sub-unit has a few common problems (3–5) every student solves, so there's never
+              zero history. From correctness and item difficulty, the system estimates per-concept
+              mastery.
             </p>
           </li>
           <li>
-            <p class="font-medium">Recommendation — what they'd actually want</p>
+            <p class="font-medium">Adaptive problem sets</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Built a two-layer recommender for the large platform: an LSTM over each learner's
-              course and content history plus profile to predict what they'll engage with, and a
-              BERT model matching their interests and role to course titles. Added cold-start
-              handling (skipping learners and tenants with too little history) and filtering to drop
-              mandatory and duplicate courses.
+              Based on that state, it assigns a tailored number and difficulty of problems,
+              advancing through sub-unit review → unit → final assessment. Do well and it serves
+              more, harder items; struggle and it serves more concept-reinforcing, easier ones — and
+              a missed foundational item triggers a problem from the prerequisite concept in the
+              knowledge map.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">Signals beyond right and wrong</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              Mastery rises and falls differently depending on item difficulty, and solving time
+              counts too — rushing or guessing too fast is penalized rather than rewarded.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">Built for teachers, in Java</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              The deployment solution was Java-only: SQL pulls difficulty-appropriate items, Java
+              assembles each problem set and caps repeats so the same problem doesn't keep
+              reappearing. Teachers can also enter parameters (target difficulty, class size) to
+              auto-generate a workbook from the problem bank.
+            </p>
+          </li>
+        </ol>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          <span class="font-medium text-ink">Why rules, not a model?</span> In education, teachers
+          can't blindly trust a black-box estimate for high-stakes assessments — it has to be
+          understandable and respect curriculum order. Rules earned that trust early, and I tuned
+          them with field teachers, by grade level. Just as important, I designed the database to
+          double as an ML foundation — logging problems served, correctness, difficulty, and
+          achievement — so the product ships as rules today while accumulating the labeled history
+          to move to ML (a Deep Knowledge Tracing–based diagnosis model I also researched)
+          tomorrow. Delivered via RESTful APIs on the internal platform.
+        </p>
+      </section>
+
+      <!-- Platform -->
+      <section id="platform" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">03.</span> The learning platform at scale
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          On a corporate learning platform serving millions, the question flips from "what should
+          this student practice next" to "which of thousands of courses would this learner actually
+          want" — running live, across many tenants.
+        </p>
+        <ol class="mt-6 max-w-2xl space-y-5">
+          <li>
+            <p class="font-medium">A two-layer recommender</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/80">
+              An LSTM over each learner's course and content history plus profile to predict what
+              they'll engage with, and a BERT model matching their interests and role to course
+              titles. Added cold-start handling (skipping learners and tenants with too little
+              history) and filtering to drop mandatory and duplicate courses.
             </p>
           </li>
           <li>
@@ -165,7 +220,7 @@
       <!-- Results -->
       <section id="results" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">03.</span> Results
+          <span class="font-mono text-accent">04.</span> Results
         </h2>
         <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
           <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
@@ -196,7 +251,7 @@
       <!-- Beyond -->
       <section id="beyond" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">04.</span> Beyond the platform
+          <span class="font-mono text-accent">05.</span> Beyond the platform
         </h2>
         <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
           I shaped the AI approach for a national workforce-reskilling initiative — applying the
