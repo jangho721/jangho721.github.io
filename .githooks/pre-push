@@ -10,7 +10,7 @@ echo "[pre-push] checking links..."
 if ! command -v lychee >/dev/null 2>&1; then
   echo "[pre-push] lychee not found, skipping link check (brew install lychee to enable)"
 else
-  lychee --no-progress --exclude 'linkedin\.com' index.html
+  lychee --no-progress --exclude 'linkedin\.com' index.html projects/*.html
 fi
 
 echo "[pre-push] OK"

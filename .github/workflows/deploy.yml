@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir -p dist
           cp index.html robots.txt dist/
-          cp -r assets dist/
+          cp -r assets projects dist/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

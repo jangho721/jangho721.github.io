@@ -22,5 +22,5 @@ jobs:
         with:
           # linkedin.com is excluded: it blocks automated requests (incl. lychee/curl)
           # with non-standard status codes even for valid profile URLs.
-          args: --no-progress --exclude 'linkedin\.com' index.html
+          args: --no-progress --exclude 'linkedin\.com' index.html projects/*.html
           fail: true
