@@ -31,8 +31,9 @@
           Construction Site Hazard Detection
         </h1>
         <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
-          Image classification and object detection to flag small- and medium-sized hazards in
-          indoor construction sites — part of a research effort to automate safety-rule checking.
+          A study on using image augmentation to recognize small hazard objects in indoor
+          construction sites — measuring which augmentation strategies actually improve a CNN's
+          accuracy when real images are scarce. Published as a co-authored paper.
         </p>
 
         <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
@@ -48,12 +49,12 @@
           </div>
           <div>
             <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Stack</dt>
-            <dd class="mt-1 text-sm text-ink/80">Python · Deep Learning · Computer Vision</dd>
+            <dd class="mt-1 text-sm text-ink/80">Python · CNN · Computer Vision</dd>
           </div>
           <div>
             <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Focus</dt>
             <dd class="mt-1 text-sm text-ink/80">
-              Object detection · Image classification · Data augmentation
+              Image recognition · Data augmentation · Data-centric ML
             </dd>
           </div>
         </dl>
@@ -66,14 +67,15 @@
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
-            Indoor construction sites are full of small- and medium-sized objects that can pose
-            safety risks, and they're easy for human inspectors to miss. The lab's broader goal was
-            to automate safety-rule checking — which first requires reliably detecting those
+            Indoor construction sites are littered with small tools — hammers, shovels, electric
+            drills, spanners — that get left lying around and cause accidents. The lab's broader
+            goal was to automate safety-rule checking, which first requires recognizing these
             objects from site imagery.
           </p>
           <p>
-            That detection is the hard part: small and medium objects are tough to localize, and
-            labeled construction-site imagery is scarce, so models struggle to generalize.
+            Recognition is data-hungry, but labeled images of these small objects are scarce, so a
+            model trained on them doesn't generalize well. The question I focused on: can image
+            augmentation close that data gap — and which augmentations actually help?
           </p>
         </div>
       </section>
@@ -85,40 +87,134 @@
         </h2>
         <ol class="mt-6 max-w-2xl space-y-5">
           <li>
-            <p class="font-medium">Detection &amp; classification models</p>
+            <p class="font-medium">A 4-class recognition CNN</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Built and trained image classification and object detection models to identify
-              safety-relevant small- and medium-sized objects from indoor site imagery.
+              Built a convolutional network (224×224 input → stacked convolution / batch-norm /
+              max-pool blocks → fully-connected layers → softmax) to recognize the four hazard
+              objects from a base set of 4,000 images, 1,000 per class.
             </p>
           </li>
           <li>
-            <p class="font-medium">Image augmentation for scarce data</p>
+            <p class="font-medium">Augmentation to beat data scarcity</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Studied and applied image-augmentation techniques aimed at improving recognition of
-              small- and medium-sized objects under limited labeled data.
+              Generated more training data with four augmentations — shift (≤20%), rotation (≤30°),
+              zoom (0.5–1.5×), and brightness (0.5–1.5×) — combined two at a time into six training
+              sets (A–F).
             </p>
           </li>
           <li>
-            <p class="font-medium">Experimentation</p>
+            <p class="font-medium">Measured what actually helps</p>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
-              Ran experiments comparing classification and detection approaches to understand what
-              worked best for this setting, feeding the results back into the automated
-              safety-rule-checking project.
+              Trained the same CNN on each augmented set and compared recognition accuracy against
+              the un-augmented baseline, to see which augmentations are worth using for small
+              construction-site objects.
             </p>
           </li>
         </ol>
       </section>
 
-      <!-- Context -->
+      <!-- Figure -->
+      <figure id="figure" class="border-t border-white/10 py-12">
+        <img
+          src="../assets/img/construction-augmentation.png"
+          alt="The four image-augmentation techniques applied to an electric drill"
+          class="mx-auto w-full max-w-sm rounded-2xl border border-white/10 bg-white/[0.02]"
+        />
+        <figcaption class="mx-auto mt-3 max-w-sm text-sm leading-relaxed text-ink/50">
+          The four augmentations applied to one object: shift, rotation, brightness, and zoom around
+          the original image.
+        </figcaption>
+      </figure>
+
+      <!-- Results -->
+      <section id="results" class="border-t border-white/10 py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+          <span class="font-mono text-accent">03.</span> Results
+        </h2>
+        <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-ink/70">85.7%</p>
+            <p class="mt-1 text-sm text-ink/70">baseline, no augmentation</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">87.6%</p>
+            <p class="mt-1 text-sm text-ink/70">best set (brightness + zoom)</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">+1.9%</p>
+            <p class="mt-1 text-sm text-ink/70">max accuracy gain</p>
+          </div>
+        </div>
+
+        <div class="mt-6 max-w-md overflow-hidden rounded-2xl border border-white/10">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-white/[0.03] text-ink/60">
+              <tr>
+                <th class="px-4 py-2 font-medium">Training set</th>
+                <th class="px-4 py-2 text-right font-medium">Accuracy</th>
+              </tr>
+            </thead>
+            <tbody class="text-ink/80">
+              <tr class="border-t border-white/10">
+                <td class="px-4 py-2">Baseline (none)</td>
+                <td class="px-4 py-2 text-right font-mono">85.7%</td>
+              </tr>
+              <tr class="border-t border-white/10">
+                <td class="px-4 py-2">A · rotation + shift</td>
+                <td class="px-4 py-2 text-right font-mono">85.1%</td>
+              </tr>
+              <tr class="border-t border-white/10">
+                <td class="px-4 py-2">B · rotation + brightness</td>
+                <td class="px-4 py-2 text-right font-mono">86.9%</td>
+              </tr>
+              <tr class="border-t border-white/10">
+                <td class="px-4 py-2">C · brightness + shift</td>
+                <td class="px-4 py-2 text-right font-mono">85.8%</td>
+              </tr>
+              <tr class="border-t border-white/10">
+                <td class="px-4 py-2">D · rotation + zoom</td>
+                <td class="px-4 py-2 text-right font-mono">85.7%</td>
+              </tr>
+              <tr class="border-t border-white/10">
+                <td class="px-4 py-2">E · shift + zoom</td>
+                <td class="px-4 py-2 text-right font-mono">87.3%</td>
+              </tr>
+              <tr class="border-t border-white/10 text-accent">
+                <td class="px-4 py-2 font-medium">F · brightness + zoom</td>
+                <td class="px-4 py-2 text-right font-mono font-medium">87.6%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            Augmentation lifted accuracy by +0.7% on average, up to +1.9% — modest, but consistent
+            where it counted. Zoom-based sets (E, F) helped most.
+          </li>
+          <li>
+            Rotation-heavy sets (A, D) didn't reliably improve, suggesting rotation is a poor fit
+            for these small, orientation-stable objects — a more useful takeaway than the headline
+            number.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Context & reference -->
       <section id="context" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">03.</span> Context
+          <span class="font-mono text-accent">04.</span> Context
         </h2>
         <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
-          This was my first hands-on research in machine learning, during an undergraduate
-          internship at the Construction Systems Laboratory. It's where I first saw a model move
-          from an experiment to something with a real, physical purpose — and what got me to pursue
-          ML seriously.
+          This was my first hands-on machine-learning research, during an undergraduate internship
+          at the Construction Systems Laboratory. The methods are simple, but it's where I learned
+          to set up a clean experiment, read what the numbers were really saying, and see a model
+          aimed at a real, physical problem — and it's what got me to pursue ML seriously.
+        </p>
+        <p class="mt-6 max-w-2xl text-sm leading-relaxed text-ink/60">
+          C. W. Jeon, <strong class="font-medium text-ink/80">J. Seo</strong>, E. D. Lee, M. Chung,
+          K. Lee, D. H. Shin. Image Augmentation for Small Object Detection on Indoor Construction
+          Site. Supported by the National Research Foundation of Korea (NRF-2019R1A2C1088824).
         </p>
       </section>
 
