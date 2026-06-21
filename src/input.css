@@ -4,7 +4,7 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --color-ink: #e2e8f0;
-  --color-paper: #0a0f1f;
+  --color-paper: #151d33;
   --color-accent: #5eead4;
 }
 
@@ -29,8 +29,9 @@ body::before {
   z-index: -2;
   pointer-events: none;
   background:
-    radial-gradient(60rem 60rem at 15% -10%, color-mix(in srgb, var(--color-accent) 7%, transparent), transparent 60%),
-    radial-gradient(50rem 50rem at 100% 0%, color-mix(in srgb, #6366f1 8%, transparent), transparent 55%);
+    radial-gradient(60rem 60rem at 12% -8%, color-mix(in srgb, var(--color-accent) 9%, transparent), transparent 58%),
+    radial-gradient(52rem 52rem at 100% 4%, color-mix(in srgb, #818cf8 10%, transparent), transparent 55%),
+    radial-gradient(48rem 48rem at 88% 102%, color-mix(in srgb, #fb923c 8%, transparent), transparent 55%);
 }
 
 .cursor-glow {
