@@ -2,17 +2,35 @@
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --color-ink: #111111;
-  --color-paper: #fafaf9;
-  --color-accent: #2563eb;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-ink: #e2e8f0;
+  --color-paper: #0a0f1f;
+  --color-accent: #5eead4;
+}
+
+:root {
+  color-scheme: dark;
 }
 
 body {
   font-family: var(--font-sans);
+  background-color: var(--color-paper);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Faint radial wash so the dark background isn't a flat void */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(60rem 60rem at 15% -10%, color-mix(in srgb, var(--color-accent) 7%, transparent), transparent 60%),
+    radial-gradient(50rem 50rem at 100% 0%, color-mix(in srgb, #6366f1 8%, transparent), transparent 55%);
 }
 
 .cursor-glow {
@@ -23,7 +41,7 @@ html {
   height: 32rem;
   margin: -16rem;
   border-radius: 9999px;
-  background: radial-gradient(circle, color-mix(in srgb, var(--color-accent) 10%, transparent), transparent 70%);
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-accent) 14%, transparent), transparent 70%);
   pointer-events: none;
   z-index: -1;
   will-change: transform;
