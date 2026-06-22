@@ -184,14 +184,30 @@
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
           <span class="font-mono text-accent">04.</span> Insurance — AI agents
         </h2>
-        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
-          On the insurance side I also build AI agents that make the platform usable without
-          training — so an underwriter or actuary can ask "is there fraud-like activity in our
-          book?" or "what's driving the loss ratio this quarter?" in plain language rather than
-          writing SQL or waiting for an analyst. The agents pull from GA reports, insurance news,
-          and internal book data to answer questions, run market research, and generate analysis
-          reports on demand.
-        </p>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
+          <p>
+            On the insurance side I build a multi-agent system that lets underwriters and actuaries
+            query the platform in plain language — no SQL, no analyst bottleneck. An underwriter
+            can ask "is there fraud-like activity in our book this month?" and get a structured
+            answer backed by actual data, not a hallucination.
+          </p>
+          <p>
+            The architecture combines three patterns. <strong class="font-medium text-ink">RAG</strong>
+            over internal book data and GA reports grounds the agents in real numbers.
+            <strong class="font-medium text-ink">Tool use</strong> lets agents call live APIs —
+            pulling insurance news, running market research, triggering report generation — rather
+            than relying on stale context. A <strong class="font-medium text-ink">multi-agent</strong>
+            setup routes different task types to specialized agents: one handles analytical
+            questions over internal data, another handles market and news research, a third
+            generates structured reports on demand.
+          </p>
+          <p>
+            One architectural decision driven by security: sensitive internal book data never
+            leaves the environment, so those agents run on a self-hosted model. External-facing
+            tasks — market research, news summarization — use Claude. The split is a deliberate
+            tradeoff between capability and data governance, not a cost optimization.
+          </p>
+        </div>
       </section>
 
       <!-- Back -->
