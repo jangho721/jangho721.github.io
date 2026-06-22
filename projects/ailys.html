@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Decision Intelligence for Insurance &amp; Lending — Jangho Seo</title>
+    <title>Decision Intelligence for Insurance &amp; Loan — Jangho Seo</title>
     <meta
       name="description"
-      content="Decision Intelligence for insurance and lending at Ailys (DEIN) — ML measured by business KPIs, disease-risk prediction, and reject inference for no-data segments."
+      content="Decision Intelligence for insurance and loan at Ailys (DEIN) — ML measured by business KPIs, disease-risk prediction, and reject inference for no-data segments."
     />
     <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
@@ -28,12 +28,12 @@
       <section id="intro" class="py-16 sm:py-20">
         <p class="font-mono text-sm text-accent">Case study · Decision Intelligence</p>
         <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
-          Decision Intelligence for Insurance &amp; Lending
+          Decision Intelligence for Insurance &amp; Loan
         </h1>
         <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
-          Helping insurers and lenders make better underwriting decisions on Ailys's DEIN platform —
-          building ML and decision logic judged by business outcomes (loss ratio, risk) rather than
-          accuracy alone. This is the challenge I'm working on now.
+          Building ML and decision logic on Ailys's DEIN platform — judged by business outcomes
+          (loss ratio, approval rate) rather than accuracy alone. Two domains, one conviction:
+          a model isn't valuable until it moves a KPI. This is the challenge I'm working on now.
         </p>
 
         <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
@@ -52,7 +52,7 @@
           <div>
             <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Focus</dt>
             <dd class="mt-1 text-sm text-ink/80">
-              Underwriting ML · Reject inference · Business-KPI alignment
+              Insurance ML · Loan ML · Business-KPI alignment
             </dd>
           </div>
         </dl>
@@ -65,14 +65,17 @@
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
-            Most underwriting AI draws a single line on a risk score: accept or reject. DEIN, the
-            platform I work on, treats it as a richer decision — standard, decline, surcharge,
-            exclusion, or coverage limit — and explains an applicant in business terms (which
-            loss-ratio or incidence driver makes them risky), not just with SHAP values on a score.
+            Most risk-scoring AI draws a single line: accept or reject. DEIN, the platform I work
+            on, treats it as a richer decision. On the insurance side that means standard, decline,
+            surcharge, exclusion, or coverage limit — explained in business terms (which loss-ratio
+            or incidence driver makes an applicant risky), not just SHAP values on a score. On the
+            loan side it means finding the optimal rate and limit for segments the model has never
+            seen ground truth on, rather than declining them by default.
           </p>
           <p>
-            It also reasons about applicants the data never saw: estimating outcomes for cases that
-            were historically rejected, and the effect of adjusting limits or exclusions. The
+            Both domains share the same problem: the data you have is biased by decisions already
+            made. DEIN reasons about what the data doesn't contain — estimating outcomes for
+            historically rejected applicants and simulating the effect of changing the rules. The
             throughline of my work here is one conviction — a more accurate model isn't
             automatically more valuable; it has to move a business KPI.
           </p>
@@ -131,38 +134,63 @@
         </ul>
       </section>
 
-      <!-- Lending -->
-      <section id="lending" class="border-t border-white/10 py-12">
+      <!-- Loan -->
+      <section id="loan" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">03.</span> Lending — reject inference &amp; KPI logic
+          <span class="font-mono text-accent">03.</span> Loan — reject inference &amp; KPI logic
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
-            On the lending side, credit models only learn from borrowers who were approved — the
-            ones whose repayment you actually observe — which blinds them to whole segments that
-            were historically rejected. I research reject inference to estimate outcomes for those
-            no-data segments, so approvals can expand safely into places the model has never seen
-            ground truth. It's the part of DEIN that reasons about assumptions the data doesn't
-            contain.
+            As loan markets saturate, lenders need to expand into thin-file segments — the
+            underserved and younger customers who were historically declined not because they're
+            risky, but because there's no repayment data on them. The problem: credit models only
+            learn from borrowers who were approved, so they're blind to these segments by design.
           </p>
           <p>
-            I also build the business-rule logic that turns a lender's own KPIs into the decisions
-            the platform makes — the bridge between "what the business cares about" and "what the
-            system actually does."
+            I build the reject inference layer of DEIN that estimates outcomes for those no-data
+            segments, so a lender can expand approvals without flying blind on risk. The approach
+            combines five strategies: niche scoring models built from similar approved-segment
+            profiles, a safety margin on top of the risk estimate to account for data uncertainty,
+            a profitability model that folds in expected card spend alongside default risk, a
+            simulation engine that finds the optimal rate and limit for each segment, and a
+            champion-challenger framework that rolls out changes incrementally while monitoring
+            delinquency in real time.
           </p>
+          <p>
+            I also build the business-rule logic that turns a lender's own KPIs — approval-rate
+            target, delinquency cap, margin floor — into the actual decisions the platform makes.
+            The bridge between "what the business cares about" and "what the system does."
+          </p>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">+4.6%</p>
+            <p class="mt-1 text-sm text-ink/70">approval rate increase</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">↔ delinquency</p>
+            <p class="mt-1 text-sm text-ink/70">unchanged after expansion</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+            <p class="font-mono text-2xl font-semibold text-accent">+$2.21M</p>
+            <p class="mt-1 text-sm text-ink/70">net interest margin (NIM)</p>
+          </div>
         </div>
       </section>
 
       <!-- Agents -->
       <section id="agents" class="border-t border-white/10 py-12">
         <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">04.</span> AI agents
+          <span class="font-mono text-accent">04.</span> Insurance — AI agents
         </h2>
         <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
-          Back on the insurance side, I build AI agents that make the platform easier to use —
-          answering questions from GA reports and insurance news, doing market research, generating
-          analysis reports, setting up alerts, and fielding questions like "is there fraud-like
-          activity in our book?" — so the platform meets users in plain language.
+          On the insurance side I also build AI agents that make the platform usable without
+          training — so an underwriter or actuary can ask "is there fraud-like activity in our
+          book?" or "what's driving the loss ratio this quarter?" in plain language rather than
+          writing SQL or waiting for an analyst. The agents pull from GA reports, insurance news,
+          and internal book data to answer questions, run market research, and generate analysis
+          reports on demand.
         </p>
       </section>
 
