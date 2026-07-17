@@ -8,16 +8,22 @@
       name="description"
       content="Decision Intelligence for insurance and loan at Ailys (DEIN) — ML measured by business KPIs, disease-risk prediction, and reject inference for no-data segments."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Google+Sans+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
   <body class="bg-paper text-ink antialiased">
     <!-- Nav -->
-    <header class="sticky top-0 z-50 border-b border-white/10 bg-paper/90 backdrop-blur">
+    <header class="sticky top-0 z-50 border-b border-outline bg-paper/80 backdrop-blur">
       <div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
         <a href="../index.html" class="font-semibold tracking-tight">Jangho Seo</a>
         <a
           href="../index.html#projects"
-          class="font-mono text-sm text-ink/70 transition-colors hover:text-ink"
+          class="rounded-full px-3 py-1.5 font-mono text-sm text-ink/70 transition-colors hover:bg-surface hover:text-ink"
           >← Projects</a
         >
       </div>
@@ -38,19 +44,25 @@
 
         <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Role</dt>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Role</dt>
             <dd class="mt-1 text-sm text-ink/80">Data Scientist · Ailys</dd>
           </div>
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Timeline</dt>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Timeline</dt>
             <dd class="mt-1 text-sm text-ink/80">2025 – Present</dd>
           </div>
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Stack</dt>
-            <dd class="mt-1 text-sm text-ink/80">Python · Polars · PyTorch · AWS SageMaker · SQL</dd>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Stack</dt>
+            <dd class="mt-2 flex flex-wrap gap-2">
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Python</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Polars</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">PyTorch</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">AWS SageMaker</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">SQL</span>
+            </dd>
           </div>
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Focus</dt>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Focus</dt>
             <dd class="mt-1 text-sm text-ink/80">
               Insurance ML · Loan ML · Business-KPI alignment
             </dd>
@@ -59,8 +71,8 @@
       </section>
 
       <!-- The idea -->
-      <section id="idea" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+      <section id="idea" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
           <span class="font-mono text-accent">01.</span> The idea
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
@@ -83,9 +95,9 @@
       </section>
 
       <!-- Disease prediction -->
-      <section id="disease" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">02.</span> Insurance — predicting disease risk
+      <section id="disease" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-coral">02.</span> Insurance — predicting disease risk
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
@@ -110,11 +122,11 @@
         </div>
 
         <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-accent">&gt;93%</p>
             <p class="mt-1 text-sm text-ink/70">recall (tuned for, by design)</p>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-sand p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-accent">↓ loss ratio</p>
             <p class="mt-1 text-sm text-ink/70">contributed to reducing it via simulation</p>
           </div>
@@ -135,9 +147,9 @@
       </section>
 
       <!-- Loan -->
-      <section id="loan" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">03.</span> Loan — reject inference &amp; KPI logic
+      <section id="loan" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-sun">03.</span> Loan — reject inference &amp; KPI logic
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
@@ -164,15 +176,15 @@
         </div>
 
         <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-accent">+4.6%</p>
             <p class="mt-1 text-sm text-ink/70">approval rate increase</p>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-sand p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-accent">↔ delinquency</p>
             <p class="mt-1 text-sm text-ink/70">unchanged after expansion</p>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-accent">+$2.21M</p>
             <p class="mt-1 text-sm text-ink/70">net interest margin (NIM)</p>
           </div>
@@ -180,9 +192,9 @@
       </section>
 
       <!-- Agents -->
-      <section id="agents" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">04.</span> Insurance — AI agents
+      <section id="agents" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-leaf">04.</span> Insurance — AI agents
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
           <p>
@@ -211,16 +223,16 @@
       </section>
 
       <!-- Back -->
-      <section class="border-t border-white/10 py-12">
+      <section class="border-t border-outline py-12">
         <a
           href="../index.html#projects"
-          class="font-mono text-sm text-accent transition-colors hover:underline"
+          class="inline-flex items-center rounded-full bg-surface px-4 py-2 font-mono text-sm text-accent transition-colors hover:bg-accent/10"
           >← Back to all projects</a
         >
       </section>
     </main>
 
-    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/40">© 2026 Jangho Seo</footer>
+    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/60">© 2026 Jangho Seo</footer>
 
     <script defer src="../assets/js/main.js"></script>
   </body>

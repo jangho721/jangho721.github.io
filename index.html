@@ -8,20 +8,26 @@
       name="description"
       content="Jangho Seo — Machine Learning Engineer &amp; Data Scientist building AI systems across research and industry."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Google+Sans+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="bg-paper text-ink antialiased">
     <!-- Nav -->
-    <header class="sticky top-0 z-50 border-b border-white/10 bg-paper/90 backdrop-blur">
+    <header class="sticky top-0 z-50 border-b border-outline bg-paper/80 backdrop-blur">
       <div class="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
         <a href="#" class="font-semibold tracking-tight">Jangho Seo</a>
-        <nav class="hidden gap-8 text-sm text-ink/70 sm:flex">
-          <a href="#about" class="text-ink/70 transition-colors hover:text-ink">About</a>
-          <a href="#experience" class="text-ink/70 transition-colors hover:text-ink">Experience</a>
-          <a href="#publications" class="text-ink/70 transition-colors hover:text-ink">Publications</a>
-          <a href="#projects" class="text-ink/70 transition-colors hover:text-ink">Projects</a>
-          <a href="#skills" class="text-ink/70 transition-colors hover:text-ink">Skills</a>
-          <a href="#contact" class="text-ink/70 transition-colors hover:text-ink">Contact</a>
+        <nav class="hidden gap-1 text-sm sm:flex">
+          <a href="#about" class="rounded-full px-3 py-1.5 text-ink/70 transition-colors hover:bg-surface hover:text-ink">About</a>
+          <a href="#experience" class="rounded-full px-3 py-1.5 text-ink/70 transition-colors hover:bg-surface hover:text-ink">Experience</a>
+          <a href="#publications" class="rounded-full px-3 py-1.5 text-ink/70 transition-colors hover:bg-surface hover:text-ink">Publications</a>
+          <a href="#projects" class="rounded-full px-3 py-1.5 text-ink/70 transition-colors hover:bg-surface hover:text-ink">Projects</a>
+          <a href="#skills" class="rounded-full px-3 py-1.5 text-ink/70 transition-colors hover:bg-surface hover:text-ink">Skills</a>
+          <a href="#contact" class="rounded-full px-3 py-1.5 text-ink/70 transition-colors hover:bg-surface hover:text-ink">Contact</a>
         </nav>
       </div>
     </header>
@@ -32,7 +38,7 @@
         <img
           src="assets/img/profile.jpg"
           alt="Jangho Seo"
-          class="h-32 w-32 rounded-full object-cover ring-1 ring-white/15"
+          class="h-32 w-32 rounded-full object-cover ring-4 ring-white shadow-md"
         />
         <div>
           <p class="font-mono text-sm text-accent">Hello, I'm</p>
@@ -44,15 +50,15 @@
           completion curve. First-author publication in bioinformatics, recommendation systems
           used by millions, and now decision intelligence at Ailys.
         </p>
-        <p class="font-mono text-sm text-ink/60">
-          <span class="text-accent">↳</span> Based in Seoul — happiest shipping from anywhere with a
+        <p class="inline-flex items-center gap-2 rounded-full bg-sand px-4 py-2 font-mono text-sm text-ink/70">
+          <span>📍</span> Based in Seoul — happiest shipping from anywhere with a
           good view.
         </p>
       </section>
 
       <!-- About -->
-      <section id="about" class="border-t border-white/10 py-20">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+      <section id="about" class="border-t border-outline py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
           <span class="font-mono text-accent">01.</span> About
         </h2>
         <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
@@ -74,9 +80,9 @@
       </section>
 
       <!-- Experience -->
-      <section id="experience" class="border-t border-white/10 py-20">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">02.</span> Experience
+      <section id="experience" class="border-t border-outline py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-coral">02.</span> Experience
         </h2>
         <div class="mt-6 max-w-2xl space-y-6">
           <div>
@@ -89,7 +95,7 @@
                 >
                 — Data Scientist
               </p>
-              <p class="text-sm text-ink/50">Apr 2025 – Present</p>
+              <p class="text-sm text-ink/60">Apr 2025 – Present</p>
             </div>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
               Building ML for insurance risk and loan approval decisions on the DEIN platform —
@@ -99,7 +105,7 @@
           <div>
             <div class="flex flex-wrap items-baseline justify-between gap-x-4">
               <p class="text-base font-medium leading-snug">TmaxEduAI — AI Engineer</p>
-              <p class="text-sm text-ink/50">Jan 2023 – Nov 2024</p>
+              <p class="text-sm text-ink/60">Jan 2023 – Nov 2024</p>
             </div>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
               Built knowledge tracing and recommendation systems serving 2M+ learners — lifting
@@ -115,7 +121,7 @@
                   >Bioinformatics and Intelligent Systems Lab</a
                 >, Hanyang University — Graduate Research Assistant
               </p>
-              <p class="text-sm text-ink/50">Aug 2020 – Dec 2022</p>
+              <p class="text-sm text-ink/60">Aug 2020 – Dec 2022</p>
             </div>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
               Designed ML/DL-based post-processing tools for reranking and rescoring to improve
@@ -131,7 +137,7 @@
                   >The Construction Systems Laboratory</a
                 >, Inha University — Undergraduate Researcher
               </p>
-              <p class="text-sm text-ink/50">Jul 2019 – Feb 2020</p>
+              <p class="text-sm text-ink/60">Jul 2019 – Feb 2020</p>
             </div>
             <p class="mt-1 text-sm leading-relaxed text-ink/80">
               Developed image classification and object detection models to detect hazardous
@@ -142,11 +148,11 @@
       </section>
 
       <!-- Publications -->
-      <section id="publications" class="border-t border-white/10 py-20">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">03.</span> Publications
+      <section id="publications" class="border-t border-outline py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-sun">03.</span> Publications
         </h2>
-        <div class="mt-6 max-w-2xl">
+        <div class="mt-6 max-w-2xl rounded-3xl border border-outline/60 bg-surface p-6 transition-all hover:-translate-y-0.5 hover:shadow-md">
           <p class="text-base font-medium leading-snug">
             NovoRank: Refinement for De Novo Peptide Sequencing Based on Spectral Clustering and
             Deep Learning
@@ -157,21 +163,21 @@
           </p>
           <a
             href="assets/pdf/MS_NovoRank_JPR2024.pdf"
-            class="mt-2 inline-block text-sm font-medium text-accent transition-colors hover:underline"
+            class="mt-3 inline-flex items-center rounded-full bg-paper px-3 py-1.5 text-sm font-medium text-accent transition-colors hover:bg-accent/10"
             >Read paper →</a
           >
         </div>
       </section>
 
       <!-- Projects -->
-      <section id="projects" class="border-t border-white/10 py-20">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">04.</span> Projects
+      <section id="projects" class="border-t border-outline py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-leaf">04.</span> Projects
         </h2>
 
         <div class="mt-8 grid gap-6 sm:grid-cols-2">
           <!-- Project card -->
-          <article class="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-colors hover:border-white/20">
+          <article class="overflow-hidden rounded-3xl border border-outline/60 bg-surface transition-all hover:-translate-y-0.5 hover:shadow-md">
             <div class="p-6">
               <h3 class="font-semibold">Decision Intelligence</h3>
               <p class="mt-1 text-sm text-ink/60">Decision Intelligence · Insurance &amp; Loan</p>
@@ -182,14 +188,14 @@
                 <strong class="font-medium text-ink">+4.6%</strong> with no change in delinquency
                 (<strong class="font-medium text-ink">+$2.21M NIM</strong>).
               </p>
-              <div class="mt-4 flex gap-4 text-sm font-medium">
-                <a href="projects/ailys.html" class="text-accent transition-colors hover:underline">Case study →</a>
+              <div class="mt-4 flex gap-3 text-sm font-medium">
+                <a href="projects/ailys.html" class="inline-flex items-center rounded-full bg-paper px-3 py-1.5 text-accent transition-colors hover:bg-accent/10">Case study →</a>
               </div>
             </div>
           </article>
 
           <!-- Project card -->
-          <article class="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-colors hover:border-white/20">
+          <article class="overflow-hidden rounded-3xl border border-outline/60 bg-sand transition-all hover:-translate-y-0.5 hover:shadow-md">
             <div class="p-6">
               <h3 class="font-semibold">Personalized Learning at Scale</h3>
               <p class="mt-1 text-sm text-ink/60">Recommendation Systems · Knowledge Tracing</p>
@@ -200,14 +206,14 @@
                 enrollment (CVR) by <strong class="font-medium text-ink">5%</strong> and content
                 completion by <strong class="font-medium text-ink">25%</strong>.
               </p>
-              <div class="mt-4 flex gap-4 text-sm font-medium">
-                <a href="projects/tmaxeduai.html" class="text-accent transition-colors hover:underline">Case study →</a>
+              <div class="mt-4 flex gap-3 text-sm font-medium">
+                <a href="projects/tmaxeduai.html" class="inline-flex items-center rounded-full bg-paper px-3 py-1.5 text-accent transition-colors hover:bg-accent/10">Case study →</a>
               </div>
             </div>
           </article>
 
           <!-- Project card -->
-          <article class="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-colors hover:border-white/20">
+          <article class="overflow-hidden rounded-3xl border border-outline/60 bg-surface transition-all hover:-translate-y-0.5 hover:shadow-md">
             <img src="assets/img/workflow.png" alt="NovoRank workflow" class="h-40 w-full object-cover" />
             <div class="p-6">
               <h3 class="font-semibold">NovoRank</h3>
@@ -220,15 +226,15 @@
                 <strong class="font-medium text-ink">4.6% and 4.5%</strong> across three
                 state-of-the-art tools.
               </p>
-              <div class="mt-4 flex gap-4 text-sm font-medium">
-                <a href="projects/novorank.html" class="text-accent transition-colors hover:underline">Case study →</a>
-                <a href="https://github.com/jangho721/NovoRank" class="text-ink/60 transition-colors hover:text-ink">GitHub →</a>
+              <div class="mt-4 flex gap-3 text-sm font-medium">
+                <a href="projects/novorank.html" class="inline-flex items-center rounded-full bg-paper px-3 py-1.5 text-accent transition-colors hover:bg-accent/10">Case study →</a>
+                <a href="https://github.com/jangho721/NovoRank" class="inline-flex items-center rounded-full bg-paper px-3 py-1.5 text-ink/70 transition-colors hover:bg-accent/10 hover:text-ink">GitHub →</a>
               </div>
             </div>
           </article>
 
           <!-- Project card -->
-          <article class="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-colors hover:border-white/20">
+          <article class="overflow-hidden rounded-3xl border border-outline/60 bg-sand transition-all hover:-translate-y-0.5 hover:shadow-md">
             <img src="assets/img/construction-augmentation.png" alt="Image augmentation for construction-site objects" class="h-40 w-full object-cover" />
             <div class="p-6">
               <h3 class="font-semibold">Construction Site Hazard Detection</h3>
@@ -240,8 +246,8 @@
                 <strong class="font-medium text-ink">85.7% to 87.6%</strong> — and found rotation
                 hurts more than it helps for these objects.
               </p>
-              <div class="mt-4 flex gap-4 text-sm font-medium">
-                <a href="projects/inha.html" class="text-accent transition-colors hover:underline">Case study →</a>
+              <div class="mt-4 flex gap-3 text-sm font-medium">
+                <a href="projects/inha.html" class="inline-flex items-center rounded-full bg-paper px-3 py-1.5 text-accent transition-colors hover:bg-accent/10">Case study →</a>
               </div>
             </div>
           </article>
@@ -249,40 +255,53 @@
       </section>
 
       <!-- Skills -->
-      <section id="skills" class="border-t border-white/10 py-20">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+      <section id="skills" class="border-t border-outline py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
           <span class="font-mono text-accent">05.</span> Skills
         </h2>
         <div class="mt-6 grid gap-6 sm:grid-cols-3">
           <div>
             <h3 class="text-sm font-medium text-ink/60">Languages</h3>
-            <p class="mt-2 text-sm text-ink/80">Python, SQL, Java</p>
+            <div class="mt-2 flex flex-wrap gap-2">
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Python</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">SQL</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Java</span>
+            </div>
           </div>
           <div>
             <h3 class="text-sm font-medium text-ink/60">ML &amp; Data</h3>
-            <p class="mt-2 text-sm text-ink/80">
-              PyTorch, TensorFlow, scikit-learn, Polars, Airflow, AWS SageMaker
-            </p>
+            <div class="mt-2 flex flex-wrap gap-2">
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">PyTorch</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">TensorFlow</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">scikit-learn</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Polars</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Airflow</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">AWS SageMaker</span>
+            </div>
           </div>
           <div>
             <h3 class="text-sm font-medium text-ink/60">Domains</h3>
-            <p class="mt-2 text-sm text-ink/80">
-              Decision Intelligence (insurance &amp; loan), Recommendation Systems, Knowledge
-              Tracing, Computer Vision, NLP, Bioinformatics
-            </p>
+            <div class="mt-2 flex flex-wrap gap-2">
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Decision Intelligence (insurance &amp; loan)</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Recommendation Systems</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Knowledge Tracing</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Computer Vision</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">NLP</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Bioinformatics</span>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Contact -->
-      <section id="contact" class="border-t border-white/10 py-20">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">06.</span> Contact
+      <section id="contact" class="border-t border-outline py-20">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-coral">06.</span> Contact
         </h2>
-        <div class="mt-8 flex flex-wrap gap-x-8 gap-y-4 text-base font-medium">
+        <div class="mt-8 flex flex-wrap gap-3 text-base font-medium">
           <a
             href="mailto:wkdgh08721@gmail.com"
-            class="inline-flex items-center gap-2 text-accent transition-colors hover:underline"
+            class="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-white transition-all hover:shadow-md hover:brightness-110"
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-5 w-5">
               <path
@@ -296,7 +315,7 @@
           </a>
           <a
             href="https://github.com/jangho721"
-            class="inline-flex items-center gap-2 text-accent transition-colors hover:underline"
+            class="inline-flex items-center gap-2 rounded-full bg-surface px-5 py-2.5 text-accent transition-colors hover:bg-accent/10"
           >
             <svg viewBox="0 0 16 16" fill="currentColor" class="h-5 w-5">
               <path
@@ -307,7 +326,7 @@
           </a>
           <a
             href="https://www.linkedin.com/in/jangho-seo/"
-            class="inline-flex items-center gap-2 text-accent transition-colors hover:underline"
+            class="inline-flex items-center gap-2 rounded-full bg-surface px-5 py-2.5 text-accent transition-colors hover:bg-accent/10"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
               <path
@@ -320,7 +339,7 @@
       </section>
     </main>
 
-    <footer class="mx-auto max-w-4xl px-6 py-10 text-sm text-ink/40">
+    <footer class="mx-auto max-w-4xl px-6 py-10 text-sm text-ink/60">
       © 2026 Jangho Seo
     </footer>
 

@@ -10,7 +10,8 @@ if (sections.length) {
   const setActive = (id) => {
     navLinks.forEach((a) => {
       const isActive = a.getAttribute("href") === `#${id}`;
-      a.classList.toggle("text-ink", isActive);
+      a.classList.toggle("bg-accent/10", isActive);
+      a.classList.toggle("text-accent", isActive);
       a.classList.toggle("text-ink/70", !isActive);
     });
   };
@@ -43,14 +44,4 @@ if (!reduceMotion) {
     { threshold: 0.15 }
   );
   revealEls.forEach((el) => reveal.observe(el));
-}
-
-// Subtle cursor glow, desktop pointer only
-if (!reduceMotion && window.matchMedia("(pointer: fine)").matches) {
-  const glow = document.createElement("div");
-  glow.className = "cursor-glow";
-  document.body.appendChild(glow);
-  window.addEventListener("pointermove", (e) => {
-    glow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-  });
 }

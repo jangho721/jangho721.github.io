@@ -8,16 +8,22 @@
       name="description"
       content="Construction Site Hazard Detection — image classification and object detection for small- and medium-sized hazards in indoor construction sites, part of an automated safety-rule-checking research project."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Google+Sans+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
   <body class="bg-paper text-ink antialiased">
     <!-- Nav -->
-    <header class="sticky top-0 z-50 border-b border-white/10 bg-paper/90 backdrop-blur">
+    <header class="sticky top-0 z-50 border-b border-outline bg-paper/80 backdrop-blur">
       <div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
         <a href="../index.html" class="font-semibold tracking-tight">Jangho Seo</a>
         <a
           href="../index.html#projects"
-          class="font-mono text-sm text-ink/70 transition-colors hover:text-ink"
+          class="rounded-full px-3 py-1.5 font-mono text-sm text-ink/70 transition-colors hover:bg-surface hover:text-ink"
           >← Projects</a
         >
       </div>
@@ -39,21 +45,26 @@
 
         <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Role</dt>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Role</dt>
             <dd class="mt-1 text-sm text-ink/80">
               Undergraduate Researcher · Construction Systems Lab, Inha University
             </dd>
           </div>
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Timeline</dt>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Timeline</dt>
             <dd class="mt-1 text-sm text-ink/80">2019 – 2020</dd>
           </div>
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Stack</dt>
-            <dd class="mt-1 text-sm text-ink/80">Python · YOLO · CNN · Computer Vision</dd>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Stack</dt>
+            <dd class="mt-2 flex flex-wrap gap-2">
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Python</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">YOLO</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">CNN</span>
+              <span class="inline-flex rounded-full border border-outline/60 bg-surface px-3 py-1 text-sm text-ink/80">Computer Vision</span>
+            </dd>
           </div>
           <div>
-            <dt class="font-mono text-xs uppercase tracking-wider text-ink/40">Focus</dt>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Focus</dt>
             <dd class="mt-1 text-sm text-ink/80">
               Problem definition · Real-world data · Data-centric ML
             </dd>
@@ -62,8 +73,8 @@
       </section>
 
       <!-- Problem -->
-      <section id="problem" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
+      <section id="problem" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
           <span class="font-mono text-accent">01.</span> Problem
         </h2>
         <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
@@ -83,9 +94,9 @@
       </section>
 
       <!-- Approach -->
-      <section id="approach" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">02.</span> What I did
+      <section id="approach" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-coral">02.</span> What I did
         </h2>
         <ol class="mt-6 max-w-2xl space-y-5">
           <li>
@@ -126,72 +137,72 @@
       </section>
 
       <!-- Figure -->
-      <figure id="figure" class="border-t border-white/10 py-12">
+      <figure id="figure" class="border-t border-outline py-12">
         <img
           src="../assets/img/construction-augmentation.png"
           alt="The four image-augmentation techniques applied to an electric drill"
-          class="mx-auto w-full max-w-sm rounded-2xl border border-white/10 bg-white/[0.02]"
+          class="mx-auto w-full max-w-sm rounded-2xl border border-outline/60 bg-surface"
         />
-        <figcaption class="mx-auto mt-3 max-w-sm text-sm leading-relaxed text-ink/50">
+        <figcaption class="mx-auto mt-3 max-w-sm text-sm leading-relaxed text-ink/60">
           The four augmentations applied to one object: shift, rotation, brightness, and zoom around
           the original image.
         </figcaption>
       </figure>
 
       <!-- Results -->
-      <section id="results" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">03.</span> Results
+      <section id="results" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-sun">03.</span> Results
         </h2>
         <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-ink/70">85.7%</p>
             <p class="mt-1 text-sm text-ink/70">baseline, no augmentation</p>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-sand p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-accent">87.6%</p>
             <p class="mt-1 text-sm text-ink/70">best set (brightness + zoom)</p>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
             <p class="font-mono text-2xl font-semibold text-accent">+1.9%</p>
             <p class="mt-1 text-sm text-ink/70">max accuracy gain</p>
           </div>
         </div>
 
-        <div class="mt-6 max-w-md overflow-hidden rounded-2xl border border-white/10">
+        <div class="mt-6 max-w-md overflow-hidden rounded-2xl border border-outline/60">
           <table class="w-full text-left text-sm">
-            <thead class="bg-white/[0.03] text-ink/60">
+            <thead class="bg-surface text-ink/60">
               <tr>
                 <th class="px-4 py-2 font-medium">Training set</th>
                 <th class="px-4 py-2 text-right font-medium">Accuracy</th>
               </tr>
             </thead>
             <tbody class="text-ink/80">
-              <tr class="border-t border-white/10">
+              <tr class="border-t border-outline">
                 <td class="px-4 py-2">Baseline (none)</td>
                 <td class="px-4 py-2 text-right font-mono">85.7%</td>
               </tr>
-              <tr class="border-t border-white/10">
+              <tr class="border-t border-outline">
                 <td class="px-4 py-2">A · rotation + shift</td>
                 <td class="px-4 py-2 text-right font-mono">85.1%</td>
               </tr>
-              <tr class="border-t border-white/10">
+              <tr class="border-t border-outline">
                 <td class="px-4 py-2">B · rotation + brightness</td>
                 <td class="px-4 py-2 text-right font-mono">86.9%</td>
               </tr>
-              <tr class="border-t border-white/10">
+              <tr class="border-t border-outline">
                 <td class="px-4 py-2">C · brightness + shift</td>
                 <td class="px-4 py-2 text-right font-mono">85.8%</td>
               </tr>
-              <tr class="border-t border-white/10">
+              <tr class="border-t border-outline">
                 <td class="px-4 py-2">D · rotation + zoom</td>
                 <td class="px-4 py-2 text-right font-mono">85.7%</td>
               </tr>
-              <tr class="border-t border-white/10">
+              <tr class="border-t border-outline">
                 <td class="px-4 py-2">E · shift + zoom</td>
                 <td class="px-4 py-2 text-right font-mono">87.3%</td>
               </tr>
-              <tr class="border-t border-white/10 text-accent">
+              <tr class="border-t border-outline text-accent">
                 <td class="px-4 py-2 font-medium">F · brightness + zoom</td>
                 <td class="px-4 py-2 text-right font-mono font-medium">87.6%</td>
               </tr>
@@ -213,9 +224,9 @@
       </section>
 
       <!-- Context & reference -->
-      <section id="context" class="border-t border-white/10 py-12">
-        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/50">
-          <span class="font-mono text-accent">04.</span> Context
+      <section id="context" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-leaf">04.</span> Context
         </h2>
         <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
           This recognition work fed a larger lab effort toward a digital-twin system for automated
@@ -246,16 +257,16 @@
       </section>
 
       <!-- Back -->
-      <section class="border-t border-white/10 py-12">
+      <section class="border-t border-outline py-12">
         <a
           href="../index.html#projects"
-          class="font-mono text-sm text-accent transition-colors hover:underline"
+          class="inline-flex items-center rounded-full bg-surface px-4 py-2 font-mono text-sm text-accent transition-colors hover:bg-accent/10"
           >← Back to all projects</a
         >
       </section>
     </main>
 
-    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/40">© 2026 Jangho Seo</footer>
+    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/60">© 2026 Jangho Seo</footer>
 
     <script defer src="../assets/js/main.js"></script>
   </body>
