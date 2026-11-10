@@ -1,0 +1,52 @@
+name: Check broken links
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * 1" # weekly, Monday 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Lychee link check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Pushes only verify internal links and #anchors (--offline): third-party sites
+          # are flaky, and a red X on every push for a site outage is just noise.
+          # The weekly schedule and manual runs also check external URLs.
+          # Excluded hosts block automated requests even though the links are valid:
+          # linkedin.com (non-standard status codes), zenodo.org (timeouts),
+          # hanyang.ac.kr (403 / timeouts on www and bislab).
+          args: >-
+            --no-progress --include-fragments
+            ${{ github.event_name == 'push' && '--offline' || '' }}
+            --exclude 'linkedin\.com' --exclude 'zenodo\.org' --exclude 'hanyang\.ac\.kr'
+            index.html about.html projects/*.html
+          fail: true
+
+  # GitHub disables scheduled workflows after 60 days without repo activity.
+  # Re-enabling this workflow every run resets that clock, even when the link check fails.
+  keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: write
+    steps:
+      - run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/broken-links.yml/enable"
+        env:
+          GH_TOKEN: ${{ github.token }}

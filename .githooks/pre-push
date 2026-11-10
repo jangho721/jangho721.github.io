@@ -1,0 +1,20 @@
+#!/bin/sh
+# Runs before `git push`. Mirrors the CI checks locally so build errors
+# are caught before they reach GitHub Actions. The link check is a
+# warning only here (flaky third-party sites shouldn't block a push) -
+# the same check runs and actually fails the build in CI.
+set -e
+
+echo "[pre-push] building CSS..."
+npm run build
+
+echo "[pre-push] checking links..."
+if ! command -v lychee >/dev/null 2>&1; then
+  echo "[pre-push] lychee not found, skipping link check (brew install lychee to enable)"
+else
+  if ! lychee --no-progress --include-fragments --exclude 'linkedin\.com' --exclude 'zenodo\.org' --exclude 'hanyang\.ac\.kr' index.html about.html projects/*.html; then
+    echo "[pre-push] warning: link check reported issues (see above) - not blocking push"
+  fi
+fi
+
+echo "[pre-push] OK"

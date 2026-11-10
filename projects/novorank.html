@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovoRank — Jangho Seo</title>
+    <meta
+      name="description"
+      content="NovoRank — a machine learning post-processing tool that re-ranks de novo peptide sequencing results using spectral clustering and deep learning. Published in the Journal of Proteome Research."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..700&family=Google+Sans+Code:wght@400..600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body class="bg-paper text-ink antialiased">
+    <!-- Nav -->
+    <header class="sticky top-0 z-50 border-b border-outline bg-paper/80 backdrop-blur">
+      <div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
+        <a href="../index.html" class="font-semibold tracking-tight">Jangho Seo</a>
+        <a
+          href="../index.html#projects"
+          class="rounded-full px-3 py-1.5 font-mono text-sm text-ink/70 transition-colors hover:bg-surface hover:text-ink"
+          >← Projects</a
+        >
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-6">
+      <!-- Header -->
+      <section id="intro" class="py-16 sm:py-20">
+        <p class="font-mono text-sm text-accent">Case study · Bioinformatics</p>
+        <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">NovoRank</h1>
+        <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
+          A machine learning post-processing tool that re-ranks <em>de novo</em> peptide sequencing
+          results by analysing similar spectra together — improving identification accuracy across
+          existing tools, with no change to the tools themselves.
+        </p>
+
+        <div class="mt-6 max-w-2xl border-l-2 border-accent pl-4">
+          <p class="font-mono text-xs uppercase tracking-wider text-accent">Key insight</p>
+          <p class="mt-1 text-base leading-relaxed text-ink/80">
+            <span class="font-medium text-ink">From scoring each spectrum alone to checking it against its neighbors.</span>
+            Similar spectra often come from the same peptide, so they can vouch for or contradict a
+            candidate.
+          </p>
+        </div>
+
+        <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Role</dt>
+            <dd class="mt-1 text-sm text-ink/80">
+              Graduate Research Assistant · M.S. thesis, Hanyang University
+            </dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Timeline</dt>
+            <dd class="mt-1 text-sm text-ink/80">2020 – 2022 · Published in JPR, 2025</dd>
+          </div>
+          <div>
+            <dt class="font-mono text-xs uppercase tracking-wider text-ink/60">Links</dt>
+            <dd class="mt-2 flex flex-wrap gap-2 text-sm font-medium">
+              <a
+                href="https://github.com/jangho721/NovoRank"
+                class="inline-flex items-center rounded-full bg-surface px-3 py-1.5 text-accent transition-colors hover:bg-accent/10"
+                >GitHub</a
+              >
+              <a
+                href="../assets/pdf/MS_NovoRank_JPR2024.pdf"
+                class="inline-flex items-center rounded-full bg-surface px-3 py-1.5 text-accent transition-colors hover:bg-accent/10"
+                >Paper (PDF)</a
+              >
+              <a
+                href="https://zenodo.org/records/14046459"
+                class="inline-flex items-center rounded-full bg-surface px-3 py-1.5 text-accent transition-colors hover:bg-accent/10"
+                >Dataset</a
+              >
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- Figure -->
+      <figure id="figure" class="border-t border-outline py-12">
+        <img
+          src="../assets/img/workflow.png"
+          alt="NovoRank workflow diagram"
+          width="1350"
+          height="922"
+          loading="lazy"
+          decoding="async"
+          class="w-full rounded-2xl border border-outline/60 bg-surface p-4"
+        />
+        <figcaption class="mt-3 text-sm leading-relaxed text-ink/60">
+          Workflow of NovoRank. (A) Overall analysis flow. (B) Two-step clustering; colours mark a
+          cluster at each step. (C) Cluster-score (C-score) calculation within a cluster of two
+          MS/MS spectra. (D) Deep learning model that picks the more desirable peptide among the
+          top two candidates in a cluster.
+        </figcaption>
+      </figure>
+
+      <!-- Problem -->
+      <section id="problem" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-accent">01.</span> Problem
+        </h2>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
+          <p>
+            <em>De novo</em> sequencing identifies peptide sequences directly from mass-spectrometry
+            data, without relying on a protein database. That makes it essential for finding novel
+            peptides — for example, neoantigen discovery in immunotherapy.
+          </p>
+          <p>
+            But conventional <em>de novo</em> tools score each spectrum in isolation and lean on
+            imperfect scoring functions, so they frequently rank the wrong peptide first —
+            especially near the peptide ends, where key fragment ions are often missing and the
+            amino-acid order turns ambiguous. The information sitting in <em>other, similar</em>
+            spectra — which likely come from the same peptide — goes unused.
+          </p>
+        </div>
+      </section>
+
+      <!-- Approach -->
+      <section id="approach" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-coral">02.</span> Approach
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          NovoRank re-ranks candidate peptides by analysing similar spectra together, assuming they
+          originate from the same peptide species. Four pieces make that work:
+        </p>
+        <ol class="mt-6 max-w-2xl space-y-5">
+          <li>
+            <p class="font-medium">Two-step clustering</p>
+            <p class="mt-2 text-sm leading-relaxed text-ink/80">
+              Spectral Clustering groups similar spectra first, then DBSCAN refines each group, so
+              spectra from the same peptide land together more precisely.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">C-score</p>
+            <p class="mt-2 text-sm leading-relaxed text-ink/80">
+              A cluster-aware score that normalises the summed <em>de novo</em> scores of a peptide
+              by cluster size. Peptides that score well <em>and</em> recur across a cluster rank
+              higher, while clusters of different sizes stay comparable.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">A deep learning re-ranker</p>
+            <p class="mt-2 text-sm leading-relaxed text-ink/80">
+              A siamese model with shared weights compares the top two candidates and picks the
+              better one (learning-to-rank). It fuses three views of each candidate: the spectrum
+              through a sub-network, the peptide sequence through a ConvNet + BiLSTM, and six tabular
+              features (C-score, XCorr, fragment-ion match, ΔRT, …) through dense layers.
+            </p>
+          </li>
+          <li>
+            <p class="font-medium">Tool-agnostic by design</p>
+            <p class="mt-2 text-sm leading-relaxed text-ink/80">
+              NovoRank sits downstream of existing <em>de novo</em> tools, so it improves their
+              precision and recall without modifying the tools themselves.
+            </p>
+          </li>
+        </ol>
+
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          The quiet hard part was the clustering and the C-score. They look simple, but landing on
+          features that powerful took real proteomics understanding and a long stretch of trial and
+          error — I'd chased several new spectrum-to-peptide matching scores that went nowhere before
+          these worked. As first author I performed the proteomic data analysis and developed and
+          implemented the full tool.
+        </p>
+      </section>
+
+      <!-- Results -->
+      <section id="results" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-sun">03.</span> Results
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          Evaluated across three <em>de novo</em> sequencing tools and three datasets:
+        </p>
+        <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
+            <p class="font-mono text-2xl font-semibold text-accent">+4.6%</p>
+            <p class="mt-1 text-sm text-ink/70">average precision</p>
+          </div>
+          <div class="rounded-3xl border border-outline/60 bg-sand p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
+            <p class="font-mono text-2xl font-semibold text-accent">+4.5%</p>
+            <p class="mt-1 text-sm text-ink/70">average recall</p>
+          </div>
+          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
+            <p class="font-mono text-2xl font-semibold text-accent">+3.8% / +3.6%</p>
+            <p class="mt-1 text-sm text-ink/70">precision / recall on Casanovo (SOTA)</p>
+          </div>
+        </div>
+        <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            Correct peptide identifications rose by 0.37–0.61% (Casanovo), 7.52–18.80% (pNovo3),
+            and 3.06–4.24% (PEAKS). Some peptides were lost, but more new ones were gained.
+          </li>
+          <li>
+            Tools evaluated: <strong>PEAKS</strong> (commercial, algorithmic),
+            <strong>pNovo3</strong> (algorithm + ML), and <strong>Casanovo</strong>
+            (transformer-based, state of the art).
+          </li>
+        </ul>
+      </section>
+
+      <!-- Limitations -->
+      <section id="limitations" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-leaf">04.</span> Limitations &amp; what's next
+        </h2>
+        <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            The gains are real but modest, and for the strongest tool (Casanovo) the improvement is
+            smaller at the peptide level than at the PSM level.
+          </li>
+          <li>
+            NovoRank re-ranks at the PSM level, but the real evidence lives at the cluster level —
+            multiple spectra from the same peptide. A cluster-level identification score, rather
+            than per-PSM, is the natural next step.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Reference -->
+      <section id="reference" class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-accent">05.</span> Reference
+        </h2>
+        <p class="mt-6 max-w-2xl text-sm leading-relaxed text-ink/60">
+          Jangho Seo, Seunghyuk Choi, Eunok Paek. NovoRank: Refinement for De Novo Peptide
+          Sequencing Based on Spectral Clustering and Deep Learning.
+          <em>J. Proteome Res.</em> 2025, 24, 2, 903–910.
+        </p>
+        <a
+          href="../assets/pdf/MS_NovoRank_JPR2024.pdf"
+          class="mt-3 inline-flex items-center rounded-full bg-surface px-3 py-1.5 text-sm font-medium text-accent transition-colors hover:bg-accent/10"
+          >Read paper →</a
+        >
+      </section>
+
+      <!-- Tools -->
+      <section class="border-t border-outline py-12">
+        <p class="font-mono text-xs uppercase tracking-wider text-ink/40">Tools</p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="inline-flex items-center rounded-md bg-accent/10 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-accent">Python</span>
+          <span class="inline-flex items-center rounded-md bg-sun/10 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-sun">TensorFlow</span>
+          <span class="inline-flex items-center rounded-md bg-leaf/10 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-leaf">scikit-learn</span>
+        </div>
+      </section>
+
+      <!-- Back -->
+      <section class="border-t border-outline py-12">
+        <a
+          href="../index.html#projects"
+          class="inline-flex items-center rounded-full bg-surface px-4 py-2 font-mono text-sm text-accent transition-colors hover:bg-accent/10"
+          >← Back to all projects</a
+        >
+      </section>
+    </main>
+
+    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/60">© 2026 Jangho Seo</footer>
+
+    <script defer src="../assets/js/main.js"></script>
+  </body>
+</html>

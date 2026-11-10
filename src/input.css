@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Google Sans Code", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-ink: #202124;
+  --color-paper: #fdfcf8;
+  --color-accent: #1a73e8;
+  --color-sun: #f9ab00;
+  --color-leaf: #188038;
+  --color-coral: #d93025;
+  --color-surface: #f3f6fc;
+  --color-sand: #faf4e8;
+  --color-outline: #dadce0;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Soft "morning on the coast" wash: subtle sky-blue and warm-peach glow up top */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(60rem 60rem at 12% -8%, color-mix(in srgb, var(--color-accent) 6%, transparent), transparent 50%),
+    radial-gradient(52rem 52rem at 100% 4%, color-mix(in srgb, var(--color-sun) 7%, transparent), transparent 50%);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(0.75rem);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
