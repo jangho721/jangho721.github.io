@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ailys — Jangho Seo</title>
+    <meta name="description" content="Machine Learning Data Scientist at Ailys (now DEIN) — an LLM KPI agent, an insurance claim payout model, and credit research." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..700&family=Google+Sans+Code:wght@400..600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body class="bg-paper text-ink antialiased">
+    <!-- Nav -->
+    <header class="sticky top-0 z-50 border-b border-outline bg-paper/80 backdrop-blur">
+      <div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
+        <a href="../index.html" class="font-semibold tracking-tight">Jangho Seo</a>
+        <a
+          href="../index.html#experience"
+          class="rounded-full px-3 py-1.5 font-mono text-sm text-ink/70 transition-colors hover:bg-surface hover:text-ink"
+          >← Experience</a
+        >
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-6">
+      <!-- Header -->
+      <section id="intro" class="py-16 sm:py-20">
+        <p class="font-mono text-sm text-accent">Experience</p>
+        <h1 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Ailys</h1>
+        <p class="mt-3 text-lg text-ink/80">Machine Learning Data Scientist</p>
+        <p class="mt-1 text-sm text-ink/60">Apr 2025 – Jul 2026</p>
+        <div class="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-ink/80">
+          <p>
+            As a Machine Learning Data Scientist at Ailys, I worked on ML for insurance underwriting and credit decisions, spanning data foundations, prediction models, and an LLM agent.
+          </p>
+          <p>
+            I led development of an LLM agent, built prediction models from unlabeled insurance records, and researched reject inference for credit applicants. Through close work with domain experts, I helped turn business questions into verified code and models.
+          </p>
+        </div>
+      </section>
+
+      <section class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-accent">01.</span> KPI Maker
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          One of my primary focus areas was KPI Maker, helping domain experts turn the KPIs they describe in plain language into working code.
+        </p>
+        <ul class="mt-4 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            Led development of KPI Maker, an LLM agent that turns domain experts' plain-language KPI descriptions into verified code, producing correct values for all 12 test KPIs.
+          </li>
+        </ul>
+      </section>
+
+      <section class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-coral">02.</span> Claim payout model
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          I also built a claim payout model for a life insurer, predicting which claims will be paid after a contract is signed.
+        </p>
+        <ul class="mt-4 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            Designed prediction targets from unlabeled records by using PMI to link diseases that co-occur in claim histories more often than chance.
+          </li>
+          <li>
+            Developed a multi-label claim payout model predicting which of 1,580 diseases and 14 benefit types will be paid within two years after contract signing, reaching 93% recall and 88% specificity.
+          </li>
+        </ul>
+      </section>
+
+      <section class="border-t border-outline py-12">
+        <h2 class="text-sm font-semibold uppercase tracking-wider text-ink/60">
+          <span class="font-mono text-sun">03.</span> Additional contributions
+        </h2>
+        <p class="mt-6 max-w-2xl text-base leading-relaxed text-ink/80">
+          In addition to modeling, I contributed to the data foundation and credit research behind underwriting decisions.
+        </p>
+        <ul class="mt-4 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
+          <li>
+            Participated in building a data mart for underwriting KPI simulations and analyses by designing aggregate tables and developing preprocessing logic.
+          </li>
+          <li>
+            Researched reject inference for credit card applicants without credit history to reduce the bias of default models trained only on approved customers.
+          </li>
+        </ul>
+      </section>
+
+      <section class="border-t border-outline py-12">
+        <a href="../projects/ailys.html" class="inline-flex items-center rounded-full bg-paper px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent/10">Read the decision-intelligence case study →</a>
+      </section>
+
+      <!-- Back -->
+      <section class="border-t border-outline py-12">
+        <a
+          href="../index.html#experience"
+          class="inline-flex items-center rounded-full bg-surface px-4 py-2 font-mono text-sm text-accent transition-colors hover:bg-accent/10"
+          >← Back to experience</a
+        >
+      </section>
+    </main>
+
+    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-ink/60">© 2026 Jangho Seo</footer>
+
+    <script defer src="../assets/js/main.js"></script>
+  </body>
+</html>
