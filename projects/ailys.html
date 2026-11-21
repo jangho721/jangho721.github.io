@@ -38,7 +38,7 @@
         </h1>
         <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/80">
           Building ML and decision logic at DEIN (formerly Ailys) — judged by business outcomes
-          (loss ratio, approval rate) rather than accuracy alone. Two domains, one conviction:
+          (claim payouts, KPI correctness) rather than accuracy alone. Two domains, one conviction:
           a model isn't valuable until it moves a KPI. This is the challenge I'm working on now.
         </p>
 
@@ -122,25 +122,25 @@
 
         <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
-            <p class="font-mono text-2xl font-semibold text-accent">&gt;93%</p>
+            <p class="font-mono text-2xl font-semibold text-accent">93%</p>
             <p class="mt-1 text-sm text-ink/70">recall (tuned for, by design)</p>
           </div>
           <div class="rounded-3xl border border-outline/60 bg-sand p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
-            <p class="font-mono text-2xl font-semibold text-accent">↓ loss ratio</p>
-            <p class="mt-1 text-sm text-ink/70">contributed to reducing it via simulation</p>
+            <p class="font-mono text-2xl font-semibold text-accent">88%</p>
+            <p class="mt-1 text-sm text-ink/70">specificity, across 1,580 diseases and 14 benefit types</p>
           </div>
         </div>
 
         <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
           <li>
-            Tuned for high recall (&gt;93%) at the client's request: in risk screening, missing a
+            Tuned for high recall (93%) at the client's request: in risk screening, missing a
             high-risk applicant costs far more than a false flag a human can review, so I accepted
             lower precision deliberately — a trade made on business cost, not model vanity.
           </li>
           <li>
-            Fed approve / reject / limit simulations aimed at the loss ratio, and surfaced where
-            disease relationships are genuinely ambiguous — the kind of insight underwriters can
-            actually act on.
+            Predicted which of 1,580 diseases and 14 benefit types would be paid within two years
+            of signing, and surfaced where disease relationships are genuinely ambiguous — the
+            kind of insight underwriters can actually act on.
           </li>
         </ul>
       </section>
@@ -158,28 +158,25 @@
             learn from borrowers who were approved, so they're blind to these segments by design.
           </p>
           <p>
-            I build the reject inference layer of DEIN that estimates outcomes for those no-data
-            segments, so a lender can expand approvals without flying blind on risk.
+            I researched reject inference for card applicants without credit history — estimating
+            outcomes for those no-data segments so a lender could expand approvals without flying
+            blind on risk, and reducing the bias of default models trained only on approved
+            customers.
           </p>
         </div>
 
         <ul class="mt-4 max-w-2xl list-disc space-y-2 pl-5 text-base leading-relaxed text-ink/80">
           <li>
-            Built niche scoring models from similar approved-segment profiles to estimate risk
+            Explored niche scoring models from similar approved-segment profiles to estimate risk
             where no repayment data exists.
           </li>
           <li>
-            Added a safety margin on top of each risk estimate to account for data uncertainty.
+            Considered a safety margin on top of each risk estimate to account for data
+            uncertainty.
           </li>
           <li>
-            Built a profitability model that folds in expected card spend alongside default risk.
-          </li>
-          <li>
-            Built a simulation engine that finds the optimal rate and limit for each segment.
-          </li>
-          <li>
-            Rolled out changes through a champion-challenger framework, monitoring delinquency in
-            real time — approvals rose 4.6% with delinquency unchanged.
+            Considered a profitability view that folds in expected card spend alongside default
+            risk.
           </li>
         </ul>
 
@@ -191,23 +188,6 @@
           </p>
         </div>
 
-        <p class="mt-8 text-xs font-semibold uppercase tracking-wider text-ink/60">
-          Measured through the champion-challenger rollout
-        </p>
-        <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
-            <p class="font-mono text-2xl font-semibold text-accent">+4.6%</p>
-            <p class="mt-1 text-sm text-ink/70">approval rate increase</p>
-          </div>
-          <div class="rounded-3xl border border-outline/60 bg-sand p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
-            <p class="font-mono text-2xl font-semibold text-accent">↔ delinquency</p>
-            <p class="mt-1 text-sm text-ink/70">unchanged after expansion</p>
-          </div>
-          <div class="rounded-3xl border border-outline/60 bg-surface p-5 transition-all hover:-translate-y-0.5 hover:shadow-md">
-            <p class="font-mono text-2xl font-semibold text-accent">+$2.21M</p>
-            <p class="mt-1 text-sm text-ink/70">net interest margin (NIM)</p>
-          </div>
-        </div>
       </section>
 
       <!-- Agents -->
@@ -249,17 +229,16 @@
         <ul class="mt-6 max-w-2xl list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink/80">
           <li>
             Reject inference rests on an assumption I can't test up front: that approved-segment
-            profiles stand in for people who were never lent to. The safety margin and the
-            champion-challenger rollout exist because of it — real performance only shows up as
-            repayment data accrues.
+            profiles stand in for people who were never lent to. Real performance only shows up as
+            repayment data accrues, so this work is research, not a measured production result.
           </li>
           <li>
-            The insurance model's &gt;93% recall is bought with lower precision, so every flag still
+            The insurance model's 93% recall is bought with lower precision, so every flag still
             needs a human reviewer.
           </li>
           <li>
-            The loss-ratio impact is described here directionally, not as a number, so it is the
-            weakest-evidenced claim on this page.
+            No business-KPI impact (loss ratio, approval rate) is claimed on this page; the
+            figures here are model metrics only.
           </li>
         </ul>
       </section>
