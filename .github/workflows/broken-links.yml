@@ -35,7 +35,7 @@ jobs:
             --no-progress --include-fragments
             ${{ github.event_name == 'push' && '--offline' || '' }}
             --exclude 'linkedin\.com' --exclude 'zenodo\.org' --exclude 'hanyang\.ac\.kr'
-            index.html about.html projects/*.html
+            index.html about.html experience/*.html projects/*.html
           fail: true
 
   # GitHub disables scheduled workflows after 60 days without repo activity.

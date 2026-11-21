@@ -1,8 +1,8 @@
 # jangho721.github.io
 
 Personal portfolio site. A static site built with plain HTML and Tailwind
-CSS — a one-page `index.html`, an `about.html`, and case studies under
-`projects/` — deployed on GitHub Pages.
+CSS — a one-page `index.html`, an `about.html`, company pages under `experience/`, and case
+studies under `projects/` — deployed on GitHub Pages.
 
 ## Stack
 
